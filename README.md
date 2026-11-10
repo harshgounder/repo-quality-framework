@@ -217,3 +217,8 @@ The user requested sustained expansion toward thousands of candidates per releva
 
 
 The [open-world Atlas and failure-corpus direction](research/discovery/2026-11-10-open-world/atlas-and-failure-corpus.md) records the user’s latest clarification: recursively investigate all kinds of systems and historical bugs, fixes, tests, discussions, and operational consequences across open-source projects and technical communities. Current leads and worked examples are a start, not a fixed scope or complete corpus.
+
+
+### Initial evidence foundation and related work
+
+The [evidence graph prototype](foundation/README.md) can load source-attributed relationships among arbitrary observations and artifacts; it is deliberately limited and does not replace existing research records. The [related-project investigation](research/prior-art/2026-11-11-projects.md) compares bug/fix corpora, incident databases, quality models and architecture tools, with scope and reuse caveats. Neither represents a complete corpus or a validated universal quality gate.

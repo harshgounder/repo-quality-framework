@@ -1,0 +1,19 @@
+{
+  "sources": [
+    {"id":"src-clickhouse-92834","url":"https://github.com/ClickHouse/ClickHouse/issues/92834","kind":"issue","version":"accessed 2026-11-10; mutable"},
+    {"id":"src-clickhouse-93111","url":"https://github.com/ClickHouse/ClickHouse/pull/93111","kind":"pull-request","version":"accessed 2026-11-10; mutable"},
+    {"id":"src-clickhouse-120862","url":"https://github.com/ClickHouse/ClickHouse/pull/120862","kind":"pull-request","version":"merged 2026-09-22; metadata accessed 2026-11-10"},
+    {"id":"src-clickhouse-120862-files","url":"https://github.com/ClickHouse/ClickHouse/pull/120862/files","kind":"pull-request-files","version":"accessed 2026-11-10; mutable view"}
+  ],
+  "entities": [
+    {"id":"case-clickhouse-92834","kind":"issue-report","label":"Reported min/max index time error"},
+    {"id":"change-clickhouse-93111","kind":"proposed-change","label":"Null and incompatible min/max bounds proposal"},
+    {"id":"change-clickhouse-120862","kind":"change","label":"Merged partition-key index order fix"},
+    {"id":"test-clickhouse-05229","kind":"test-artifact","label":"SQL regression test file"}
+  ],
+  "assertions": [
+    {"id":"assert-clickhouse-01","subject":"case-clickhouse-92834","predicate":"has_related_proposal","object":"change-clickhouse-93111","source":"src-clickhouse-93111","locator":"PR body and metadata","evidence_status":"source_reported","note":"Closed without merge; not evidence of an applied fix."},
+    {"id":"assert-clickhouse-02","subject":"case-clickhouse-92834","predicate":"linked_to_merged_change","object":"change-clickhouse-120862","source":"src-clickhouse-120862","locator":"PR description and merge metadata","evidence_status":"source_reported","note":"PR says it closes issue; correctness and every historical symptom not independently reproduced."},
+    {"id":"assert-clickhouse-03","subject":"change-clickhouse-120862","predicate":"adds_test_artifact","object":"test-clickhouse-05229","source":"src-clickhouse-120862-files","locator":"files list: tests/queries/0_stateless/05229_minmax_index_order_after_modify_column_after","evidence_status":"source_reported","note":"File presence observed; individual assertions and test execution not independently checked."}
+  ]
+}
