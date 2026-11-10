@@ -1,0 +1,19 @@
+cell_id,campaign_id,venue,query_id,language,artifact_context,responsibility_lifecycle,stakeholders,route_method,selection_reason,status,run_id
+PC01,C01,pre.dev,Q01,English,Git repository and release,pricing and licensing,"developer, buyer, legal",local source inspection,mechanism transparency,searched: static source only,V2-F02
+PC02,C02,Eclipse QSOS,Q03,English/French,OSS component adoption,maturity and selection,"adopter, maintainer",owner method then implementation,contrast weighted assessment,thin: owner overview only,V2-F01
+PC03,C03,Reddit r/ExperiencedDevs,Q04,English,public and private software repositories,maintainer burden,"maintainer, developer",native search and comments,separate platform and community,queued,
+PC04,C03,Hacker News,Q05,English,repository and project practices,quality and maintenance,"maintainer, contributor",Algolia/native search and thread,separate HN from merged query,queued,
+PC05,C03,Software Engineering Stack Exchange,Q06,English,software development projects,policy applicability,"architect, developer",tag and question search,Q&A evidence distinct from social posts,queued,
+PC06,C04,V2EX,Q09,Chinese simplified,OSS and private software,quality evaluation,"local developer, maintainer","native search, translations verified",regional vocabulary,queued,
+PC07,C04,Qiita,Q11,Japanese,software repositories,maintenance and quality,local practitioner,native search and articles,regional vocabulary,queued,
+PC08,C04,OKKY,Q12,Korean,OSS projects,quality and maintenance,local practitioner,native search and forum,regional vocabulary,queued,
+PC09,C04,Habr,Q13,Russian,software repositories,maintenance and quality,local practitioner,native search and comments,regional vocabulary,queued,
+PC10,C04,TabNews,Q14,Portuguese,OSS repositories,quality and maintenance,local practitioner,native search and thread,regional vocabulary,queued,
+PC11,C05,Zenodo,Q17,English,research dataset published release,"data provenance, reproducibility","data steward, researcher, reuser",repository policy and studies,publication and archive context,queued,
+PC12,C05,Hugging Face,Q18,English,model and dataset versions,"evaluation, data provenance","model consumer, researcher","model cards, community and policy",non-code artifact,queued,
+PC13,C06,W3C WAI,Q19,English,user-facing web interface,accessibility in release,"disabled user, designer, QA",standards and empirical evaluation,automated vs human evidence,queued,
+PC14,C07,USENIX SREcon,Q20,English,private deployed service,incident recovery and rollback,"operator, on-call, user","talks, handbooks, postmortems",evidence outside repository,queued,
+PC15,C08,OpenSSF,Q21,English,security-critical OSS dependency,supply-chain control and incident,"security engineer, maintainer",control crosswalk and incident,high-impact compound interaction,queued,
+PC16,C09,Write the Docs,Q28,English,documentation and release,information architecture and user outcomes,"technical writer, user","conference talks, forums and studies",overlooked professional role,queued,
+PC17,C05,OSHWA certification,Q27,English,open hardware release,"fabrication, BOM and safety","hardware engineer, manufacturer",criteria and actual projects,physical artifacts,queued,
+PC18,C12,Sustain OSS,Q26,English,stable low-activity library,maintenance and sustainability,"volunteer maintainer, adopter",threads and project history,counterexample to activity proxy,queued,

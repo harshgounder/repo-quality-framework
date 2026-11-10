@@ -1,0 +1,350 @@
+axis,value,status,notes
+source_role,normative standard,seed,Candidate; applicability and completeness not established.
+source_role,law or regulation,seed,Candidate; applicability and completeness not established.
+source_role,platform policy,seed,Candidate; applicability and completeness not established.
+source_role,tool implementation,seed,Candidate; applicability and completeness not established.
+source_role,vendor claim,seed,Candidate; applicability and completeness not established.
+source_role,empirical primary study,seed,Candidate; applicability and completeness not established.
+source_role,systematic review,seed,Candidate; applicability and completeness not established.
+source_role,dataset or benchmark,seed,Candidate; applicability and completeness not established.
+source_role,incident or postmortem,seed,Candidate; applicability and completeness not established.
+source_role,maintainer account,seed,Candidate; applicability and completeness not established.
+source_role,community discussion,seed,Candidate; applicability and completeness not established.
+source_role,professional handbook,seed,Candidate; applicability and completeness not established.
+source_role,training or body of knowledge,seed,Candidate; applicability and completeness not established.
+source_role,procurement criteria,seed,Candidate; applicability and completeness not established.
+source_role,artifact or reference implementation,seed,Candidate; applicability and completeness not established.
+source_role,archival record,seed,Candidate; applicability and completeness not established.
+venue_type,hosted forge,seed,Candidate; applicability and completeness not established.
+venue_type,forge software,seed,Candidate; applicability and completeness not established.
+venue_type,self-hosted instance,seed,Candidate; applicability and completeness not established.
+venue_type,federated forge,seed,Candidate; applicability and completeness not established.
+venue_type,package registry,seed,Candidate; applicability and completeness not established.
+venue_type,artifact registry,seed,Candidate; applicability and completeness not established.
+venue_type,dataset repository,seed,Candidate; applicability and completeness not established.
+venue_type,model hub,seed,Candidate; applicability and completeness not established.
+venue_type,research archive,seed,Candidate; applicability and completeness not established.
+venue_type,institutional archive,seed,Candidate; applicability and completeness not established.
+venue_type,source-code archive,seed,Candidate; applicability and completeness not established.
+venue_type,standards body,seed,Candidate; applicability and completeness not established.
+venue_type,regulator,seed,Candidate; applicability and completeness not established.
+venue_type,professional society,seed,Candidate; applicability and completeness not established.
+venue_type,academic index,seed,Candidate; applicability and completeness not established.
+venue_type,journal,seed,Candidate; applicability and completeness not established.
+venue_type,conference,seed,Candidate; applicability and completeness not established.
+venue_type,workshop,seed,Candidate; applicability and completeness not established.
+venue_type,forum,seed,Candidate; applicability and completeness not established.
+venue_type,Q&A,seed,Candidate; applicability and completeness not established.
+venue_type,social network,seed,Candidate; applicability and completeness not established.
+venue_type,federated social instance,seed,Candidate; applicability and completeness not established.
+venue_type,mailing list,seed,Candidate; applicability and completeness not established.
+venue_type,chat community,seed,Candidate; applicability and completeness not established.
+venue_type,project issue tracker,seed,Candidate; applicability and completeness not established.
+venue_type,engineering blog,seed,Candidate; applicability and completeness not established.
+venue_type,video channel,seed,Candidate; applicability and completeness not established.
+venue_type,podcast,seed,Candidate; applicability and completeness not established.
+venue_type,incident database,seed,Candidate; applicability and completeness not established.
+venue_type,policy repository,seed,Candidate; applicability and completeness not established.
+venue_type,design community,seed,Candidate; applicability and completeness not established.
+venue_type,public procurement portal,seed,Candidate; applicability and completeness not established.
+geography,global,seed,Candidate; applicability and completeness not established.
+geography,Africa,seed,Candidate; applicability and completeness not established.
+geography,East Asia,seed,Candidate; applicability and completeness not established.
+geography,South Asia,seed,Candidate; applicability and completeness not established.
+geography,Southeast Asia,seed,Candidate; applicability and completeness not established.
+geography,Central Asia,seed,Candidate; applicability and completeness not established.
+geography,Middle East and North Africa,seed,Candidate; applicability and completeness not established.
+geography,Europe,seed,Candidate; applicability and completeness not established.
+geography,North America,seed,Candidate; applicability and completeness not established.
+geography,Central America and Caribbean,seed,Candidate; applicability and completeness not established.
+geography,South America,seed,Candidate; applicability and completeness not established.
+geography,Oceania,seed,Candidate; applicability and completeness not established.
+geography,cross-border or diaspora,seed,Candidate; applicability and completeness not established.
+geography,country-specific,seed,Candidate; applicability and completeness not established.
+geography,jurisdiction-specific,seed,Candidate; applicability and completeness not established.
+language,English,seed,Candidate; applicability and completeness not established.
+language,Chinese simplified,seed,Candidate; applicability and completeness not established.
+language,Chinese traditional,seed,Candidate; applicability and completeness not established.
+language,Japanese,seed,Candidate; applicability and completeness not established.
+language,Korean,seed,Candidate; applicability and completeness not established.
+language,Hindi,seed,Candidate; applicability and completeness not established.
+language,Arabic,seed,Candidate; applicability and completeness not established.
+language,Russian,seed,Candidate; applicability and completeness not established.
+language,Portuguese,seed,Candidate; applicability and completeness not established.
+language,Spanish,seed,Candidate; applicability and completeness not established.
+language,French,seed,Candidate; applicability and completeness not established.
+language,German,seed,Candidate; applicability and completeness not established.
+language,Turkish,seed,Candidate; applicability and completeness not established.
+language,Indonesian,seed,Candidate; applicability and completeness not established.
+language,Vietnamese,seed,Candidate; applicability and completeness not established.
+language,other local language,seed,Candidate; applicability and completeness not established.
+language,multilingual,seed,Candidate; applicability and completeness not established.
+query_intent,discovery,seed,Candidate; applicability and completeness not established.
+query_intent,definitions and vocabulary,seed,Candidate; applicability and completeness not established.
+query_intent,mechanism and implementation,seed,Candidate; applicability and completeness not established.
+query_intent,comparative assessment,seed,Candidate; applicability and completeness not established.
+query_intent,applicability,seed,Candidate; applicability and completeness not established.
+query_intent,standard requirements,seed,Candidate; applicability and completeness not established.
+query_intent,roles and responsibilities,seed,Candidate; applicability and completeness not established.
+query_intent,user experience,seed,Candidate; applicability and completeness not established.
+query_intent,adoption and cost,seed,Candidate; applicability and completeness not established.
+query_intent,validation and outcome,seed,Candidate; applicability and completeness not established.
+query_intent,incident or counterexample,seed,Candidate; applicability and completeness not established.
+query_intent,misuse and gaming,seed,Candidate; applicability and completeness not established.
+query_intent,governance and disputes,seed,Candidate; applicability and completeness not established.
+query_intent,version and change,seed,Candidate; applicability and completeness not established.
+query_intent,access and exclusion,seed,Candidate; applicability and completeness not established.
+query_intent,emerging methods,seed,Candidate; applicability and completeness not established.
+query_intent,negative or null search,seed,Candidate; applicability and completeness not established.
+artifact,library or package,seed,Candidate; applicability and completeness not established.
+artifact,service or API,seed,Candidate; applicability and completeness not established.
+artifact,website or UI,seed,Candidate; applicability and completeness not established.
+artifact,mobile application,seed,Candidate; applicability and completeness not established.
+artifact,desktop application,seed,Candidate; applicability and completeness not established.
+artifact,command-line tool,seed,Candidate; applicability and completeness not established.
+artifact,script or notebook,seed,Candidate; applicability and completeness not established.
+artifact,dataset,seed,Candidate; applicability and completeness not established.
+artifact,ML model or weights,seed,Candidate; applicability and completeness not established.
+artifact,training or evaluation pipeline,seed,Candidate; applicability and completeness not established.
+artifact,scientific software,seed,Candidate; applicability and completeness not established.
+artifact,research paper or manuscript,seed,Candidate; applicability and completeness not established.
+artifact,documentation or translation,seed,Candidate; applicability and completeness not established.
+artifact,infrastructure as code,seed,Candidate; applicability and completeness not established.
+artifact,configuration or deployment manifest,seed,Candidate; applicability and completeness not established.
+artifact,firmware,seed,Candidate; applicability and completeness not established.
+artifact,embedded system,seed,Candidate; applicability and completeness not established.
+artifact,electronic design or PCB,seed,Candidate; applicability and completeness not established.
+artifact,mechanical CAD,seed,Candidate; applicability and completeness not established.
+artifact,fabrication files or BOM,seed,Candidate; applicability and completeness not established.
+artifact,game or media asset,seed,Candidate; applicability and completeness not established.
+artifact,content or digital archive,seed,Candidate; applicability and completeness not established.
+artifact,workflow or automation,seed,Candidate; applicability and completeness not established.
+artifact,template,seed,Candidate; applicability and completeness not established.
+artifact,monorepo,seed,Candidate; applicability and completeness not established.
+artifact,multi-repository system,seed,Candidate; applicability and completeness not established.
+artifact,educational example,seed,Candidate; applicability and completeness not established.
+artifact,security-sensitive dependency,seed,Candidate; applicability and completeness not established.
+assessment_unit,file,seed,Candidate; applicability and completeness not established.
+assessment_unit,change or patch,seed,Candidate; applicability and completeness not established.
+assessment_unit,branch,seed,Candidate; applicability and completeness not established.
+assessment_unit,commit,seed,Candidate; applicability and completeness not established.
+assessment_unit,repository,seed,Candidate; applicability and completeness not established.
+assessment_unit,package or component,seed,Candidate; applicability and completeness not established.
+assessment_unit,release,seed,Candidate; applicability and completeness not established.
+assessment_unit,build pipeline,seed,Candidate; applicability and completeness not established.
+assessment_unit,dependency graph,seed,Candidate; applicability and completeness not established.
+assessment_unit,deployed system,seed,Candidate; applicability and completeness not established.
+assessment_unit,dataset version,seed,Candidate; applicability and completeness not established.
+assessment_unit,model version,seed,Candidate; applicability and completeness not established.
+assessment_unit,project,seed,Candidate; applicability and completeness not established.
+assessment_unit,team or community,seed,Candidate; applicability and completeness not established.
+assessment_unit,organization,seed,Candidate; applicability and completeness not established.
+assessment_unit,ecosystem,seed,Candidate; applicability and completeness not established.
+assessment_unit,research claim or experiment,seed,Candidate; applicability and completeness not established.
+stakeholder_role,end user,seed,Candidate; applicability and completeness not established.
+stakeholder_role,disabled user,seed,Candidate; applicability and completeness not established.
+stakeholder_role,consumer organization,seed,Candidate; applicability and completeness not established.
+stakeholder_role,contributor,seed,Candidate; applicability and completeness not established.
+stakeholder_role,maintainer,seed,Candidate; applicability and completeness not established.
+stakeholder_role,project owner,seed,Candidate; applicability and completeness not established.
+stakeholder_role,product manager,seed,Candidate; applicability and completeness not established.
+stakeholder_role,domain expert,seed,Candidate; applicability and completeness not established.
+stakeholder_role,architect,seed,Candidate; applicability and completeness not established.
+stakeholder_role,designer or researcher,seed,Candidate; applicability and completeness not established.
+stakeholder_role,accessibility specialist,seed,Candidate; applicability and completeness not established.
+stakeholder_role,technical writer,seed,Candidate; applicability and completeness not established.
+stakeholder_role,translator,seed,Candidate; applicability and completeness not established.
+stakeholder_role,test or quality engineer,seed,Candidate; applicability and completeness not established.
+stakeholder_role,security engineer,seed,Candidate; applicability and completeness not established.
+stakeholder_role,privacy specialist,seed,Candidate; applicability and completeness not established.
+stakeholder_role,legal or licensing counsel,seed,Candidate; applicability and completeness not established.
+stakeholder_role,release engineer,seed,Candidate; applicability and completeness not established.
+stakeholder_role,SRE or operator,seed,Candidate; applicability and completeness not established.
+stakeholder_role,incident responder,seed,Candidate; applicability and completeness not established.
+stakeholder_role,data steward,seed,Candidate; applicability and completeness not established.
+stakeholder_role,research software engineer,seed,Candidate; applicability and completeness not established.
+stakeholder_role,ML practitioner,seed,Candidate; applicability and completeness not established.
+stakeholder_role,hardware or manufacturing engineer,seed,Candidate; applicability and completeness not established.
+stakeholder_role,procurement or compliance,seed,Candidate; applicability and completeness not established.
+stakeholder_role,auditor,seed,Candidate; applicability and completeness not established.
+stakeholder_role,funder or sponsor,seed,Candidate; applicability and completeness not established.
+stakeholder_role,archivist,seed,Candidate; applicability and completeness not established.
+stakeholder_role,educator,seed,Candidate; applicability and completeness not established.
+stakeholder_role,agent operator,seed,Candidate; applicability and completeness not established.
+stakeholder_role,affected community,seed,Candidate; applicability and completeness not established.
+responsibility,requirements and problem fit,seed,Candidate; applicability and completeness not established.
+responsibility,product strategy,seed,Candidate; applicability and completeness not established.
+responsibility,architecture and design,seed,Candidate; applicability and completeness not established.
+responsibility,correctness,seed,Candidate; applicability and completeness not established.
+responsibility,functional testing,seed,Candidate; applicability and completeness not established.
+responsibility,nonfunctional testing,seed,Candidate; applicability and completeness not established.
+responsibility,user research,seed,Candidate; applicability and completeness not established.
+responsibility,usability,seed,Candidate; applicability and completeness not established.
+responsibility,accessibility,seed,Candidate; applicability and completeness not established.
+responsibility,internationalization,seed,Candidate; applicability and completeness not established.
+responsibility,documentation and information architecture,seed,Candidate; applicability and completeness not established.
+responsibility,developer experience,seed,Candidate; applicability and completeness not established.
+responsibility,API and compatibility,seed,Candidate; applicability and completeness not established.
+responsibility,reliability and recovery,seed,Candidate; applicability and completeness not established.
+responsibility,availability and incident response,seed,Candidate; applicability and completeness not established.
+responsibility,performance and efficiency,seed,Candidate; applicability and completeness not established.
+responsibility,security,seed,Candidate; applicability and completeness not established.
+responsibility,privacy and data protection,seed,Candidate; applicability and completeness not established.
+responsibility,safety,seed,Candidate; applicability and completeness not established.
+responsibility,licensing and intellectual property,seed,Candidate; applicability and completeness not established.
+responsibility,provenance and supply chain,seed,Candidate; applicability and completeness not established.
+responsibility,build reproducibility,seed,Candidate; applicability and completeness not established.
+responsibility,release and distribution,seed,Candidate; applicability and completeness not established.
+responsibility,dependency management,seed,Candidate; applicability and completeness not established.
+responsibility,data quality and governance,seed,Candidate; applicability and completeness not established.
+responsibility,scientific validity and reproducibility,seed,Candidate; applicability and completeness not established.
+responsibility,model evaluation and harms,seed,Candidate; applicability and completeness not established.
+responsibility,physical manufacturability and safety,seed,Candidate; applicability and completeness not established.
+responsibility,governance and decision rights,seed,Candidate; applicability and completeness not established.
+responsibility,community inclusion and conduct,seed,Candidate; applicability and completeness not established.
+responsibility,maintainer wellbeing and sustainability,seed,Candidate; applicability and completeness not established.
+responsibility,funding and continuity,seed,Candidate; applicability and completeness not established.
+responsibility,environmental footprint,seed,Candidate; applicability and completeness not established.
+responsibility,observability,seed,Candidate; applicability and completeness not established.
+responsibility,interoperability,seed,Candidate; applicability and completeness not established.
+responsibility,archival and end of life,seed,Candidate; applicability and completeness not established.
+responsibility,economic and procurement fit,seed,Candidate; applicability and completeness not established.
+lifecycle,discovery and requirements,seed,Candidate; applicability and completeness not established.
+lifecycle,design,seed,Candidate; applicability and completeness not established.
+lifecycle,implementation,seed,Candidate; applicability and completeness not established.
+lifecycle,review,seed,Candidate; applicability and completeness not established.
+lifecycle,integration,seed,Candidate; applicability and completeness not established.
+lifecycle,build,seed,Candidate; applicability and completeness not established.
+lifecycle,verification,seed,Candidate; applicability and completeness not established.
+lifecycle,release,seed,Candidate; applicability and completeness not established.
+lifecycle,distribution,seed,Candidate; applicability and completeness not established.
+lifecycle,adoption,seed,Candidate; applicability and completeness not established.
+lifecycle,deployment,seed,Candidate; applicability and completeness not established.
+lifecycle,operation,seed,Candidate; applicability and completeness not established.
+lifecycle,monitoring,seed,Candidate; applicability and completeness not established.
+lifecycle,incident and recovery,seed,Candidate; applicability and completeness not established.
+lifecycle,maintenance,seed,Candidate; applicability and completeness not established.
+lifecycle,migration,seed,Candidate; applicability and completeness not established.
+lifecycle,deprecation,seed,Candidate; applicability and completeness not established.
+lifecycle,archival and preservation,seed,Candidate; applicability and completeness not established.
+project_context,public,seed,Candidate; applicability and completeness not established.
+project_context,private,seed,Candidate; applicability and completeness not established.
+project_context,internal enterprise,seed,Candidate; applicability and completeness not established.
+project_context,regulated,seed,Candidate; applicability and completeness not established.
+project_context,safety critical,seed,Candidate; applicability and completeness not established.
+project_context,security critical,seed,Candidate; applicability and completeness not established.
+project_context,low impact,seed,Candidate; applicability and completeness not established.
+project_context,high impact,seed,Candidate; applicability and completeness not established.
+project_context,individual,seed,Candidate; applicability and completeness not established.
+project_context,volunteer,seed,Candidate; applicability and completeness not established.
+project_context,commercial,seed,Candidate; applicability and completeness not established.
+project_context,foundation governed,seed,Candidate; applicability and completeness not established.
+project_context,government,seed,Candidate; applicability and completeness not established.
+project_context,research funded,seed,Candidate; applicability and completeness not established.
+project_context,education,seed,Candidate; applicability and completeness not established.
+project_context,experimental,seed,Candidate; applicability and completeness not established.
+project_context,production,seed,Candidate; applicability and completeness not established.
+project_context,legacy,seed,Candidate; applicability and completeness not established.
+project_context,archived,seed,Candidate; applicability and completeness not established.
+project_context,small team,seed,Candidate; applicability and completeness not established.
+project_context,distributed team,seed,Candidate; applicability and completeness not established.
+project_context,resource constrained,seed,Candidate; applicability and completeness not established.
+project_context,air gapped,seed,Candidate; applicability and completeness not established.
+project_context,restricted data,seed,Candidate; applicability and completeness not established.
+project_context,multiple jurisdictions,seed,Candidate; applicability and completeness not established.
+evaluation_mechanism,presence heuristic,seed,Candidate; applicability and completeness not established.
+evaluation_mechanism,metadata check,seed,Candidate; applicability and completeness not established.
+evaluation_mechanism,static analysis,seed,Candidate; applicability and completeness not established.
+evaluation_mechanism,dynamic analysis,seed,Candidate; applicability and completeness not established.
+evaluation_mechanism,test execution,seed,Candidate; applicability and completeness not established.
+evaluation_mechanism,property-based test,seed,Candidate; applicability and completeness not established.
+evaluation_mechanism,formal verification,seed,Candidate; applicability and completeness not established.
+evaluation_mechanism,human expert review,seed,Candidate; applicability and completeness not established.
+evaluation_mechanism,usability study,seed,Candidate; applicability and completeness not established.
+evaluation_mechanism,accessibility evaluation,seed,Candidate; applicability and completeness not established.
+evaluation_mechanism,reproducibility experiment,seed,Candidate; applicability and completeness not established.
+evaluation_mechanism,policy/process audit,seed,Candidate; applicability and completeness not established.
+evaluation_mechanism,self-attestation,seed,Candidate; applicability and completeness not established.
+evaluation_mechanism,third-party certification,seed,Candidate; applicability and completeness not established.
+evaluation_mechanism,operational telemetry,seed,Candidate; applicability and completeness not established.
+evaluation_mechanism,incident evidence,seed,Candidate; applicability and completeness not established.
+evaluation_mechanism,survey or interview,seed,Candidate; applicability and completeness not established.
+evaluation_mechanism,community metric,seed,Candidate; applicability and completeness not established.
+evaluation_mechanism,reference comparison,seed,Candidate; applicability and completeness not established.
+evaluation_mechanism,weighted score,seed,Candidate; applicability and completeness not established.
+evaluation_mechanism,threshold gate,seed,Candidate; applicability and completeness not established.
+evaluation_mechanism,advisory recommendation,seed,Candidate; applicability and completeness not established.
+evaluation_mechanism,peer review,seed,Candidate; applicability and completeness not established.
+evaluation_mechanism,provenance attestation,seed,Candidate; applicability and completeness not established.
+evaluation_mechanism,manual exception,seed,Candidate; applicability and completeness not established.
+outcome_or_harm,correct behavior,seed,Candidate; applicability and completeness not established.
+outcome_or_harm,user task success,seed,Candidate; applicability and completeness not established.
+outcome_or_harm,accessibility outcomes,seed,Candidate; applicability and completeness not established.
+outcome_or_harm,security incident,seed,Candidate; applicability and completeness not established.
+outcome_or_harm,privacy exposure,seed,Candidate; applicability and completeness not established.
+outcome_or_harm,recovery time,seed,Candidate; applicability and completeness not established.
+outcome_or_harm,release reliability,seed,Candidate; applicability and completeness not established.
+outcome_or_harm,scientific reproducibility,seed,Candidate; applicability and completeness not established.
+outcome_or_harm,maintainer burden,seed,Candidate; applicability and completeness not established.
+outcome_or_harm,cost and latency,seed,Candidate; applicability and completeness not established.
+outcome_or_harm,false positive,seed,Candidate; applicability and completeness not established.
+outcome_or_harm,false negative,seed,Candidate; applicability and completeness not established.
+outcome_or_harm,gaming,seed,Candidate; applicability and completeness not established.
+outcome_or_harm,exclusion,seed,Candidate; applicability and completeness not established.
+outcome_or_harm,unjustified pass,seed,Candidate; applicability and completeness not established.
+outcome_or_harm,unjustified fail,seed,Candidate; applicability and completeness not established.
+outcome_or_harm,adoption,seed,Candidate; applicability and completeness not established.
+outcome_or_harm,sustainability,seed,Candidate; applicability and completeness not established.
+outcome_or_harm,legal exposure,seed,Candidate; applicability and completeness not established.
+outcome_or_harm,environmental impact,seed,Candidate; applicability and completeness not established.
+outcome_or_harm,measurement uncertainty,seed,Candidate; applicability and completeness not established.
+access_route,native search,seed,Candidate; applicability and completeness not established.
+access_route,web search index,seed,Candidate; applicability and completeness not established.
+access_route,public API,seed,Candidate; applicability and completeness not established.
+access_route,authenticated API,seed,Candidate; applicability and completeness not established.
+access_route,signed-in browser,seed,Candidate; applicability and completeness not established.
+access_route,public browser,seed,Candidate; applicability and completeness not established.
+access_route,source code clone,seed,Candidate; applicability and completeness not established.
+access_route,package metadata,seed,Candidate; applicability and completeness not established.
+access_route,mail archive,seed,Candidate; applicability and completeness not established.
+access_route,conference proceedings,seed,Candidate; applicability and completeness not established.
+access_route,public dataset,seed,Candidate; applicability and completeness not established.
+access_route,institutional access,seed,Candidate; applicability and completeness not established.
+access_route,paywalled standard,seed,Candidate; applicability and completeness not established.
+access_route,personal communication not authorized,seed,Candidate; applicability and completeness not established.
+access_route,unavailable,seed,Candidate; applicability and completeness not established.
+method,broad discovery,seed,Candidate; applicability and completeness not established.
+method,known-item lookup,seed,Candidate; applicability and completeness not established.
+method,citation chasing,seed,Candidate; applicability and completeness not established.
+method,reference mining,seed,Candidate; applicability and completeness not established.
+method,code inspection,seed,Candidate; applicability and completeness not established.
+method,version comparison,seed,Candidate; applicability and completeness not established.
+method,platform-native query,seed,Candidate; applicability and completeness not established.
+method,translated query,seed,Candidate; applicability and completeness not established.
+method,systematic search,seed,Candidate; applicability and completeness not established.
+method,purposive sampling,seed,Candidate; applicability and completeness not established.
+method,pairwise coverage,seed,Candidate; applicability and completeness not established.
+method,high-risk compound coverage,seed,Candidate; applicability and completeness not established.
+method,negative-case search,seed,Candidate; applicability and completeness not established.
+method,replication,seed,Candidate; applicability and completeness not established.
+method,incident triangulation,seed,Candidate; applicability and completeness not established.
+method,maintainer interview with consent,seed,Candidate; applicability and completeness not established.
+time,search date,seed,Candidate; applicability and completeness not established.
+time,publication date,seed,Candidate; applicability and completeness not established.
+time,last modification,seed,Candidate; applicability and completeness not established.
+time,version or commit,seed,Candidate; applicability and completeness not established.
+time,study observation interval,seed,Candidate; applicability and completeness not established.
+time,data freshness,seed,Candidate; applicability and completeness not established.
+time,historical state,seed,Candidate; applicability and completeness not established.
+time,deprecation date,seed,Candidate; applicability and completeness not established.
+status,unplanned,seed,Candidate; applicability and completeness not established.
+status,queued,seed,Candidate; applicability and completeness not established.
+status,in progress,seed,Candidate; applicability and completeness not established.
+status,searched,seed,Candidate; applicability and completeness not established.
+status,thin,seed,Candidate; applicability and completeness not established.
+status,inaccessible,seed,Candidate; applicability and completeness not established.
+status,conflicting,seed,Candidate; applicability and completeness not established.
+status,locally saturated,seed,Candidate; applicability and completeness not established.
+status,not applicable justified,seed,Candidate; applicability and completeness not established.
+status,unknown,seed,Candidate; applicability and completeness not established.
+status,no evidence found,seed,Candidate; applicability and completeness not established.

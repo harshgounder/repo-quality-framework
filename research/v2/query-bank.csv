@@ -1,0 +1,29 @@
+query_id,campaign_id,query_text,language,target_route,intent,follow_up,execution_status
+Q01,C01,pre.dev code licensing estimate.mjs formula source history,English,web/code,estimator mechanism,source code and documentation,planned; not executed
+Q02,C02,repository health score methodology weights missing data false positives,English,web/forge,automated composite raters,documentation + implementation,planned; not executed
+Q03,C02,open source maturity assessment QSOS OpenBRR model criteria,English,web/scholarly,human maturity models,manual and source,planned; not executed
+Q04,C03,repository health score false positive maintainer burden,English,Reddit native,practitioner experiences,thread and replies,planned; not executed
+Q05,C03,repository quality checklist maintainer discussion,English,HN native/Algolia,experience and objections,thread and linked source,planned; not executed
+Q06,C03,repository standards required files documentation tradeoffs,English,Software Engineering Stack Exchange,requirements and applicability,questions and answers,planned; not executed
+Q07,C03,repository health metrics maintainer sustainability,English,Lobsters native,community discussion,comments and linked source,planned; not executed
+Q08,C03,repository quality standards scorecard maintainer,English,X native,practitioner discovery,post thread and primary links,planned; not executed
+Q09,C04,代码仓库 质量 评估 规范 最佳实践,Chinese simplified,Gitee/V2EX/Zhihu,repository quality assessment and standards,"native query, translation provisional",planned; not executed
+Q10,C04,开源项目 健康度 评估 指标 维护,Chinese simplified,OSChina/CSDN,OSS health metrics maintenance,"native query, translation provisional",planned; not executed
+Q11,C04,リポジトリ 品質 評価 ガイドライン 保守,Japanese,Qiita/Zenn,repository quality evaluation and maintenance,"native query, translation provisional",planned; not executed
+Q12,C04,오픈소스 프로젝트 품질 평가 유지보수 지표,Korean,OKKY/GeekNews,OSS quality assessment and maintenance,"native query, translation provisional",planned; not executed
+Q13,C04,качество репозитория оценка сопровождение открытый код,Russian,Habr/GitVerse,repository quality evaluation and maintenance,"native query, translation provisional",planned; not executed
+Q14,C04,qualidade repositório avaliação manutenção código aberto,Portuguese,TabNews/Stack Overflow em Português,repository quality and maintenance,"native query, translation provisional",planned; not executed
+Q15,C04,calidad repositorio evaluación mantenimiento código abierto,Spanish,Spanish developer communities,repository quality and maintenance,"native query, translation provisional",planned; not executed
+Q16,C05,research software maturity reproducibility assessment rubric,English,scholarly/research software communities,scientific software maturity,"papers, rubrics and code",planned; not executed
+Q17,C05,dataset repository quality assessment FAIR provenance versioning,English,data repositories/standards,data stewardship,standards and applied evaluations,planned; not executed
+Q18,C05,model card dataset card evaluation reproducibility governance repository,English,model hubs/research,ML artifacts,model and dataset guidance,planned; not executed
+Q19,C06,accessibility automated checks limitations assistive technology user testing,English,W3C/HCI/disability communities,accessibility and UX,"standards, lived experience, studies",planned; not executed
+Q20,C07,production readiness review checklist incidents rollback service ownership,English,SRE communities/postmortems,operability and incident response,primary postmortem and handbook,planned; not executed
+Q21,C08,software supply chain attestation scorecard bypass incident,English,advisory and security communities,security counterexamples,incident and versioned controls,planned; not executed
+Q22,C08,open source license compliance source repository SPDX reuse,English,license compliance communities,licensing and IP,specification and implementation,planned; not executed
+Q23,C09,software engineering competencies technical writer accessibility release engineer responsibilities,English,professional bodies/handbooks,roles and handoffs,primary role descriptions,planned; not executed
+Q24,C10,software metrics construct validity repository quality systematic review,English,academic indexes,empirical validity,papers and study methodology,planned; not executed
+Q25,C11,software project passed security checklist compromised postmortem,English,incident archives,false assurance,direct chronological evidence,planned; not executed
+Q26,C12,stable finished open source project low commit activity maintenance,English,maintainer forums,activity metric false positives,maintainer account and project history,planned; not executed
+Q27,C05,open hardware repository bill of materials fabrication reproducibility checklist,English,hardware communities,hardware design and manufacturing,reference projects and domain standards,planned; not executed
+Q28,C06,documentation quality user task success information architecture accessibility,English,technical writing and HCI,documentation usability,research and practice,planned; not executed

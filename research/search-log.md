@@ -289,3 +289,34 @@
 - **Agent Reach:** agent-reach doctor --json and agent-reach check-update each returned command-not-found.
 - **Parallel:** ordinary search and fetch functioned; dedicated web_research had previously returned HTTP 402 and was not retried.
 - **X:** connected account route main available; the four searches in this round were noisy or weakly relevant.
+
+# 2026-11-10 — v2 source and model discovery
+
+The web tool returned combined results; the tool output was truncated and did not expose dependable per-query result or screening counts in the retained session. Counts are recorded as unknown, not reconstructed. Search calls took place before the 12:13 Asia/Kolkata clock check; individual call times are unavailable.
+
+## V2-S01 — source families, archives, competency frameworks
+- Tool: web search, four queries, unfiltered ranked results; individual results/screening counts unavailable.
+- Exact queries: repository assessment tools open source quality maturity model QSOS OpenBRR OSS evaluation tools; software repository research data hardware scholarly archive platform zenodo software heritage osf dataverse; developer communities global programming forums China Japan Korea India Latin America open source; software engineering standards body of knowledge SWEBOK architecture usability accessibility reliability operations.
+- Selected leads: Eclipse QSOS, IEEE SWEBOK, research archives and institutional repositories. Selected links were opened in V2-F01; the remaining results require screening.
+
+## V2-S02 — metrics, research software and policy
+- Tool: web search, four queries, unfiltered ranked results; individual results/screening counts unavailable.
+- Exact queries: site:chaoss.community metrics model project health diversity risk; site:github.com software maturity assessment oss-review-toolkit repository quality tooling; site:fair-software.eu recommendations research software repositories; site:research-software-directory.org research software quality assessment.
+- Selected leads: CHAOSS, research software guidance and software assessment tooling; further screening and primary-source audits needed.
+
+## V2-S03 — evaluators, communities, roles and failures
+- Tool: web search, four queries, unfiltered ranked results; individual results/screening counts unavailable.
+- Exact queries: software repository assessment tools sustainability reproducibility software quality model engineering scorecards; site:reddit.com repository health score maintainers quality metrics; site:news.ycombinator.com software repository quality checklist maintainers; open source repository quality framework design role governance usability documentation security.
+- Selected leads: RSMM, reproducibility models, UN policy, community threads and professional-role materials. Search results are discovery, not independently validated findings.
+
+## V2-F01 — six primary URL open attempts
+- Tool: web open, six requested URLs; QSOS owner page and RSMM arXiv abstract returned. IEEE SWEBOK and UN policy PDF returned HTTP 403; FAIR software URL inaccessible; Software Heritage returned HTTP 502.
+- URLs: https://qsos.org/ ; https://www.computer.org/education/bodies-of-knowledge/software-engineering ; https://fair-software.eu/recommendations/ ; https://opensource.un.org/sites/default/files/2025-07/common_policy_framework.pdf ; https://arxiv.org/abs/2406.01788 ; https://www.softwareheritage.org/.
+- Use: QSOS method and RSMM author abstract recorded in research/v2/first-findings.md; inaccessible sources remain leads.
+
+## V2-F02 — user-provided estimator source
+- Tool: curl, 2026-11-10, exact per-call time unavailable; URL https://api.pre.dev/api/code-licensing/estimate.mjs; 16,139 bytes downloaded to a temporary local path. SHA-256 208c9f43972ef81469cd43a37299190c1e3040e91895ed51dc9f1299b638dc23.
+- Statically read selected source sections; did not execute. See research/v2/first-findings.md. File is an author-supplied executable; its vendor and backend claims remain unverified.
+
+## Access checks
+- Agent Reach doctor: command not found. The current research used web search/open and local static inspection. Native access to each listed social source has not been established in this pass.

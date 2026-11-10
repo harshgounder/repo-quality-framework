@@ -2,8 +2,8 @@
 
 **Last updated:** 2026-11-10 (Asia/Kolkata)  
 **Repository:** `/home/liebert511/Documents/Codex/2026-11-10/repo-quality-framework`  
-**Current phase:** establish a broad, auditable research map and gather evidence.  
-**Overall status:** active; source universe and matrix model are broadening, 27 evidence cells are now populated, and selected mechanisms/standards/community threads have been sampled. No framework specification or gates have been completed.
+**Current phase:** rebuild the source landscape and multidimensional research system; gather evidence and repair v1 provenance.
+**Overall status:** active; v2 model and seed catalogs are being built; v1 coverage records need reconciliation; source universe and matrix model are broadening, 27 evidence cells are now populated, and selected mechanisms/standards/community threads have been sampled. No framework specification or gates have been completed.
 
 ## User intent
 
@@ -94,3 +94,16 @@ Do not call the project complete because this repository exists or because a fir
 7. Review matrix coverage by axes and pair/triple interactions before any synthesis; keep all cells local to their query/date/language/access scope.
 
 **Current coverage boundary:** 27 populated cells, not saturated. Source register contains additional leads that are not fully verified. Community searches remain low-recall and English-heavy. No conclusions about universal requirements, scores, or gates are settled.
+
+
+## 2026-11-10: v2 research model and source expansion
+
+User directed a deeper remake of the weak platform/source seeds and multidimensional model. The v2 design separates venues, access routes, planned campaigns/cells, actual runs, source versions, claims, mechanisms, assessment objects and candidate practices. See docs/research-model-v2.md and research/v2/. The prior 27-row matrix is historical and not an audited coverage report.
+
+Created 17 preliminary axes with 349 seed values, 96 candidate source routes with distinct entity types and access/verification notes, 12 queued campaigns, 18 concrete planned cells and 28 planned query formulations in seven languages. These counts describe inventories only; they are not coverage or completeness. Translations are provisional and have not been run. Source routes and campaigns are starting points to expand, verify, and disaggregate by community/collection.
+
+Fetched but did not execute the original pre.dev estimator. See research/v2/first-findings.md for snapshot SHA-256, formula, exclusions, limits, and unresolved vendor claims. Opened QSOS and the RSMM abstract; IEEE SWEBOK, FAIR software and the UN policy PDF had 403/access failures through the web tool, as did Software Heritage with 502. Web search was broad; the targeted queries and access outcomes are in search-log.md. Agent Reach doctor remained unavailable.
+
+Corrected the R-002/R-003 swapped follow-ups and flagged the Scorecard nonexistent fetch references and M-006 reconstructed-query problem. These are known corrections, not a full audit. See research/v2/integrity-and-migration.md.
+
+Next: (1) reconcile older search records against available tool outputs; (2) extend the initial 18 planned coverage cells and link actual runs/results, not just campaign labels; (3) run per-venue and native-language campaigns, with source routes and screen counts; (4) open and audit new methods including QSOS, RSMM and remaining raters; (5) expand professional roles and concrete artifact/lifecycle interactions; (6) preserve coverage gaps and uncertainty. No final framework or gate is decided.

@@ -1,0 +1,97 @@
+venue,entity_type,url,region_language,investigation_routes,verification_state
+GitHub,forge host,https://github.com/,global,"search, issues, discussions, repos, actions, advisories",known; deeper route audit queued
+GitLab.com,forge host,https://gitlab.com/,global,"search, issues, merge requests, CI, docs",candidate
+Bitbucket,forge host,https://bitbucket.org/,global,"code, issues, pipelines, docs",candidate
+Azure Repos,forge host,https://azure.microsoft.com/products/devops/repos/,global,"repos, pipeline, policy docs",candidate
+Codeberg,hosted forge,https://codeberg.org/,Europe / global,"repos, issues, docs, community",official overview read previously
+Forgejo,forge software,https://forgejo.org/,global,"software documentation, independently hosted instances",candidate
+Gitea,forge software,https://docs.gitea.com/,global,"documentation, self-hosted instances",official docs read
+Gitee,forge host,https://gitee.com/,China,"Chinese native search, repositories, issues, docs",repository help opened
+GitCode,forge host,https://gitcode.com/,China,"native search, docs and project records",candidate; current relationship to AtomGit needs checking
+GitFlic,forge host,https://gitflic.ru/,Russia,"Russian search, projects and docs",candidate
+GitVerse,forge host,https://gitverse.ru/,Russia,"Russian search, projects and docs",candidate
+SourceHut,forge host and workflow,https://sourcehut.org/,global,"mailing lists, git, builds, tickets",candidate
+Gerrit,review software,https://www.gerritcodereview.com/,global,review instances and documentation,candidate
+Savannah,forge host,https://savannah.gnu.org/,global,project pages and mailing lists,candidate
+Apache project lists,mailing list archive,https://lists.apache.org/,global,project-specific archives; search and threads,candidate
+Linux kernel lists,mailing list archive,https://lore.kernel.org/,global,"patch discussions, review and technical decisions",candidate
+Reddit r/ExperiencedDevs,forum community,https://www.reddit.com/r/ExperiencedDevs/,global / English,"native search, threads and comments",candidate; separate route access unverified
+Reddit r/opensource,forum community,https://www.reddit.com/r/opensource/,global / English,"native search, threads and comments",candidate
+Reddit r/devops,forum community,https://www.reddit.com/r/devops/,global / English,"native search, threads and comments",candidate
+Reddit r/QualityAssurance,forum community,https://www.reddit.com/r/QualityAssurance/,global / English,QA experience and discussions,snippet lead
+Hacker News,forum community,https://news.ycombinator.com/,global / English,native and Algolia search; comments and linked articles,candidate; previous merged search low recall
+Stack Overflow,Q&A community,https://stackoverflow.com/,global / multilingual variants,"question search, tags and answers",candidate
+Software Engineering Stack Exchange,Q&A community,https://softwareengineering.stackexchange.com/,global / English,"architecture, process, maintenance questions",candidate
+DevOps Stack Exchange,Q&A community,https://devops.stackexchange.com/,global / English,"operations, CI/CD questions",candidate
+Lobsters,forum community,https://lobste.rs/,global / English,"tags, comments and linked posts",candidate
+X,social network,https://x.com/,global / multilingual,"connected search, threads and linked sources",connected search previously noisy
+Mastodon,federated social,https://joinmastodon.org/,global / multilingual,instance-aware search; no assumed global index,candidate
+Bluesky,social network,https://bsky.app/,global / multilingual,"search, authors and threads",candidate
+V2EX,developer forum,https://www.v2ex.com/,China / Chinese,"native search, programming nodes and threads",candidate
+Zhihu,Q&A platform,https://www.zhihu.com/,China / Chinese,native search and answers; access constraints,candidate
+CSDN,developer publishing,https://www.csdn.net/,China / Chinese,search and practitioner articles,candidate
+Juejin,developer publishing,https://juejin.cn/,China / Chinese,native search and practitioner posts,candidate
+Qiita,developer publishing,https://qiita.com/,Japan / Japanese,tag and text search,candidate
+Zenn,developer publishing,https://zenn.dev/,Japan / Japanese,"search, articles and discussions",candidate
+OKKY,developer community,https://okky.kr/,Korea / Korean,native search and forum topics,candidate
+GeekNews,developer community,https://news.hada.io/,Korea / Korean,native search and discussions,candidate
+Habr,developer publishing,https://habr.com/,Eastern Europe / multilingual,"topic, author and article search",candidate
+TabNews,developer community,https://www.tabnews.com.br/,Brazil / Portuguese,native search and comments,candidate
+Stack Overflow em Português,Q&A community,https://pt.stackoverflow.com/,Portuguese,tagged questions and answers,candidate
+Open edX discussions,project forum,https://discuss.openedx.org/,global / English,"governance, repo standards and threads",one thread opened
+Sustain OSS,community forum,https://discourse.sustainoss.org/,global / English,maintainer sustainability and governance,one thread opened
+Rust users forum,project forum,https://users.rust-lang.org/,global / English,language-specific engineering practice,snippet lead
+ACM Digital Library,research index and publisher,https://dl.acm.org/,global,conference/journal papers and citations,candidate; access varies
+IEEE Xplore,research index and publisher,https://ieeexplore.ieee.org/,global,"standards, papers and conference proceedings",candidate; access varies
+arXiv,preprint archive,https://arxiv.org/,global,"preprint search, versions and citations",several abstracts opened
+OpenAlex,scholarly index,https://openalex.org/,global,citation networks and scholarly metadata,candidate
+Crossref,scholarly metadata,https://www.crossref.org/,global,DOI and publication metadata,candidate
+Zenodo,research archive,https://zenodo.org/,global,"research outputs, datasets, software releases",candidate
+Dataverse,repository software,https://dataverse.org/,global,research data repositories and metadata,candidate; distinguish installations
+Software Heritage,source code archive,https://www.softwareheritage.org/,global,archived source and provenance,direct web open returned 502
+Hugging Face,model and dataset hub,https://huggingface.co/,global,"models, datasets, evaluations, discussions",candidate
+npm,package registry,https://www.npmjs.com/,global / JavaScript,"packages, versions, metadata",candidate
+PyPI,package registry,https://pypi.org/,global / Python,"packages, version metadata and provenance",candidate
+crates.io,package registry,https://crates.io/,global / Rust,"packages, version metadata",candidate
+OpenSSF,industry foundation,https://openssf.org/,global,"security baseline, guides, tools and discussions",multiple sources opened previously
+CHAOSS,metrics community,https://chaoss.community/,global,"metric definitions, governance and models",owner docs opened previously
+IEEE SWEBOK,professional knowledge,https://www.computer.org/education/bodies-of-knowledge/software-engineering,global,"knowledge areas, references and authors",search excerpt; direct fetch 403
+Eclipse QSOS,assessment method,https://qsos.org/,international / English and French,"method, criteria, implementation",primary owner page opened
+UN Open Source United,institutional policy,https://opensource.un.org/,international,"policy, repository requirements and governance",policy PDF search lead; direct fetch 403
+W3C WAI,standards and accessibility,https://www.w3.org/WAI/,international,"WCAG, evaluation methods, user needs",candidate
+NIST,government standards and guidance,https://www.nist.gov/,United States / global use,"secure development, measurement, risk",SSDF page opened previously
+SFIA,skills and role taxonomy,https://sfia-online.org/,international,role skills and responsibility levels,search lead; assess licensing
+USENIX SREcon,professional conference,https://www.usenix.org/conferences/byname/108,international,operations talks and practitioner cases,candidate
+ACM CHI,research conference,https://chi.acm.org/,international,"HCI, usability, accessibility research",candidate
+CNCF TAG Security,technical community,https://tag-security.cncf.io/,international,"supply-chain guidance, assessments, working groups",candidate
+REUSE,licensing project,https://reuse.software/,international,SPDX license evidence and tooling,candidate
+OpenChain,industry standard community,https://openchainproject.org/,international,open source compliance processes,candidate
+YouTube,video platform,https://www.youtube.com/,global / multilingual,"conference channels, talks, transcripts and descriptions",candidate; access/transcripts vary
+Bilibili,video platform,https://www.bilibili.com/,China / Chinese,"conference talks, software demos and discussions",candidate; access not checked
+LinkedIn,professional network,https://www.linkedin.com/,global / multilingual,"practitioner posts, company engineering and professional groups",candidate; access and ranking vary
+Discord,community platform,https://discord.com/,global / multilingual,"project servers, public channels, archived links",candidate; invitations and access vary
+Matrix,federated chat,https://matrix.org/,global / multilingual,public rooms and project communities,candidate; instance/room-specific access
+Zulip,community chat software,https://zulip.com/,global / multilingual,public project instances and topic archives,candidate; instance-specific access
+OpenSSF community,project discussion,https://github.com/ossf/,global,issues and discussions in standards and tool repositories,candidate; primary discussions require screening
+Python Discourse,project forum,https://discuss.python.org/,global / English,"packaging, governance, releases and documentation",candidate
+Kubernetes community,project community,https://discuss.kubernetes.io/,global / English,operations and cloud native governance discussions,candidate
+EEVblog forum,hardware forum,https://www.eevblog.com/forum/,global / English,"PCB design, testing, manufacturing and failures",candidate
+Hackaday.io,hardware project host,https://hackaday.io/,global / English,"project logs, hardware artifacts, comments",candidate
+OSHWA certification,hardware certification directory,https://certification.oshwa.org/,global,hardware certification criteria and project registry,candidate
+KiCad forum,hardware project community,https://forum.kicad.info/,global / English,"EDA workflows, PCB reviews and manufacturing",candidate
+OpenReview,research review platform,https://openreview.net/,international,"papers, reviews, rebuttals and artifact discussions",candidate
+Papers with Code,research discovery,https://paperswithcode.com/,international,paper-code links and benchmarks,candidate; current service status needs verification
+re3data,repository directory,https://www.re3data.org/,international,directory of research data repositories by domain,candidate
+Research Data Alliance,data stewardship community,https://www.rd-alliance.org/,international,"working groups, recommendations and standards",candidate
+Dryad,research data repository,https://datadryad.org/,international,data publication and curation,candidate
+Figshare,research artifact repository,https://figshare.com/,international,"datasets, research outputs, versioning",candidate
+OSV,vulnerability database,https://osv.dev/,international,open source vulnerability data and references,candidate
+CISA KEV,incident and vulnerability catalog,https://www.cisa.gov/known-exploited-vulnerabilities-catalog,United States / global use,known exploited vulnerabilities and references,candidate
+SLSA,supply chain framework,https://slsa.dev/,international,"provenance, build integrity and conformance",candidate
+CNCF landscape,ecosystem directory,https://landscape.cncf.io/,international,tool and foundation project discovery,candidate; inclusion is not endorsement
+DORA,research and practice program,https://dora.dev/,international,"delivery research, measurement and capabilities",candidate
+Nielsen Norman Group,design research and guidance,https://www.nngroup.com/,international,usability methods and practitioner guidance,candidate; distinguish guidance from primary studies
+Write the Docs,technical writing community,https://www.writethedocs.org/,international,"documentation practices, conferences and forums",candidate
+Open Source Design,design community,https://opensourcedesign.net/,international,design practice and community needs,candidate
+ACM artifact review and badging,research policy,https://www.acm.org/publications/policies/artifact-review-and-badging-current,international,"research artifact availability, functionality and reproducibility",candidate; verify version
+InvenioRDM,repository software,https://inveniordm.docs.cern.ch/,international,research repository software and instance differences,candidate
