@@ -27,3 +27,22 @@ Q25,C11,software project passed security checklist compromised postmortem,Englis
 Q26,C12,stable finished open source project low commit activity maintenance,English,maintainer forums,activity metric false positives,maintainer account and project history,planned; not executed
 Q27,C05,open hardware repository bill of materials fabrication reproducibility checklist,English,hardware communities,hardware design and manufacturing,reference projects and domain standards,planned; not executed
 Q28,C06,documentation quality user task success information architecture accessibility,English,technical writing and HCI,documentation usability,research and practice,planned; not executed
+Q29,C13,Java dynamic class loading reflection debloating soundness benchmark,English,academic indexes and Java maintainers,false removals and evaluation,read paper and benchmark,planned; not executed
+Q30,C13,JavaScript CommonJS dynamic require unused dependency trace analysis,English,Node/npm scholarly and project issues,dependency removal validity,compare dynamic and static cases,planned; not executed
+Q31,C13,Rust cargo unused dependencies optional features build scripts false positives,English,"Rust forum, tool issues, crates",false positives and feature variability,inspect versioned implementation,planned; not executed
+Q32,C13,WebAssembly binary size twiggy wasm-opt optimization tradeoffs,English,WASM community and tools,artifact size and correctness,compare actual builds and limits,planned; not executed
+Q33,C14,Python benchmark pyperf warmup system noise performance regression,English,Python docs and maintainers,reliable benchmarks,read methodology and current versions,planned; not executed
+Q34,C14,Go pprof benchmark benchstat profile guided optimization representative workload,English,Go docs and issue tracker,profiling and workload shift,record baseline and validation,planned; not executed
+Q35,C14,JVM JMH warmup class loading garbage collection benchmark pitfalls,English,OpenJDK and JVM communities,microbenchmark limitations,corroborate independent sources,planned; not executed
+Q36,C14,GPU kernel profiling memory bandwidth occupancy performance overhead,English,NVIDIA/AMD vendor and HPC communities,accelerator performance,cross-vendor versioned guides,planned; not executed
+Q37,C15,software readability complexity coupling maintainability empirical study refactoring tradeoffs,English,ACM IEEE practitioner forums,clean code evidence and contradictions,study-level methods and outcomes,planned; not executed
+Q38,C16,embedded firmware code size stack usage worst case execution time power profiling,English,embedded and RTOS communities,resource bounds and safety,device and toolchain specific sources,planned; not executed
+Q39,C16,database query performance explain plan statistics indexing workload regression,English,PostgreSQL and database communities,query and data-specific evaluation,versioned primary docs and cases,planned; not executed
+Q40,C17,2026 code debloating ground truth dynamic static false removals evaluation,English,arXiv USENIX ACM IEEE,cutting-edge empirical research,"full paper, version and replication",planned; not executed
+Q41,C17,2026 compiler profile guided optimization code layout autotuning evaluation,English,compiler conferences LLVM GCC,emerging compiler optimization,"papers, artifact availability and reproducibility",planned; not executed
+Q42,C17,2026 coding agents performance optimization pull requests benchmark validation,English,MSR proceedings and software agents,agent optimization verification,open full paper and evidence,planned; not executed
+Q43,C18,unused code removed reflection plugin production regression postmortem,English,issue trackers and incident archives,failure case and indirect entry points,trace actual failure and fix,planned; not executed
+Q44,C18,performance optimization reduced readability maintainability security regression tradeoff,English,practitioner and research sources,costs and conflicting outcomes,counterexamples and context,planned; not executed
+Q45,C13,代码 瘦身 无用依赖 性能 分析 动态加载,Chinese simplified,Gitee V2EX CSDN,debloating and dynamic loading,translation provisional; not executed,planned; not executed
+Q46,C14,コード 最適化 ベンチマーク メモリ プロファイリング,Japanese,Qiita Zenn,optimization profiling benchmarks,translation provisional; not executed,planned; not executed
+Q47,C14,코드 성능 최적화 프로파일링 메모리 벤치마크,Korean,OKKY GeekNews,optimization profiling benchmarks,translation provisional; not executed,planned; not executed

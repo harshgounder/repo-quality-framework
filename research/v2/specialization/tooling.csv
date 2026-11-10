@@ -1,0 +1,28 @@
+name,ecosystem,target,method,primary_url,inspection_status,limitations_to_investigate
+Knip,JavaScript/TypeScript,unused dependencies/files/exports,static graph plus configuration/plugins,https://github.com/webpro-nl/knip/blob/main/packages/docs/src/content/docs/reference/faq.md,owner FAQ opened,dynamic entry points/plugins and false results need audit
+cargo-machete,Rust,unused dependencies,source usage detection,https://github.com/bnjbvr/cargo-machete,owner README opened,owner calls detection imprecise; removal can include false positives
+cargo-bloat,Rust native binaries,binary size attribution,binary symbol and section analysis,https://github.com/RazrFalcon/cargo-bloat,owner README opened,attribution approximate; owner says no WASM support
+twiggy,WebAssembly,code size attribution,WASM size profiling,https://github.com/rustwasm/twiggy,candidate only,"version, maintenance, attribution and compatibility unverified"
+Bloaty,native binaries,binary size attribution,debug-info and binary size profiler,https://github.com/google/bloaty,candidate only,"target support, precision and version unverified"
+pyperf,Python,benchmark repeatability,benchmark execution and system tuning,https://pyperf.readthedocs.io/,candidate only,current controls and supported platforms need audit
+py-spy,Python,runtime CPU profiling,sampling profiler,https://github.com/benfred/py-spy,candidate only,"sampling bias, overhead and runtime compatibility need audit"
+Memray,Python,allocation and memory profiling,allocation tracing,https://github.com/bloomberg/memray,candidate only,platform and overhead need audit
+Vulture,Python,unused code candidates,static analysis,https://github.com/jendrikseipp/vulture,candidate only,reflection and dynamic behavior limitations need audit
+Scalene,Python,"CPU, GPU and memory profiling",sampling and attribution,https://github.com/plasma-umass/scalene,candidate only,"scope, validation and platform support need audit"
+Go pprof,Go,CPU and memory profiling,runtime profiles and analysis,https://go.dev/doc/diagnostics,official docs surfaced,profiling overhead and exposure of endpoints need audit
+Go PGO,Go compiler,profile-guided build optimization,compiler consumes representative CPU profiles,https://go.dev/doc/pgo,official doc opened,representative profiles and regression measurement required
+benchstat,Go,benchmark comparisons,statistical summaries of benchmark output,https://pkg.go.dev/golang.org/x/perf/cmd/benchstat,candidate only,"version, methodology and assumptions need audit"
+JMH,Java/JVM,microbenchmarking,benchmark harness,https://github.com/openjdk/jmh,candidate only,"warmup, JVM effects and measurement limits need audit"
+async-profiler,JVM,CPU and allocations profiling,sampling profiler,https://github.com/async-profiler/async-profiler,candidate only,supported runtimes and overhead need audit
+Java Flight Recorder,JVM,runtime event profiling,runtime event recording,https://openjdk.org/jeps/328,candidate only,current JDK-specific features need audit
+Google Benchmark,C++,microbenchmarking,benchmark harness,https://github.com/google/benchmark,official user guide surfaced,"compiler elimination, warmup and representativeness need audit"
+Linux perf,Linux/native,"CPU counters, sampling and tracing",kernel performance events,https://perf.wiki.kernel.org/,candidate only,"kernel version, privileges and overhead need audit"
+LLVM BOLT,native binaries,post-link optimization,profile-guided binary layout and optimization,https://github.com/llvm/llvm-project/tree/main/bolt,search lead; direct open restricted,target support and representative profile need audit
+Nsight Systems,GPU and heterogeneous,system timeline profiling,CPU/GPU runtime tracing and samples,https://docs.nvidia.com/nsight-systems/UserGuide/,official documentation surfaced,hardware restrictions and profiling overhead need audit
+Nsight Compute,NVIDIA GPU kernels,kernel profiling,"hardware counters, replay and sampling",https://docs.nvidia.com/nsight-compute/ProfilingGuide/index.html,official guide opened,"clock/cache controls, replay and overhead affect comparison"
+bpftrace,Linux systems,runtime tracing,eBPF-based dynamic tracing,https://github.com/bpftrace/bpftrace,candidate only,"kernel versions, privileges and probe overhead need audit"
+Parca,service and infrastructure,continuous profiling,sample collection and profile comparison,https://www.parca.dev/,candidate only,"deployment, data sensitivity, overhead need audit"
+Android Baseline Profiles,Android,startup and runtime performance,profile-guided compilation,https://developer.android.com/topic/performance/baselineprofiles/overview,candidate only,device/version behavior and measured benefit need audit
+PostgreSQL EXPLAIN,PostgreSQL,query planning and execution cost,planner/execution plan inspection,https://www.postgresql.org/docs/current/using-explain.html,candidate only,"statistics, data distributions and version matter"
+Lighthouse,web applications,web page audits and performance,browser audit and synthetic measurements,https://developer.chrome.com/docs/lighthouse/overview/,candidate only,"lab versus field metrics, device, accessibility limits need audit"
+webpack-bundle-analyzer,web bundles,bundle size composition,visualization of build output,https://github.com/webpack-contrib/webpack-bundle-analyzer,candidate only,bundler/version and dynamic loading need audit

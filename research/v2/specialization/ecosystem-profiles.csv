@@ -1,0 +1,25 @@
+profile_seed,languages,runtime_platform,questions_to_investigate,status
+Rust libraries,Rust,"Cargo, crates, native targets","dependency features, unsafe, MSRV, semver, code size, platform and public APIs",planned research; not audited
+Rust/WASM web,Rust + WebAssembly + browser,"wasm, JS bindings, bundlers","WASM size, startup, dynamic calls, browser compatibility and accessibility",planned research; not audited
+Node CommonJS,JavaScript,"Node, CommonJS, npm","dynamic require, dependency tracing, runtime inputs and API compatibility",planned research; not audited
+TypeScript frontend,TypeScript,"browser, bundler, framework","tree shaking, route chunks, source maps, web vitals and assistive tech",planned research; not audited
+Python scientific,Python,"CPython, native extensions, notebooks","native dependencies, reproducibility, vectorization, memory, data and numerical correctness",planned research; not audited
+Python service,Python,"async server, container, CPython","event loop stalls, allocation, latency distribution, dependency import and deployment",planned research; not audited
+Go service,Go,"Go runtime, containers, Linux","pprof, GC, allocations, concurrency, network tail latency, PGO representativeness",planned research; not audited
+JVM service,Java/Kotlin,"JVM, JIT, frameworks","warmup, class loading, reflection, GC, heap, throughput, startup and compatibility",planned research; not audited
+C/C++ native,C/C++,"compiler, linker, ABI, OS","UB, portability, sanitizers, profiling, binary size, cache and compiler flags",planned research; not audited
+Linux kernel/eBPF,C/Rust/eBPF,"kernel, verifier, architecture","kernel-specific constraints, instruction bounds, tracing overhead, privilege and ABI",planned research; not audited
+GPU inference,CUDA/ROCm + ML,"accelerator, model, driver","memory bandwidth, throughput, latency, batching, numerical accuracy and energy",planned research; not audited
+Distributed training,Python + accelerator,"HPC, cluster, model pipeline","communication, utilization, convergence, checkpoints, reproducibility and energy",planned research; not audited
+Embedded firmware,C/C++/Rust,"microcontroller, RTOS, device","flash/RAM, timing, power, interrupts, bootloader, hardware safety and field updates",planned research; not audited
+Real-time system,mixed,"RTOS, embedded and industrial","worst-case timing, jitter, resource bounds, correctness and certification",planned research; not audited
+Mobile app,Swift/Kotlin,iOS/Android devices,"battery, startup, frame latency, memory, accessibility and offline behavior",planned research; not audited
+Database extension,SQL/C/Rust,database engine and version,"query plans, I/O, data distributions, concurrency, migration and compatibility",planned research; not audited
+Game and graphics,C++/C#/shaders,"engine, GPU, asset pipelines","frame pacing, CPU/GPU bound, shader compilation, asset streaming and devices",planned research; not audited
+Research notebook,Python/R/Julia,"notebook, datasets, compute environment","reproducibility, data lineage, numerical stability and environment",planned research; not audited
+Data pipeline,SQL/Python/Spark,batch/stream infrastructure,"data correctness, skew, storage, memory, network, privacy and freshness",planned research; not audited
+Hardware design repository,HDL/CAD/BOM,EDA and manufacturing tools,"design rules, timing closure, fabrication, component substitutions and traceability",planned research; not audited
+Documentation site,markup/web,static site generator and browser,"content integrity, navigation, accessibility, links, localization and page weight",planned research; not audited
+Package-only data,data/metadata,archives and registries,"retention, format, integrity, storage size, provenance and privacy",planned research; not audited
+Safety-critical system,mixed,regulated hardware/software environment,"hazard analysis, traceability, verification, bounded behavior and domain rules",planned research; not audited
+Build system/monorepo,mixed,Bazel/CMake/Cargo/npm etc,"incrementality, cache keys, hermeticity, concurrency and rebuild time",planned research; not audited

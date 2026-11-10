@@ -20,6 +20,8 @@ The intended reach is broad: repositories made by people or AI, across different
 
 **Current research model:** [v2 linked coverage design](docs/research-model-v2.md), with [source routes](research/v2/source-routes.csv), [axis values](research/v2/axis-values.csv), [campaigns](research/v2/campaigns.csv), [query bank](research/v2/query-bank.csv), [planned cells](research/v2/planned-cells.csv), and [integrity notes](research/v2/integrity-and-migration.md). The earlier flat matrix is historical and needs reconciliation.
 
+Specialization tracks: [performance and bloat](research/v2/specialization/performance-and-bloat.md), [freshness and research depth](research/v2/specialization/freshness-and-depth.md), [ecosystem profiles](research/v2/specialization/ecosystem-profiles.csv), and [performance tooling](research/v2/specialization/tooling.csv).
+
 ## Repository map
 
 - [`RESEARCH_STATE.md`](RESEARCH_STATE.md): continuity ledger and exact current status.

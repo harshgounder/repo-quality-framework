@@ -107,3 +107,12 @@ Fetched but did not execute the original pre.dev estimator. See research/v2/firs
 Corrected the R-002/R-003 swapped follow-ups and flagged the Scorecard nonexistent fetch references and M-006 reconstructed-query problem. These are known corrections, not a full audit. See research/v2/integrity-and-migration.md.
 
 Next: (1) reconcile older search records against available tool outputs; (2) extend the initial 18 planned coverage cells and link actual runs/results, not just campaign labels; (3) run per-venue and native-language campaigns, with source routes and screen counts; (4) open and audit new methods including QSOS, RSMM and remaining raters; (5) expand professional roles and concrete artifact/lifecycle interactions; (6) preserve coverage gaps and uncertainty. No final framework or gate is decided.
+
+
+## 2026-11-10: specialization, performance and research freshness
+
+User requested explicit coverage of recent frontier research and obscure/niche language, workflow and software practices, including lean code, bloat and efficiency. Created research/v2/specialization/ with a performance/bloat evidence track, freshness protocol, 24 ecosystem profile seeds and 27 tooling candidates; added seven dimension axes, six campaigns, 19 planned searches and ten scoped cells. Existing counts earlier in this file describe earlier checkpoints, not current coverage.
+
+Ran broad web searches spanning debloating, benchmarks, language tools, accelerators, compiler optimization and 2026 research; opened seven primary docs/abstracts, with three URL errors. Exact queries and access outcomes are logged under PERF-S01 through PERF-F01. Examined only selected owner documents and paper abstracts; no complete ecosystem review, tool implementation audit or replication was performed. Agent Reach remains unavailable from previous checks.
+
+Immediate next work: inspect complete studies and tool code/versions; verify each niche profile and expand specialist communities and non-English sources; link cells to exact runs; search independent counterexamples and numerical measurement methods; build applicability and conflict handling for composable profiles. Do not claim latest coverage is exhaustive or automatically remove code based on a detector.

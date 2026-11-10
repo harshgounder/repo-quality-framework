@@ -320,3 +320,27 @@ The web tool returned combined results; the tool output was truncated and did no
 
 ## Access checks
 - Agent Reach doctor: command not found. The current research used web search/open and local static inspection. Native access to each listed social source has not been established in this pass.
+
+# 2026-11-10 — specialized performance, bloat and research freshness
+
+Individual request timestamps were not exposed; the following calls were completed before the 12:24 Asia/Kolkata clock check. Search results were returned as combined ranked output and some were truncated; returned and screened counts cannot be reliably reconstructed.
+
+## PERF-S01 — debloating and environment-specific performance
+- Tool: web search, eight queries, ranking and date filters unspecified.
+- Exact queries: software bloat detection debloating dynamic loading reflection false positives empirical study 2025 2026; site:github.com cargo bloat cargo llvm lines unused dependencies machete; site:docs.python.org profiling cProfile timeit measurement python; site:github.com knip unused exports dependencies dynamic imports limitations; site:go.dev profiling pprof benchmarks allocation performance; site:llvm.org BOLT post link optimizer profile guided optimization; site:docs.nvidia.com nsight systems profiling GPU performance; site:kernel.org perf tools performance analysis documentation.
+- Findings retained for follow-up include 2025 CommonJS dependency analysis, 2025 Java debloating benchmark and 2026 ground-truth debloating preprints, tool documentation, GPU profiling, and observed profiling overhead. Returned/screened/retained total: unknown.
+
+## PERF-S02 — language and tool mechanisms
+- Tool: web search, eight queries, ranking and date filters unspecified.
+- Exact queries: site:github.com/RazrFalcon/cargo-bloat readme rust binary size; site:go.dev/blog pprof profiling go programs performance; site:llvm.org BOLT binary optimizer profile guided optimization; site:pyperf.readthedocs.io system tuning benchmark stability; site:github.com google benchmark user guide; site:docs.python.org timeit garbage collection benchmark; site:github.com google bloaty size profiler; site:github.com rust-lang cargo unused dependencies cargo machete.
+- Owner documentation surfaced for Rust size attribution and dependency detection, Go profiling and PGO, Google Benchmark and LLVM BOLT. Search snippets are leads until opened and analyzed.
+
+## PERF-S03 — recent research and specialist workflows
+- Tool: web search, eight queries, ranking and date filters unspecified.
+- Exact queries: 2026 performance engineering research debloating static dynamic benchmark ground truth program optimization; 2026 compiler auto optimization code size latency performance engineering research profile guided; site:arxiv.org 2026 software bloat energy efficiency repository code optimization; site:github.com profiling flamegraph eBPF performance analysis parca py-spy; site:github.com unimported knip vulture dead code dynamic python; site:web.dev measure core web vitals bundle size performance budgets; site:docs.kernel.org bloat-o-meter kernel size; site:perf.wiki.kernel.org perf tutorial linux kernel profiling.
+- Leads include 2026 compiler optimization, autotuning and agent optimization research, web/runtime profiling and prior debloating comparisons. A date in a query is not an exhaustive date filter; verify publication and version individually.
+
+## PERF-F01 — primary sources and access failures
+- Tool: web open; 10 URLs requested. Seven returned pages: https://arxiv.org/abs/2604.17717 ; https://arxiv.org/abs/2510.20679 ; https://github.com/bnjbvr/cargo-machete ; https://github.com/webpro-nl/knip/blob/main/packages/docs/src/content/docs/reference/faq.md ; https://go.dev/doc/pgo ; https://docs.nvidia.com/nsight-compute/ProfilingGuide/index.html ; https://github.com/RazrFalcon/cargo-bloat .
+- Three failed: https://www.sciencedirect.com/science/article/pii/S0164121225001773 (403); https://doi.org/10.1145/3793302.3793564 (403); https://github.com/llvm/llvm-project/tree/main/bolt (restricted URL).
+- Extent read: selected official documentation sections and paper abstracts. No full implementation audit, reproduced benchmarks, tool execution, exhaustive recent-literature scan or peer-review determination for the preprints. See research/v2/specialization/performance-and-bloat.md.
