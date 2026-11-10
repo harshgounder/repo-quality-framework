@@ -209,3 +209,8 @@ See [evidence-research methods](research/v2/methods/evidence-research-methods.md
 ## Local working state
 
 The research bundle had an existing published checkpoint at `063b34a`. This expanded README and the accompanying progress report are being published to the same GitHub repository at the user's request.
+
+
+### Scale-oriented discovery checkpoint
+
+The user requested sustained expansion toward thousands of candidates per relevant class. A [first bounded collection](research/discovery/2026-11-10-scale-tranche/RESULTS.md) contains 1,577 unreviewed issue links and 8,984 pinned source-file leads across four specialist trees. These units are not verified defects, distinct designs or coverage. [Further source routes and scale rules](research/discovery/2026-11-10-scale-tranche/next-source-campaigns.md) describe the broader work still open.

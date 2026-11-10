@@ -1,0 +1,10 @@
+project,retrieved_utc,query,sort,order,per_page,page,status,api_total_count,incomplete_results,returned,retained,error
+llvm/llvm-project,2026-11-10T17:01:18.665118+00:00,repo:llvm/llvm-project is:issue label:bug,updated,desc,100,2,ok,640,False,100,100,
+godotengine/godot,2026-11-10T17:01:21.830387+00:00,repo:godotengine/godot is:issue label:bug,updated,desc,100,2,ok,40590,False,100,100,
+zephyrproject-rtos/zephyr,2026-11-10T17:01:24.662290+00:00,repo:zephyrproject-rtos/zephyr is:issue label:bug,updated,desc,100,2,ok,18116,False,100,100,
+bitcoin/bitcoin,2026-11-10T17:01:28.079106+00:00,repo:bitcoin/bitcoin is:issue label:bug,updated,desc,100,2,ok,1400,False,100,100,
+opencv/opencv,2026-11-10T17:01:30.904242+00:00,repo:opencv/opencv is:issue label:bug,updated,desc,100,2,ok,3802,False,100,100,
+OSGeo/gdal,2026-11-10T17:01:34.124600+00:00,repo:OSGeo/gdal is:issue label:bug,updated,desc,100,2,ok,170,False,70,70,
+eclipse-sumo/sumo,2026-11-10T17:01:36.524613+00:00,repo:eclipse-sumo/sumo is:issue label:bug,updated,desc,100,2,ok,5905,False,100,100,
+grafana/grafana,2026-11-10T17:01:38.758006+00:00,repo:grafana/grafana is:issue label:bug,updated,desc,100,2,ok,7,False,0,0,
+ClickHouse/ClickHouse,2026-11-10T17:01:39.876962+00:00,repo:ClickHouse/ClickHouse is:issue label:bug,updated,desc,100,2,ok,5221,False,100,100,

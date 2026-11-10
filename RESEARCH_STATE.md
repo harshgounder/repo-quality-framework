@@ -3,7 +3,7 @@
 **Last updated:** 2026-11-10 (documentation checkpoint; Asia/Kolkata)
 **Repository:** `repo-quality-framework` (public GitHub remote is recorded in the project handoff)
 **Current phase:** rebuild the source landscape and multidimensional research system; gather evidence and repair v1 provenance.
-**Overall status:** active; v2 has 27 campaigns, 344 query records, 133 planned cells, 348 cell-to-query links and 271 run-to-cell links; the search ledger has 176 entries, the v2 source-route inventory has 177 routes, and the source register has 173 records. The evidence note has 33 failure-pattern/community/tool-evaluation cards. No cell is saturated; source, region, language and system-domain coverage remain sparse. No framework specification, scoring system or gates have been completed.
+**Overall status:** active; v2 has 27 campaigns, 344 query records, 133 planned cells, 348 cell-to-query links and 271 run-to-cell links; the search ledger has 177 entries, the v2 source-route inventory has 177 routes, and the source register has 173 records. The evidence note has 33 failure-pattern/community/tool-evaluation cards. No cell is saturated; source, region, language and system-domain coverage remain sparse. No framework specification, scoring system or gates have been completed.
 
 ## User intent
 
@@ -332,3 +332,9 @@ Open: Chromium FP-28 report gated by sign-in; RepoPulse deployed behavior and th
 ## 2026-11-10: full Atlas attachment intake
 
 A Luna reviewer read all 6,262 lines / 116,036 bytes in consecutive sections and compared the attachment with the present systems model. The parent checked size and selected passages. The [Atlas intake audit](research/audit/atlas-intake-audit.md) records concrete gaps and a proposed span-to-system evidence crosswalk. The full attachment read is established; full reading of the external shared conversation, factual validation of Atlas claims, detailed integration and the separate pending roles list remain open. Historical notes above describe earlier checkpoints. The video example is illustrative only and does not restrict the system or failure scope.
+
+## 2026-11-10: user correction — discovery must scale by class
+
+The user explicitly rejected a rigid, generic, tens-of-examples approach and requested thousands of cases, estimates, system designs and other elements **per relevant element class**, together with continuing discovery of new dimensions and specialist cases. The video example remains illustrative, not a scope boundary. This is a research ambition, not evidence that every conceivable category contains thousands of distinct applicable records. Preserve concrete source provenance and separate raw candidates from reviewed findings.
+
+The first bounded scale tranche, `research/discovery/2026-11-10-scale-tranche/`, collected 1,577 distinct GitHub bug-labelled issue search URLs (unreviewed leads) and 8,984 pinned source-file paths from Linux device bindings, FFmpeg FATE, ROS 2 designs and RTEMS specifications (unreviewed source files, not 8,984 independent designs or tests). See its RESULTS and per-run manifests for counts, timing, queries, source versions, actual access and serious selection limits. Seven of 16 projects returned zero for the literal label and require project-specific queries. All four subtree API responses reported not truncated. Next-source-campaigns lists further high-volume primary routes in other ecosystems, incident reporting and specialist engineering; most are not yet collected. The scale objective is not met for the requested classes, and a candidate count is not evidence of validation or matrix coverage. The proposed normalized database and ingestion pipeline are not implemented.
