@@ -1,6 +1,6 @@
 # Research state and continuity ledger
 
-**Last updated:** 2026-11-10 17:45 Asia/Kolkata
+**Last updated:** 2026-11-10 17:49 Asia/Kolkata
 **Repository:** `repo-quality-framework` (public GitHub remote is recorded in the project handoff)
 **Current phase:** rebuild the source landscape and multidimensional research system; gather evidence and repair v1 provenance.
 **Overall status:** active; v2 has 27 campaigns, 344 query records, 133 planned cells, 336 cell-to-query links and 251 run-to-cell links; the search ledger has 159 entries, the v2 source-route inventory has 177 routes, and the source register has 173 records. The evidence note has 33 failure-pattern/community/tool-evaluation cards. No cell is saturated; source, region, language and system-domain coverage remain sparse. No framework specification, scoring system or gates have been completed.
@@ -273,3 +273,7 @@ Recorded C26 as retrospective because exact query payloads and timestamps were n
 Current v2 counts: 27 campaigns; 344 query records; 133 planned cells; 336 cell/query links; 251 run/cell links; 159 search-ledger entries; 177 source routes; 173 source records. Counts are linked research records, not saturation.
 
 Next: reconcile the HOW2BENCH 672-to-Appendix-F mapping; canonicalize aliases and paper/dataset/task identities; appraise a declared stratified primary-source sample; expand non-English communities and platform routes; and integrate the user's pending technology-role list and Computer System Atlas audit.
+
+## Publication checkpoint — 2026-11-10
+
+The research and handoff bundle was committed as `ffe85984e7498bf8dcd485acae5f8085116281af` and pushed to `origin/main` after the user requested the GitHub repository be updated. Push succeeded, advancing the remote from `2ae47ee` to `ffe8598`. Static CSV ID/foreign-key checks, local Markdown-link checks and `git diff --check` passed. No project tests or benchmarks were run.
