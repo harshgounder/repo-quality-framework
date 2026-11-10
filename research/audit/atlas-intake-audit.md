@@ -26,3 +26,7 @@ This is an illustrative comparison, not an exhaustive inventory or proof that ev
 5. Reconcile this work with the separate role list when supplied, without waiting to research the roles and workflows already visible in the Atlas. Review the shared conversation separately if a complete read of that source is still required.
 
 The video about different close triggers is one illustrative failure pattern. It is not the scope of the project, a required starting point for every system, or a substitute for diverse specialist research.
+
+## Independent spot review
+
+A second Luna reviewer checked selected Atlas spans against the catalog, stress cases, compound cells and systems model. They corroborated the distinction between broad category seeds and evidenced, case-level paths. They specifically cautioned against claiming that accessibility, hardware, spatial processing, support or business operations are wholly absent: category entries exist. This was a selected comparison, not a second complete attachment read or independent verification of the Atlas's claims.
