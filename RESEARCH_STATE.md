@@ -3,7 +3,7 @@
 **Last updated:** 2026-11-10 (documentation checkpoint; Asia/Kolkata)
 **Repository:** `repo-quality-framework` (public GitHub remote is recorded in the project handoff)
 **Current phase:** rebuild the source landscape and multidimensional research system; gather evidence and repair v1 provenance.
-**Overall status:** active; v2 has 27 campaigns, 344 query records, 133 planned cells, 336 cell-to-query links and 251 run-to-cell links; the search ledger has 159 entries, the v2 source-route inventory has 177 routes, and the source register has 173 records. The evidence note has 33 failure-pattern/community/tool-evaluation cards. No cell is saturated; source, region, language and system-domain coverage remain sparse. No framework specification, scoring system or gates have been completed.
+**Overall status:** active; v2 has 27 campaigns, 344 query records, 133 planned cells, 336 cell-to-query links and 251 run-to-cell links; the search ledger has 160 entries, the v2 source-route inventory has 177 routes, and the source register has 173 records. The evidence note has 33 failure-pattern/community/tool-evaluation cards. No cell is saturated; source, region, language and system-domain coverage remain sparse. No framework specification, scoring system or gates have been completed.
 
 ## User intent
 
@@ -281,3 +281,12 @@ The research and handoff bundle was committed as `ffe85984e7498bf8dcd485acae5f80
 ## Local documentation checkpoint — 2026-11-10
 
 Expanded `README.md` into a project guide with a research-status snapshot, normalized cell-status bars, system and research-workflow diagrams, a benchmark-index pie chart, axis groups, findings, source-route limits, repository map, and clear completion boundaries. Added `docs/research-progress-report-2026-11-10.md` to document the mission corrections, completed research, current findings, exact record counts, route/access obstacles, provenance corrections, gaps, and recommended continuation sequence. These edits were initially kept local at the user's request, then published after the user changed that instruction. The report is linked from README. No tests, benchmarks, or model runs were performed for this documentation update.
+
+
+## 2026-11-10 — audit and recovery plan
+
+User requested a full investigation of skipped work, provenance weaknesses, narrow coverage and a detailed execution plan with checkpoints and checkers. Created `docs/audit-and-recovery-plan.md`: bounded findings A01–A09, a requirements and evidence trail, CP0–CP10 deliverables and pass conditions, reviewer independence/disclosure, falsification and continuity rules. This is a plan and partial audit, not a claim that all project sources or all original session turns were reviewed.
+
+Counted v2 records: 344 query rows, 334 labelled English; all ten rows labelled other languages are `planned; not executed`; 47 rows total have that status. A separate Portuguese Reddit thread was opened earlier. Eleven campaign statuses are exactly `queued`; C01 requires reconciliation with the prior static estimator inspection. All 612 benchmark-index rows are marked unverified and unresolved. Six explicit campaign/query/cell/run/ledger foreign-key comparisons had zero missing IDs; this does not establish semantic correctness.
+
+Reopened three linked source narratives for selected failure cards; logged exact direct URL operations under `AUDIT-P01`. Core report descriptions are supported at the source narrative level; no code or experiments were reproduced. A ten-turn Codex thread history request returned a size-limit error; complete raw history and child records were not inspected. Next execute CP0–CP3, including raw session recovery and a predeclared 24-claim audit sample.

@@ -1120,3 +1120,11 @@ This is a source-index layer and selected mechanism audit, not a complete benchm
 - **Tool/time:** built-in web search, 2026-11-10 17:42 Asia/Kolkata. Exact queries: `arXiv 2312.13274 software debloating tools benchmarks metrics`; `site:usenix.org security24 brown 24 tools debloating`. The exact result count was not retained; no new page was opened from these results.
 - **Reason:** while reviewing the report, an earlier note called the work “10 tools,” but the C27 primary-paper extraction states that source was obtained for 24 tools and 17 were successfully built/run.
 - **Resolution:** the arXiv paper and USENIX page identify the same study. Update the earlier note to “surveys 10 years of work; 20 benchmark programs; 12 metrics; source obtained for 24 tools; 17 successfully built/run.” The full primary paper, not the search snippet, supports the tool counts.
+
+
+## AUDIT-P01 — 2026-11-10 approximately 19:34 Asia/Kolkata: direct failure-card spot check
+
+- **Operations:** web open and in-page find for the following exact URLs: https://github.com/necolas/react-native-web/issues/1817 (find `animationType`); https://github.com/redis/go-redis/pull/4143 (find `handshake`); https://github.com/vueuse/vueuse/pull/5574 (find `stale`). No search query was used.
+- **Outcome:** three original issue/PR pages opened. The issue reports nested modals all closing on Escape with animation; the Redis PR describes caller context ignored during TLS handshake and author-reported tests; the VueUse PR describes an unguarded stale-success path following an error-path guard. These source narratives support the sampled cards at that level; patch execution, independent reproduction and all other card claims were not checked.
+- **Session access:** attempted Codex thread history with ID `01a1c3d1-af12-7ae1-a01a-c1caac9ae6cd`; a ten-turn read returned a size-limit error. The full raw session and child transcripts remain unreviewed in this audit.
+- **Follow-up:** recover smaller pages or local raw records if possible; audit the declared stratified claim sample and distinguish source assertion, inspected code and reproduced behavior.
