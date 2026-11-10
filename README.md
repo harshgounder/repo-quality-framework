@@ -15,7 +15,7 @@ The aim is to get beyond “the code compiles” and the generic repo-health che
 | Seeded axis-value rows | 509 |
 | Cell ↔ query links | 336 |
 | Cell ↔ search-run links | 251 |
-| Search-ledger records | 160 |
+| Search-ledger records | 161 |
 | Candidate source routes | 177 |
 | Source-register records | 173 |
 | Candidate benchmark-index rows | 612, not canonicalized |
@@ -189,6 +189,7 @@ See [evidence-research methods](research/v2/methods/evidence-research-methods.md
 | [`docs/open-ended-systems-model.md`](docs/open-ended-systems-model.md) | Recursive system decomposition and compound cells |
 | [`docs/decisions.md`](docs/decisions.md) | Decisions made and open questions |
 | [`docs/audit-and-recovery-plan.md`](docs/audit-and-recovery-plan.md) | Bounded audit findings and execution checkpoints with review criteria |
+| [`research/audit/2026-11-10-audit-findings.md`](research/audit/2026-11-10-audit-findings.md) | Partial session, source-claim and data integrity audit with corrections |
 | [`docs/failure-pattern-research-handoff.md`](docs/failure-pattern-research-handoff.md) | How to continue collecting failures and designing behavioral checks |
 | [`docs/atlas-context-recovery.md`](docs/atlas-context-recovery.md) | What was reviewed from the Computer System Atlas and what remains |
 | [`research/search-log.md`](research/search-log.md) | Detailed query/run/fetch/access log, including retrospective boundaries |

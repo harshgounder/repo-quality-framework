@@ -43,7 +43,7 @@ The research question is broader and more useful than “find duplicate code”:
 ### FP-04 — Retried email operation can duplicate the external side effect after a response timeout
 
 - **Project evidence:** [Composio issue #3654](https://github.com/ComposioHQ/composio/issues/3654) describes a retry-on-read-timeout path for non-idempotent tool calls. It links the scenario to `GMAIL_SEND_EMAIL` timing out on larger attachments, where retry may send the email again.
-- **Status:** issue remained open when fetched. A [linked SDK commit](https://github.com/ComposioHQ/composio/commit/09b552aa037a780cf6ba8797ee3f2830fca82269) disables retries on non-idempotent write paths as an interim mitigation. Request-level idempotency is discussed separately; no end-to-end duplicate-send reproduction was verified in this pass.
+- **Status, clarified 2026-11-10:** the [linked SDK commit](https://github.com/ComposioHQ/composio/commit/09b552aa037a780cf6ba8797ee3f2830fca82269) disables retries for direct Python `tools.execute` and `tools.proxy` paths as an interim mitigation. The issue's later comments describe additional session paths and retry concerns; do not infer all paths are fixed. Request-level idempotency is separate; no end-to-end duplicate-send reproduction was verified here.
 - **Failure mechanism:** a timeout says the client did not receive confirmation; it does not prove the remote service did not perform the action. Retrying a non-idempotent request can convert an uncertain result into two effects.
 - **Candidate regression invariant:** inject a lost/late response after the fake or controlled server commits the effect; retry the same operation and assert one externally visible effect and a stable replay result. Also test a retry before the first attempt reaches the server. Keep idempotency-key persistence and expiration semantics in scope.
 - **Evidence status:** detailed issue report and code-path claim, not independently reproduced or confirmed as fixed.
@@ -72,7 +72,7 @@ The research question is broader and more useful than “find duplicate code”:
 ### FP-08 — Modal exit animation can leave Android UI unresponsive
 
 - **Project report:** [Reanimated issue #4422](https://github.com/software-mansion/react-native-reanimated/issues/4422) reports an Android modal with an exiting animated child becoming unresponsive, with a reproduction and a comparison where removing the exiting prop avoids it.
-- **Status:** issue report marked for review in the fetched record; no fix or independent reproduction established here. The reporter suggests animation/teardown timing, which remains a hypothesis.
+- **Correction, 2026-11-10:** the earlier note missed merged [PR #4776](https://github.com/software-mansion/react-native-reanimated/pull/4776), which explicitly says it fixes #4422. Its test plan uses the example and a maintainer reports successful testing. This audit did not independently reproduce the defect or fix; the reporter's animation/teardown explanation remains separate from verified patch behavior.
 - **Candidate checks:** after close, assert focus/input/interaction recovers; test animation enabled/disabled and supported Android/runtime combinations. The failure oracle should test user-visible responsiveness rather than only component state.
 
 ### FP-09 — Stale success response overwrites the latest VueUse `useFetch` state
@@ -143,6 +143,7 @@ The research question is broader and more useful than “find duplicate code”:
 
 - **Project evidence:** [Pydantic AI issue #7397](https://github.com/pydantic/pydantic-ai/issues/7397) reports a release blocked when an unpinned `hatchling` update changed wheel/sdist metadata to a version rejected by the publishing validator. Ordinary test/lint/typecheck CI did not validate the built artifacts; the failure appeared on a release tag.
 - **Fix and tests:** build constraints pinned the incompatible backend range, and merged [PR #7414](https://github.com/pydantic/pydantic-ai/pull/7414) adds `uvx twine check --strict dist/*` after `uv build --all-packages` on each PR/push. This checks artifact metadata against the publish validator; it does not prove the entire live publishing transaction will always succeed.
+- **Conflicting source detail, 2026-11-10 audit:** the issue says ordinary CI did not run the all-packages build, while the PR says that build already ran in the lint job but did not validate the artifacts. Both describe missing validation; exact historical build coverage needs CI history inspection.
 - **Failure mechanism:** repository checks exercised source and package build steps without checking the release artifact's consumer-facing validity. The build was successful while the produced artifacts violated the publication contract.
 - **Candidate invariant:** build the same artifact shape used for release, run the relevant validator against it before tagging, and preserve provenance for toolchain inputs. Add publication and installation smoke tests only where their cost and credentials are appropriate.
 

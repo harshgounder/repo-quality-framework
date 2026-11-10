@@ -1,0 +1,21 @@
+requirement_id,session_locator,requirement,status,artifact_or_evidence,remaining_gap
+R01,original:17,"Find repo raters, standards and mechanisms",partial,research/mechanism-audit.md; research/rater-inventory.csv,"sampled mechanisms, no full comparative independent validation"
+R02,original:144,Generalize across kinds of work,partial,docs/open-ended-systems-model.md,model open-ended; concrete coverage remains sparse
+R03,original:202,Use Parallel and signed-in Brave/X as options,partial,research/search-log.md,bounded calls; source-specific coverage remains thin
+R04,original:367,"Map social, communities, regional forges, standards, docs, research and experts",partial,docs/source-universe.md; research/v2/source-routes.csv,many candidates unverified; regional/language campaigns queued
+R05,original:367,"Track compound platform, terms, filters, system and other dimensions",partial,docs/research-model-v2.md; research/v2/planned-cells.csv,cells exist; source/claim IDs and complete traceability pending
+R06,original:432,Separate local repository and durable continuity,partial,RESEARCH_STATE.md; AGENTS.md,repository exists; retrospective provenance and full history remain under audit
+R07,original:1429; continuation:6211,Create/update GitHub repository,met-for-recorded-checkpoints,git log; remote main,latest publication must be verified after each push
+R08,"original:1627,1659",Audit shallow work and remake source/model,partial,docs/audit-and-recovery-plan.md; research/audit/,partial audit and plan; whole history and all claims not verified
+R09,original:1821,Include current specialist workflows/languages and efficiency/bloat,partial,research/v2/specialization/,"broad notes, specialist and measured profiles incomplete"
+R10,original:1949,"Cover arbitrary systems and parts, not a fixed example list",partial,docs/open-ended-systems-model.md,illustrative decomposition lacks deep contrasting pilots
+R11,original:2063,Plan workflow pending role list,met-for-planning,docs/execution-handoff.md,role list still pending; general role exploration may proceed
+R12,original:2097,"Read full shared Atlas and pasted file, not headers only",partial,docs/atlas-context-recovery.md,later shared-page and ChatGPT thread access corroborated by raw events; full text/attachment read not independently established
+R13,continuation:206,Integrate Atlas understanding and provide execution handoff,partial,docs/integrated-research-roadmap.md,context summarized; primitive-to-system atlas intake and pilots incomplete
+R14,"continuation:267,379",Investigate subtle behavioral failures and meaningful checkers,partial,research/v2/failure-patterns/initial-evidence-batch.md,33 cards; no original modal code or independent fixture/checker demonstration
+R15,"continuation:358,379",Current execution model to do actual research,partial,research/search-log.md; research/v2/,multiple discovery batches exist; scope and depth remain incomplete
+R16,continuation:2426,"Research AI labs, lab repos and discovery feeds",partial,research/v2/agent-quality/,selected recent sources; broad lab/region audit incomplete
+R17,continuation:4797,"Research hundreds of benchmarks across reliability, reuse and work",partial,research/v2/benchmarks/,612 uncanonicalized index rows; selected analyses; no complete identity or source audit
+R18,"continuation:6063,6211",Detailed report and visual README; revised instruction publish,met-for-checkpoint,README.md; docs/research-progress-report-2026-11-10.md,previous local-only instruction superseded by publication request
+R19,"continuation:6336,6391",Audit abandoned/incomplete work; make plan with checkers,partial,docs/audit-and-recovery-plan.md; research/audit/,24 targeted claims plus three seeded cards checked; full corpus and session remain open
+R20,continuation:6495-6500,Execute first audit tranche using Luna 6 subagents,partial,research/audit/claim-audit.csv; research/audit/session-inventory.md,Luna workers and independent rechecks used; raw event audit and some source-access and sampling requirements remain open

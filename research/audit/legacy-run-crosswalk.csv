@@ -1,0 +1,21 @@
+cell_id,legacy_primary_run,legacy_exact_ledger,legacy_string_in_log,linked_run_ids_for_cell,interpretation
+PC01,V2-F02,True,True,,Exact cell/run pair absent; alias and topical match need evidence
+PC02,V2-F01,True,True,,Exact cell/run pair absent; alias and topical match need evidence
+PC19,PERF-F01,True,True,,Exact cell/run pair absent; alias and topical match need evidence
+PC20,PERF-F01,True,True,,Exact cell/run pair absent; alias and topical match need evidence
+PC21,PERF-F01,True,True,,Exact cell/run pair absent; alias and topical match need evidence
+PC22,PERF-F01,True,True,,Exact cell/run pair absent; alias and topical match need evidence
+PC23,PERF-F01,True,True,,Exact cell/run pair absent; alias and topical match need evidence
+PC73,EV-S04,False,False,,Exact cell/run pair absent; alias and topical match need evidence
+PC74,METHOD-S02,False,False,,Exact cell/run pair absent; alias and topical match need evidence
+PC75,TEST-S01,True,True,,Exact cell/run pair absent; alias and topical match need evidence
+PC76,TEST-S02,False,False,,Exact cell/run pair absent; alias and topical match need evidence
+PC77,X-THREAD-02,False,False,,Exact cell/run pair absent; alias and topical match need evidence
+PC78,AX-PROBE-01,False,False,,Exact cell/run pair absent; alias and topical match need evidence
+PC79,GITHUB-VULN,False,False,,Exact cell/run pair absent; alias and topical match need evidence
+PC80,GITHUB-SWECC,False,False,,Exact cell/run pair absent; alias and topical match need evidence
+PC81,AX-SESSION-01,False,False,,Exact cell/run pair absent; alias and topical match need evidence
+PC82,LAB-S01,False,True,,Exact cell/run pair absent; alias and topical match need evidence
+PC83,AX-LOOPSBENCH,False,False,,Exact cell/run pair absent; alias and topical match need evidence
+PC84,AX-RECENT-CODING,False,False,,Exact cell/run pair absent; alias and topical match need evidence
+PC85,GH-LAB-S01,False,False,,Exact cell/run pair absent; alias and topical match need evidence

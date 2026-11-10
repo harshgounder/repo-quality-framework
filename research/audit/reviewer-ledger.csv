@@ -1,0 +1,7 @@
+scope,reviewer,evidence_inspected,outcome,limitations
+claim-sample-F01-F08,Luna claim_audit_a,FP-01 through FP-08 original issues/PRs,source-review; found FP-08 missing fix and FP-04 scope issue,no execution; no reviewer verification for every statement
+claim-sample-B01-B08,Luna claim_audit_b,eight evaluator/benchmark claim selections and selected primary sources,mixed supported/partial/inaccessible; parent independently opened several pages,some source page retrieval not performed by worker; not independent validation of deployment
+independent-recheck-E01-E05-E08,Luna claim_audit_a,six empirical paper claims rechecked separately from parent,source narratives/numerics supported; clarified 24/17/10 evaluation stages,no experiment reproduced; sources/revisions shared with parent
+record-integrity,Luna claim_audit_b,"IDs, foreign keys, status counts, legacy-run pair crosswalk","confirmed 20 missing pairs, 161 ledger rows, no duplicates in checked keys",structural checks do not validate source claims
+audit-document-review,Luna claim_audit_b,"partial report, claim table and integrity findings",confirmed FP08 and E03; requested ABC and sample-timing clarification; parent addressed,did not inspect raw event history
+session-inventory,Luna session_audit,31 user and 147 assistant message records across two session files; selected raw tool events,located raw records and several actual calls missing ledger aliases,"not all raw tool events, short fork, or all attachment spans reviewed; counts are snapshot"

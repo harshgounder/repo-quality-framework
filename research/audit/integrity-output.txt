@@ -1,0 +1,39 @@
+campaigns: 27 rows; duplicate campaign_id: {}
+queries: 344 rows; duplicate query_id: {}
+cells: 133 rows; duplicate cell_id: {}
+ledger: 161 rows; duplicate entry_id: {}
+index rows: 612 rows; duplicate inventory_row_id: {}
+query campaign: 0 distinct missing values: []
+cell campaign: 0 distinct missing values: []
+cell primary query: 0 distinct missing values: []
+cell-query cell: 0 distinct missing values: []
+cell-query query: 0 distinct missing values: []
+cell-run cell: 0 distinct missing values: []
+cell-run ledger: 0 distinct missing values: []
+cell-query pair duplicates: {}
+cell-run triple duplicates: {}
+normalized cell status: {'searched': 1, 'thin': 109, 'queued': 21, 'no evidence found': 2}
+query languages: {'English': 334, 'Chinese simplified': 3, 'Japanese': 2, 'Korean': 2, 'Russian': 1, 'Portuguese': 1, 'Spanish': 1}
+benchmark origin: {'Awesome-Code-Benchmark': 233, 'HOW2BENCH Appendix F (v5)': 379}
+legacy primary cell/run pairs absent from join table:
+  PC01: V2-F02; exact ledger ID: True
+  PC02: V2-F01; exact ledger ID: True
+  PC19: PERF-F01; exact ledger ID: True
+  PC20: PERF-F01; exact ledger ID: True
+  PC21: PERF-F01; exact ledger ID: True
+  PC22: PERF-F01; exact ledger ID: True
+  PC23: PERF-F01; exact ledger ID: True
+  PC73: EV-S04; exact ledger ID: False
+  PC74: METHOD-S02; exact ledger ID: False
+  PC75: TEST-S01; exact ledger ID: True
+  PC76: TEST-S02; exact ledger ID: False
+  PC77: X-THREAD-02; exact ledger ID: False
+  PC78: AX-PROBE-01; exact ledger ID: False
+  PC79: GITHUB-VULN; exact ledger ID: False
+  PC80: GITHUB-SWECC; exact ledger ID: False
+  PC81: AX-SESSION-01; exact ledger ID: False
+  PC82: LAB-S01; exact ledger ID: False
+  PC83: AX-LOOPSBENCH; exact ledger ID: False
+  PC84: AX-RECENT-CODING; exact ledger ID: False
+  PC85: GH-LAB-S01; exact ledger ID: False
+NOTE: join-table absence does not by itself establish a missing search; investigate provenance and compatibility fields.
