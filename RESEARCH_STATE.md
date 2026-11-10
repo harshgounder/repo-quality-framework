@@ -1,6 +1,6 @@
 # Research state and continuity ledger
 
-**Last updated:** 2026-11-10 17:49 Asia/Kolkata
+**Last updated:** 2026-11-10 (documentation checkpoint; Asia/Kolkata)
 **Repository:** `repo-quality-framework` (public GitHub remote is recorded in the project handoff)
 **Current phase:** rebuild the source landscape and multidimensional research system; gather evidence and repair v1 provenance.
 **Overall status:** active; v2 has 27 campaigns, 344 query records, 133 planned cells, 336 cell-to-query links and 251 run-to-cell links; the search ledger has 159 entries, the v2 source-route inventory has 177 routes, and the source register has 173 records. The evidence note has 33 failure-pattern/community/tool-evaluation cards. No cell is saturated; source, region, language and system-domain coverage remain sparse. No framework specification, scoring system or gates have been completed.
@@ -277,3 +277,7 @@ Next: reconcile the HOW2BENCH 672-to-Appendix-F mapping; canonicalize aliases an
 ## Publication checkpoint — 2026-11-10
 
 The research and handoff bundle was committed as `ffe85984e7498bf8dcd485acae5f8085116281af` and pushed to `origin/main` after the user requested the GitHub repository be updated. Push succeeded, advancing the remote from `2ae47ee` to `ffe8598`. Static CSV ID/foreign-key checks, local Markdown-link checks and `git diff --check` passed. No project tests or benchmarks were run.
+
+## Local documentation checkpoint — 2026-11-10
+
+Expanded `README.md` into a project guide with a research-status snapshot, normalized cell-status bars, system and research-workflow diagrams, a benchmark-index pie chart, axis groups, findings, source-route limits, repository map, and clear completion boundaries. Added `docs/research-progress-report-2026-11-10.md` to document the mission corrections, completed research, current findings, exact record counts, route/access obstacles, provenance corrections, gaps, and recommended continuation sequence. These edits were initially kept local at the user's request, then published after the user changed that instruction. The report is linked from README. No tests, benchmarks, or model runs were performed for this documentation update.
