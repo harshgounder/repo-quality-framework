@@ -18,6 +18,8 @@ The intended reach is broad: repositories made by people or AI, across different
 - Keep the source universe and research coverage visible. “Searched,” “saturated,” and “complete” are not interchangeable.
 - Do not turn the research notes into a universal gate before examining false positives, burden, gaming, context, and failure modes.
 
+**Open-ended systems direction:** [recursive system model](docs/open-ended-systems-model.md), [illustrative system decompositions](research/v2/systems/stress-cases.csv), [capability families](research/v2/systems/capability-catalog.csv), and [compound research cells](research/v2/systems/compound-research-cells.csv), and [a worked browser example](research/v2/systems/worked-decomposition.md). These are provisional, not a closed universe.
+
 **Current research model:** [v2 linked coverage design](docs/research-model-v2.md), with [source routes](research/v2/source-routes.csv), [axis values](research/v2/axis-values.csv), [campaigns](research/v2/campaigns.csv), [query bank](research/v2/query-bank.csv), [planned cells](research/v2/planned-cells.csv), and [integrity notes](research/v2/integrity-and-migration.md). The earlier flat matrix is historical and needs reconciliation.
 
 Specialization tracks: [performance and bloat](research/v2/specialization/performance-and-bloat.md), [freshness and research depth](research/v2/specialization/freshness-and-depth.md), [ecosystem profiles](research/v2/specialization/ecosystem-profiles.csv), and [performance tooling](research/v2/specialization/tooling.csv).

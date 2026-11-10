@@ -1,0 +1,63 @@
+family,capability,purpose,status
+computation,parsing and validation,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+computation,interpreters and runtimes,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+computation,compilation and intermediate representation,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+computation,scheduling and concurrency,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+computation,optimization and resource management,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+computation,numerical and statistical computation,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+computation,machine learning and inference,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+computation,search and ranking,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+computation,simulation and control,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+data and state,storage and retrieval,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+data and state,filesystems and databases,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+data and state,transactions and consistency,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+data and state,state machines,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+data and state,data transformation and ingestion,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+data and state,stream processing,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+data and state,schema and migration,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+data and state,backup and recovery,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+data and state,provenance and lineage,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+communication,network transport,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+communication,protocol parsing and serialization,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+communication,identity and authentication,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+communication,messaging and event delivery,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+communication,real-time communication,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+communication,service discovery,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+communication,time synchronization,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+communication,third-party integration,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+human interaction,visual interface,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+human interaction,accessibility and assistive technology,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+human interaction,interaction and input,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+human interaction,localization and internationalization,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+human interaction,documentation and support,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+human interaction,operator control,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+human interaction,human factors and training,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+media and graphics,rendering and compositing,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+media and graphics,audio and video coding,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+media and graphics,image and spatial processing,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+media and graphics,asset pipelines,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+media and graphics,animation and physics,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+media and graphics,streaming and synchronization,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+physical systems,sensing and calibration,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+physical systems,actuation and motion,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+physical systems,embedded control,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+physical systems,device drivers and hardware abstraction,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+physical systems,power and thermal management,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+physical systems,manufacturing and fabrication,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+physical systems,real-time timing,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+trust and assurance,authorization and isolation,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+trust and assurance,cryptographic operations,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+trust and assurance,safety and hazard control,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+trust and assurance,privacy and consent,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+trust and assurance,fraud and abuse detection,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+trust and assurance,secure supply chain,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+trust and assurance,compliance and audit,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+trust and assurance,incident response,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+operations and business,deployment and release,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+operations and business,monitoring and observability,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+operations and business,capacity and scaling,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+operations and business,resilience and disaster recovery,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+operations and business,billing and accounting,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+operations and business,market matching and settlement,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+operations and business,governance and decision making,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive
+operations and business,support and service operations,"Discover system components, interactions and specialist evidence.",candidate; not exhaustive

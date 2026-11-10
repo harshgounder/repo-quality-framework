@@ -344,3 +344,22 @@ Individual request timestamps were not exposed; the following calls were complet
 - Tool: web open; 10 URLs requested. Seven returned pages: https://arxiv.org/abs/2604.17717 ; https://arxiv.org/abs/2510.20679 ; https://github.com/bnjbvr/cargo-machete ; https://github.com/webpro-nl/knip/blob/main/packages/docs/src/content/docs/reference/faq.md ; https://go.dev/doc/pgo ; https://docs.nvidia.com/nsight-compute/ProfilingGuide/index.html ; https://github.com/RazrFalcon/cargo-bloat .
 - Three failed: https://www.sciencedirect.com/science/article/pii/S0164121225001773 (403); https://doi.org/10.1145/3793302.3793564 (403); https://github.com/llvm/llvm-project/tree/main/bolt (restricted URL).
 - Extent read: selected official documentation sections and paper abstracts. No full implementation audit, reproduced benchmarks, tool execution, exhaustive recent-literature scan or peer-review determination for the preprints. See research/v2/specialization/performance-and-bloat.md.
+
+# 2026-11-10 — open-ended systems and domain-specific assurance
+
+Individual request timestamps are unavailable; calls completed before the 12:30 Asia/Kolkata clock check. Three web searches returned combined results; some output was truncated. Per-query counts and screening totals are unknown. No complete standard, test suite or implementation was audited in this pass.
+
+## SYS-S01 — systems engineering and lifecycle sources
+- Tool: web search; four queries; no date or language filters specified.
+- Exact queries: site:sebokwiki.org systems engineering life cycle stakeholder requirements architecture verification validation; site:computer.org swebok software engineering body of knowledge architecture construction operations; site:nist.gov systems security engineering life cycle systems engineering 800-160; site:nasa.gov systems engineering handbook technical processes.
+- Selected sources surfaced: NASA Systems Engineering Handbook and NIST systems security engineering. These are primary publication pages/PDF excerpts from search results, not a full document audit.
+
+## SYS-S02 — browser, operating system, compiler and media assurance
+- Tool: web search; four queries; no date or language filters specified.
+- Exact queries: site:w3.org Web Platform Tests interoperability browser engines testing; site:source.android.com compatibility test suite operating system vendors; site:llvm.org docs testing guide compiler correctness llvm test suite; site:ffmpeg.org fate tests multimedia codecs testing.
+- Selected sources surfaced: W3C testing policy, Android CTS and MLIR testing guide. The FFmpeg FATE query needs a separate targeted search and primary read; no FATE result is treated as verified in this pass.
+
+## SYS-S03 — geospatial, trading, security and aviation sources
+- Tool: web search; four queries; no date or language filters specified.
+- Exact queries: site:ogc.org standards geospatial data APIs maps; site:fixtrading.org standards FIX trading protocol; site:owasp.org application security verification standard ASVS; site:faa.gov RTCA DO-178C airborne software assurance.
+- Selected sources surfaced: FIX Protocol, OWASP ASVS and FAA AC 20-115D. Their scopes differ; the FAA page calls the AC an acceptable means and says it is not itself a regulation. The OGC query needs separate primary-source screening.

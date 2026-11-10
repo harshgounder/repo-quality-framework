@@ -116,3 +116,16 @@ User requested explicit coverage of recent frontier research and obscure/niche l
 Ran broad web searches spanning debloating, benchmarks, language tools, accelerators, compiler optimization and 2026 research; opened seven primary docs/abstracts, with three URL errors. Exact queries and access outcomes are logged under PERF-S01 through PERF-F01. Examined only selected owner documents and paper abstracts; no complete ecosystem review, tool implementation audit or replication was performed. Agent Reach remains unavailable from previous checks.
 
 Immediate next work: inspect complete studies and tool code/versions; verify each niche profile and expand specialist communities and non-English sources; link cells to exact runs; search independent counterexamples and numerical measurement methods; build applicability and conflict handling for composable profiles. Do not claim latest coverage is exhaustive or automatically remove code based on a detector.
+
+
+## 2026-11-10: open-ended systems correction
+
+User rejected the prior scope as still too narrow, explicitly mentioning browsers, game engines, operating systems, firmware rewrites, compilers, financial exchanges, mobility, mapping, security assessment tools, reverse-engineering tools, video platforms, codecs, military systems and arbitrary other systems or parts. These are examples, not the total scope. Do not revert to a closed catalog or mistake a small collection of profiles for generality.
+
+Added docs/open-ended-systems-model.md: recursively decompose arbitrary targets as a graph of capabilities, components, interfaces, people, physical and operational context, and dependencies; derive domain-specific responsibilities, high-order interactions, evidence and search routes. Cross research-source coverage with system-node/edge and obligation coverage. Include transformations such as from-scratch implementation, compatible replacement, rewrite, integration and maintenance. Keep unknown frontiers explicit.
+
+Added 18 illustrative system stress cases, 62 capability seeds, 14 proposed/thin compound cells and a domain source note under research/v2/systems/. These are exploratory examples, not a complete inventory, validated architectures, standards crosswalk, framework design or tested requirements. Searches SYS-S01–SYS-S03 sampled systems engineering, browser/OS/compiler evidence and finance/security/aviation sources; results and counts are not fully screened. Sources surfaced through search snippets; no entire standards or test suites were audited. Log and ledger updated.
+
+Next: expand system graph and specialist discovery for arbitrary briefs; research each user example and its components and interactions across specialist communities, standards, implementations and evidence; investigate non-example domains using generated capabilities; record unknowns and evidence coverage; connect to source campaigns, performance and quality research. Prior v1 integrity issues remain partly unresolved.
+
+A worked browser decomposition in research/v2/systems/worked-decomposition.md illustrates components, interfaces, specialists, evidence and unknowns; compiler and exchange examples show why domain-specific research changes. This is illustrative, not an audited specification.
