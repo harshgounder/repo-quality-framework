@@ -26,8 +26,12 @@ The intended reach is broad: repositories made by people or AI, across different
 - [`docs/source-universe.md`](docs/source-universe.md): candidate platform and source families; seeds are explicitly unverified and non-exhaustive.
 - [`docs/decisions.md`](docs/decisions.md): settled directions and open decisions.
 - [`research/preliminary-findings.md`](research/preliminary-findings.md): early leads with scope cautions and source links.
-- [`research/search-ledger.csv`](research/search-ledger.csv): search activity log; exact query strings are required for all new work.
+- [`research/search-log.md`](research/search-log.md): exact search queries, tool routes, result counts, leads, and access limits.
+- [`research/search-ledger.csv`](research/search-ledger.csv): compact index into the detailed search log.
 - [`research/matrix-template.csv`](research/matrix-template.csv): schema for multidimensional coverage tracking.
+- [`research/dimension-catalog.csv`](research/dimension-catalog.csv): seeded dimensions and values for the sparse, compound coverage matrix.
+- [`research/source-register.csv`](research/source-register.csv): platform and source candidates, their roles, and verification state.
+- [`research/rater-inventory.csv`](research/rater-inventory.csv): early evaluator candidates, kept separate by scope and mechanism.
 
 ## Status language
 

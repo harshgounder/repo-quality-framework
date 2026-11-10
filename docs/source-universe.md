@@ -2,6 +2,8 @@
 
 This is a **seed map, not an exhaustive inventory**. Inclusion does not mean a source has been checked for current activity, authority, accessibility, or relevance. For each source eventually record region, language, access method, primary/secondary role, update recency, and actual coverage. Add discoveries rather than treating this list as closed.
 
+The structured working list is [`../research/source-register.csv`](../research/source-register.csv). Search results in the first pass surfaced local/regional hosted services, federated/emerging forges, Chinese-language developer communities, and more evaluator types than the initial list. Those are kept as separate candidates in the register; a search snippet alone does not verify them.
+
 ## Code forges and source collaboration
 
 ### Broadly used hosted forges
@@ -28,6 +30,8 @@ This is a **seed map, not an exhaustive inventory**. Inclusion does not mean a s
 - Gitee
 - GitCode / AtomGit
 - Other regional public forges discovered during research
+
+The first discovery pass surfaced a mix of regional services and region-hosted instances. Official pages describe AtomGit/GitCode as code-hosting services undergoing integration; European search results include Forgejo-powered hosted offerings; and Entire advertises code-hosting regions including India and Singapore. These are different service models and maturity states, and promotional claims require corroboration. They are logged as candidates rather than evidence of a stable regional platform landscape.
 
 Inspect more than repository pages: issue and discussion areas, pull/merge requests, CI/workflows, security advisories, release pages, package registries, organization policy, project templates, and platform documentation. Distinguish what is a platform feature from what is a project requirement.
 
@@ -61,6 +65,8 @@ Inspect more than repository pages: issue and discussion areas, pull/merge reque
 - Qiita and Zenn
 - Habr
 - Other region/language communities found through translated discovery queries
+
+The first pass found Korean developer-community directories and an active OKKY community page, plus Japanese Q&A/community discovery pages. These directories are discovery aids, not authorities; verify each destination and include local-language searches in later matrix cells.
 
 Social content is often ephemeral and context-poor. Capture post/thread date, author/context when relevant, replies, and the underlying source. Do not treat a viral claim as a standard or validated result.
 
@@ -96,7 +102,7 @@ Identify authorship and context; distinguish a case study from a universal rule.
 
 ## Repository raters, badges, and adjacent tools
 
-Initial candidates include OpenSSF Scorecard, OpenSSF Best Practices Badge, OSPS Baseline, CLOMonitor, LFX Health Score, GitHub Community Profile, REUSE, pre.dev codebase/licensing estimator, Repository Standards, Microsoft Agent Readiness Check (AgentRC), and eyebrow. Also discover ecosystem/package health dashboards, security scanners, CI policy packs, documentation/accessibility checks, reproducibility tooling, and organization-specific maturity models.
+Initial candidates include OpenSSF Scorecard, OpenSSF Best Practices Badge, OSPS Baseline, CLOMonitor, LFX Health Score, GitHub Community Profile, REUSE, pre.dev codebase/licensing estimator, Repository Standards, Microsoft Agent Readiness Check (AgentRC), and eyebrow. The first discovery pass added inspect.software, RepoPulse, RepoHealth, heff/repo-health, Apereo OSS Rubric, OpenSSF Criticality Score, CHAOSS metrics, and Gitee OSS Compass. They span distinct constructs: hygiene, health, maturity, community measurement, component selection, criticality, security, and agent readiness. The [`rater-inventory.csv`](../research/rater-inventory.csv) records these separately with verification state and open mechanism questions. Also discover ecosystem/package health dashboards, CI policy packs, documentation/accessibility checks, reproducibility tooling, and organization-specific maturity models.
 
 For each candidate, trace from marketing/introduction to the actual rule set, source code, scoring logic, version history, evidence provenance, and adoption/validation evidence. Classify its intended target accurately; an adjacent or narrow tool is not automatically a general repository quality rater.
 

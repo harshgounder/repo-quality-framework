@@ -1,6 +1,23 @@
-entry_id,date_timezone,record_type,platform_or_tool,source_family,exact_query_or_operation,query_families,filters_language_date_range,results_returned,results_screened,sources_opened,sources_retained,access_or_plan_limits,summary_of_lead,follow_up,coverage_status,notes
-RETRO-001,2026-11-10 Asia/Kolkata,retrospective lead inventory,Exa and web search,repository raters and quality signals,Exact original queries not preserved; do not infer verbatim strings.,rater discovery and mechanism overview,Not retained,,,,,,Surfaced OpenSSF Scorecard; Best Practices Badge; OSPS Baseline; CLOMonitor; LFX Health Score; GitHub Community Profile; REUSE; pre.dev licensing/value estimator and an incompletely verified quality grade; Repository Standards; AgentRC; eyebrow. See research/preliminary-findings.md.,Open each primary source and log exact searches for mechanism audits.,searched,Retrospective summary only; no comprehensive screening counts.
-RETRO-002,2026-11-10 Asia/Kolkata,retrospective source leads,Exa and web search,standards and adjacent frameworks,Exact original queries not preserved; do not infer verbatim strings.,standards discovery,Not retained,,,,,,Surfaced NIST SSDF; ISO/IEC 25010; OWASP SAMM; SLSA; CycloneDX; ECMA-424; FAIR4RS; WCAG 2.2; Buf breaking-change detection; Kubernetes PRR; IEEE software engineering body of knowledge.,Check current versions and scope; map to responsibility/evidence dimensions.,searched,Discovery only; version freshness not established.
-RETRO-003,2026-11-10 Asia/Kolkata,retrospective search attempt,Parallel,web research,API operation web_research; exact request payload not retained.,broad research,Not retained,,,,,Insufficient-credit response (HTTP 402).,No research result returned from this attempt.,Retry only if access permits; otherwise use search/fetch routes and record them.,inaccessible,Previous session reported ordinary Parallel web_search worked.
-RETRO-004,2026-11-10 Asia/Kolkata,retrospective access check,local CLI,search tooling,Checked agent-reach executable availability; exact shell invocation not preserved.,tool availability check,Local environment check,,,,,,Command was unavailable (command not found).,Recheck if environment changes; do not make it a dependency.,inaccessible,Capability may change.
-RETRO-005,2026-11-10 Asia/Kolkata,retrospective social lead,Brave browser with signed-in X,practitioner/social,Original search text not preserved.,AI repository/agent integrity and review practice,Authenticated X session; exact filters not retained,,,,,,Surfaced eyebrowCC integrity/badge post and an Oren Melamed claim about review/architecture/documentation bottlenecks; one exact Oren post URL was not preserved.,Rediscover posts, record verbatim queries/links/dates, and corroborate underlying claims.,thin,Social observations are leads only.
+entry_id,date_timezone,platform_tool,source_family,query_label,queries_in_call,results_returned,results_screened,sources_opened,leads_retained,access_status,log_section
+RETRO-001,2026-11-10 Asia/Kolkata,Exa and web search,raters,prior-rater-discovery,unknown,unknown,unknown,unknown,11 candidate families,retrospective,RETRO-001
+RETRO-002,2026-11-10 Asia/Kolkata,Exa and web search,standards,prior-standards-discovery,unknown,unknown,unknown,unknown,11 candidate families,retrospective,RETRO-002
+RETRO-003,2026-11-10 Asia/Kolkata,Parallel web_research,broad research,prior-research-attempt,1,0,0,0,0,HTTP 402,RETRO-003
+RETRO-004,2026-11-10 Asia/Kolkata,Agent Reach,tool access,doctor-check,1,0,0,0,0,command missing,RETRO-004
+RETRO-005,2026-11-10 Asia/Kolkata,X via Brave and connected search,social,prior-social-leads,unknown,unknown,unknown,unknown,2 named leads,retrospective,RETRO-005
+P-001,2026-11-10 Asia/Kolkata,Parallel web_search,global code forges,forge-discovery,3,10,10,0,8,available,P-001
+P-002,2026-11-10 Asia/Kolkata,Parallel web_search,communities and archives,community-discovery,3,10,10,0,7,available,P-002
+P-003,2026-11-10 Asia/Kolkata,Parallel web_search,standards and frameworks,standards-discovery,3,10,10,0,8,available,P-003
+E-001,2026-11-10 Asia/Kolkata,Exa web_search,repository evaluators,evaluator-discovery,1,8,8,0,8,available,E-001
+E-002,2026-11-10 Asia/Kolkata,Exa web_search,regional hosting,regional-host-discovery,1,8,8,0,8,available,E-002
+X-001,2026-11-10 Asia/Kolkata,Connected X search,practitioner social,health-score-search,1,7,7,0,3,available,X-001
+P-004,2026-11-10 Asia/Kolkata,Parallel web_search,Asia regional hosting,regional-forge-search,3,10,10,0,5,available,P-004
+P-005,2026-11-10 Asia/Kolkata,Parallel web_search,Europe and Russia hosting,regional-forge-search,3,10,10,0,8,available,P-005
+P-006,2026-11-10 Asia/Kolkata,Parallel web_search,regional communities,language-community-search,3,10,10,0,7,available,P-006
+P-007,2026-11-10 Asia/Kolkata,Parallel web_search,repo-health evaluators,evaluator-discovery,3,10,10,0,9,available,P-007
+X-002,2026-11-10 Asia/Kolkata,Connected X search,practitioner social,rater-mechanism-search,1,9,9,0,4,available,X-002
+X-003,2026-11-10 Asia/Kolkata,Connected X search,AI-generated repository quality,emerging-practice-search,1,15,15,0,2,thin relevance,X-003
+P-008,2026-11-10 Asia/Kolkata,Parallel web_search,CHAOSS,metrics-discovery,3,10,10,0,8,available,P-008
+P-009,2026-11-10 Asia/Kolkata,Parallel web_search,OSS Compass,service-mechanism-discovery,3,10,10,0,8,available,P-009
+P-010,2026-11-10 Asia/Kolkata,Parallel web_search,inspect.software,validation-discovery,3,10,10,0,8,thin independent evidence,P-010
+F-001,2026-11-10 Asia/Kolkata,Parallel web_fetch,rater primary sources,mechanism-extract,9,8,8,8,7,one HTTP 404,F-001
+F-002,2026-11-10 Asia/Kolkata,Parallel web_fetch,methodology and metric docs,source-extract,8,8,8,8,8,available,F-002

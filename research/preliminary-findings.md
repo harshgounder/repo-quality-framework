@@ -51,3 +51,31 @@ The previous reconnaissance found an OpenSSF Scorecard comparison against a Febr
 6. **Change model:** versioning, maintainers, appeals, exceptions, stale evidence, and migration behavior.
 
 These are working comparison dimensions, not a final taxonomy.
+
+## First-pass evaluator and source-map discoveries (2026-11-10)
+
+### Mechanisms that should not be conflated
+
+- A published, weighted **health index** such as [inspect.software's methodology](https://inspect.software/methodology) rolls observable components into metrics/categories and then an overall score. Its docs say unavailable evidence is excluded and weights are renormalized, and explicitly state results are signals rather than warranties. The site also reports its own scanner is open source and publishes coverage statistics; those claims, the code-to-method match, cohort, and predictive validity still need independent checking.
+- [RepoPulse](https://github.com/arun-gupta/repo-pulse) describes percentile scoring against a 2,400+ GitHub repository reference set, star-bracket comparisons, and a reweighted profile for solo/early-stage repositories. These are the project's own claims until we inspect implementation/data and test cohort effects.
+- [spbuilds/RepoHealth](https://github.com/spbuilds/repohealth) describes 36 checks across eight categories and a 0–100 score with a CI threshold. Its README explicitly limits the assessment to hygiene/maintenance signals and says it is not source-code quality, a vulnerability scanner, or overall project quality.
+- [heff/repo-health](https://github.com/heff/repo-health) is an older, simpler checklist/rater with file-presence, examples, build/static-check, and project-history signals. This is useful historically for analyzing how repo checklists become proxy-heavy.
+- [Apereo OSS Rubric](https://github.com/apereo/oss-rubric) is a maturity rubric across community, governance, development, support, and security/privacy. The README traces its sources to several prior practices, including CHAOSS and Apereo incubation; rubric age, repeatability, and evidence handling need audit.
+- [OpenSSF Criticality Score](https://github.com/ossf/criticality_score) estimates a project's influence/importance from signals such as age, recency, contributor and organization counts, activity, releases, issues, and dependents. Criticality is a different construct from quality, maintainability, or safety.
+- [CHAOSS metrics](https://handbook.chaoss.community/community-handbook/community-initiatives/metrics) are implementation-agnostic measures for open-source community health and sustainability. The project has metrics and metric models; it is not inherently one universal repository score.
+- [OSS Compass](https://compass.gitee.com/docs/docs/service-guide/software-selection/) describes data-driven OSS selection and recommendation support, including a multi-dimensional community-health evaluation. Its metric catalog and underlying data lineage need direct audit.
+- [OpenSSF's concise OSS evaluation guide](https://best.openssf.org/Concise-Guide-for-Evaluating-Open-Source-Software.html) is a human evaluation guide for dependencies, covering maintenance/sustainability, security, code, usability, and other evidence. It cautions that these are examples and that good OSS may score poorly on some questions; it also points out that many widely used projects have one maintainer, which cautions against a universal maintainer-count gate.
+
+The detailed, provisional comparison is in [`rater-inventory.csv`](rater-inventory.csv). Several cells intentionally say “needs audit”; the first-party description is not independent validation.
+
+### Platform and community leads
+
+- Official [AtomGit documentation](https://docs.atomgit.com/en/docs/help/home/aboutus) and [GitCode documentation](https://docs.gitcode.com/en/docs/help/home/aboutus) surfaced statements about an integration between the services. The exact current product/account/data relationship needs verification in both Chinese and English.
+- [Entire's code hosting pages](https://entire.com/features/code-hosting) advertise region selection, with India and Singapore pages surfaced in search. The service and its performance/agent-workflow claims need independent validation.
+- European search results surfaced Forgejo-powered or Forgejo-based hosted-service candidates such as [CodeFloe](https://codefloe.com/), [Codey](https://www.codey.ch/), and [gitbuild.dev](https://gitbuild.dev/eu-git-hosting); several other hits were early access, waitlist, or marketing pages. A host provider, self-hosting software, and a distributed forge are separate source types.
+- Regional community search surfaced the Korean [OKKY community](https://okky.kr/community), a Korean developer-community directory, Japanese Q&A discovery pages, and archives/community pages. Direct activity and searchability have not been checked.
+- X searches surfaced [RepoPulse by 3li3](https://github.com/3ssiri/RepoPulse) and a claim about [Git Health/GenLayer](https://x.com/encrypt_wizard/status/2056251206721249513). The 3li3 project may be distinct from arun-gupta/repo-pulse. Git Health remains a social lead until its code/docs, method, and deployment are found. X searches also returned unrelated cryptocurrency/token health content, demonstrating substantial query noise.
+
+### Search-method note
+
+The Agent Reach CLI and doctor command were unavailable in this environment. Searches were instead routed through connected Exa, Parallel web search/fetch, and X search. Parallel web research was credit-limited in the earlier session, but its web search/fetch worked here. Exact new queries and counts are in the search ledger.

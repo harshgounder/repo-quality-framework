@@ -12,7 +12,7 @@ Before doing work, read `RESEARCH_STATE.md`, then the relevant protocol/source/d
 ## Continuity and evidence
 
 - Update `RESEARCH_STATE.md` at the end of each meaningful work session: what changed, what was actually searched/read, what remains, and the next action.
-- Add every new search to `research/search-ledger.csv` with date/time and timezone, platform/tool, exact query or a clearly marked API operation, filters, result/screening counts when available, outcome, and follow-up.
+- Add every new search to `research/search-log.md` with date/time and timezone, platform/tool, exact query or a clearly marked API operation, filters, result/screening counts when available, outcome, and follow-up. Add a compact index row to `research/search-ledger.csv` pointing to the log section.
 - Add source records and claims with direct links in the appropriate research note. Distinguish direct source evidence from interpretation and from social-media leads.
 - Never upgrade a lead into a fact without opening the underlying primary source where possible. Record access failures and why coverage is incomplete.
 - Mark retrospective searches as retrospective. If the original exact query is unavailable, say so; never reconstruct it as if it were verbatim.
