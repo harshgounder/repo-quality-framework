@@ -66,7 +66,7 @@ Inspect more than repository pages: issue and discussion areas, pull/merge reque
 - Habr
 - Other region/language communities found through translated discovery queries
 
-The first pass found Korean developer-community directories and an active OKKY community page, plus Japanese Q&A/community discovery pages. These directories are discovery aids, not authorities; verify each destination and include local-language searches in later matrix cells.
+The first pass found Korean developer-community directories and an active OKKY community page, plus Japanese Q&A/community discovery pages. The second pass opened Open edX and SustainOSS Discourse discussions and screened a Rust-language forum checklist. These are qualitative, context-specific sources; broad merged queries against Hacker News, Stack Exchange, and Lobsters did not provide strong hits in the returned windows. These directories are discovery aids, not authorities; verify each destination and include local-language searches in later matrix cells.
 
 Social content is often ephemeral and context-poor. Capture post/thread date, author/context when relevant, replies, and the underlying source. Do not treat a viral claim as a standard or validated result.
 
@@ -86,6 +86,8 @@ Potential topic areas include software/system quality, secure development, web a
 - Semantic Scholar
 - Conference and journal proceedings in software engineering, security, HCI, scientific computing, open source, and software operations
 - University repositories, theses, and research group pages
+
+The first empirical seed set now includes context-sensitive OSS sustainability indicators, QA-badge usage, organizational intake interviews, repository-stability metrics, code-metric construct validity, a multi-dimensional quality dataset, and a review of OSS evaluation indicators, badge signaling research, popularity-proxy validation, and a tertiary review of code-metric evidence. Second-pass standards discovery surfaced product-quality, quality-evaluation, data/ML quality, secure-development, and research-evidence standards. These are different populations and study designs; the citations and scope limits are in [`../research/mechanism-audit.md`](../research/mechanism-audit.md) and `../research/source-register.csv`.
 
 Use scholarly indexes for discovery, then inspect the paper and its methods. Track publication date, study population, outcome measure, limitations, replication/data/code availability, and whether claims generalize beyond the study.
 

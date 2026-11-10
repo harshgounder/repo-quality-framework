@@ -3,7 +3,7 @@
 **Last updated:** 2026-11-10 (Asia/Kolkata)  
 **Repository:** `/home/liebert511/Documents/Codex/2026-11-10/repo-quality-framework`  
 **Current phase:** establish a broad, auditable research map and gather evidence.  
-**Overall status:** active; first discovery pass logged and several evaluator mechanisms sampled. No framework specification or gates have been completed.
+**Overall status:** active; source universe and matrix model are broadening, 27 evidence cells are now populated, and selected mechanisms/standards/community threads have been sampled. No framework specification or gates have been completed.
 
 ## User intent
 
@@ -71,3 +71,26 @@ The user authorized use of Parallel AI as an option and their signed-in Brave br
 ## Completion guard
 
 Do not call the project complete because this repository exists or because a first batch of sources has been read. Completion requires an explicitly agreed scope, evidence-backed framework and applicability model, evaluated gate mechanics and limits, documented coverage/gaps, and user review.
+
+
+## Work completed on 2026-11-10 (discovery round 2)
+
+- Formalized the matrix as a theoretical Cartesian product of 18 axes, filtered to feasible/applicable cells, then sampled using axis, pairwise, compound, counterexample, and gap-driven coverage. This preserves the multidimensional goal without claiming every possible cross-product has been searched.
+- Added 14 official/normative/practitioner/community sources to the source register and updated official documentation records for Gitee, Gitea, and Codeberg.
+- Added 15 matrix cells across standards, secure-development guidance, community and practitioner discussions, regional forge documentation, badge validity, stars as an importance proxy, code-metric validity, and emerging trust-signal research.
+- Logged exact Exa, Parallel, and X searches and five fetch/extraction operations, including counts, access limits, search IDs, and low-relevance outcomes.
+- Opened public primary pages for ISO/IEC 25010:2023 and 25040:2024 metadata, ISO/IEC 5259-4:2024, NIST SSDF 1.1, ACM SIGSOFT Empirical Standards, Gitee/Gitea/Codeberg documentation, Open edX and SustainOSS forum threads, Geomys practice, Zalando release process, and empirical studies.
+- Preserved mixed evidence: an ICSE 2018 study reports many badges were reasonably reliable signals within its npm sample; an NDSS 2024 paper reports stars/downloads vary as importance proxies across language ecosystems. Neither establishes an overall repo-quality score.
+- Agent Reach remains unavailable because its command is missing. Parallel search/fetch worked; its dedicated web_research route had previously been credit-limited. Connected X search worked but was noisy and low-yield in this query set.
+
+## Remaining work and next actions
+
+1. Continue separate, venue-specific searches for Reddit, Hacker News, Stack Exchange, Lobsters, X, federated social, project forums, mailing lists, and public community channels; open substantive threads and inspect replies rather than count snippets.
+2. Expand region and language coverage with translated queries and source verification for Chinese, Japanese, Korean, Russian, Portuguese, and additional communities. Do not treat search-engine indexing as platform coverage.
+3. Verify platform/service status and mechanism details across GitHub, GitLab, Bitbucket, Azure Repos, Codeberg/Forgejo, SourceHut, Gitee, AtomGit/GitCode, and relevant regional/self-hosted alternatives.
+4. Audit standards and practices by artifact and decision unit: code, API, data, ML/model, research software, infrastructure, documentation, accessibility, privacy, licensing, and operations. Obtain full normative text only where lawful and needed.
+5. Add incident/postmortem and practitioner counterexamples; specifically test where repo-visible signals diverge from deployed behavior.
+6. Read full methods/results for the new papers and complete prior mechanism audits. Track validation, false positives/negatives, incentives, costs, unknown/N/A rules, and change governance.
+7. Review matrix coverage by axes and pair/triple interactions before any synthesis; keep all cells local to their query/date/language/access scope.
+
+**Current coverage boundary:** 27 populated cells, not saturated. Source register contains additional leads that are not fully verified. Community searches remain low-recall and English-heavy. No conclusions about universal requirements, scores, or gates are settled.

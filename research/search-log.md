@@ -162,3 +162,130 @@
 - Searched multiple source families, but did not systematically search each named platform, every region/language, every artifact type, or compound matrix cell.
 - Search-result counts are bounded by each tool's result window and ranking. A `searched` status applies only to the recorded query/method.
 - No cell is saturated. No source family is complete.
+
+
+# Discovery round 2 — 2026-11-10 (Asia/Kolkata)
+
+**Search timing:** Search tools did not expose per-request timestamps. These calls were completed before the 11:43 Asia/Kolkata clock check; this log was compiled at 12:02 Asia/Kolkata. The individual request times are unavailable.
+
+## E-003 — practitioner venue and community discovery
+- **Tool:** Exa web_search_exa; 8 results returned and screened; 0 direct page opens in search call; 8 candidates retained.
+- **Exact natural-language query:** Where practitioners discuss software repository quality standards, maintenance practices, engineering checklists, repository health, and quality gates across forums, mailing lists, and regional developer communities
+- **Filters:** English-oriented relevance; requested primary community indexes and regional venues; result count 8.
+- **Result examples:** Open edX repo best-practices thread; Sustain Open Source Forum template discussion; Stan Forums PR review standards; Geomys Standard of Care; Zalando release process.
+- **Outcome:** Useful practitioner/forum leads; rankings also included irrelevant material. Four pages were opened in F-004. These are context-specific, not consensus evidence.
+
+## E-004 — code forge alternatives and regional hosting
+- **Tool:** Exa web_search_exa; 8 results returned/screened; 0 direct page opens in search call; 8 leads retained.
+- **Exact natural-language query:** Official documentation for major code hosting platforms and forge alternatives including GitLab, Codeberg, SourceHut, Gitee, GitCode, Bitbucket, Gitea, and regional hosting ecosystems; repository metadata, CI, security, governance features
+- **Filters:** Prefer official platform docs/current status pages; 8 results.
+- **Results:** GitLab Docs; Gitea docs/comparison; Bitbucket code-repository page; Gitee repository help center; other hosting pages.
+- **Outcome:** Leads only. Direct Gitee, Gitea, and Codeberg docs were opened in F-003/F-005. Result presence does not establish host activity or comparative quality.
+
+## E-005 — cross-domain standards and research evidence
+- **Tool:** Exa web_search_exa; 10 results returned/screened; 0 direct page opens in search call; 10 candidates retained.
+- **Exact natural-language query:** Primary standards and frameworks for software product quality, secure development, accessibility, documentation quality, data quality, research software reproducibility, machine learning systems, and infrastructure as code
+- **Filters:** Prefer primary bodies/specifications and current official pages; 10 results.
+- **Results included:** NIST SSDF; ISO/IEC 25020, 25040, 5259-related pages; ACM SIGSOFT Empirical Standards; research software and ML guidance.
+- **Outcome:** Demonstrates a wider standards universe than repository hygiene files. Standards have distinct units and roles; public pages provide metadata/abstracts, but complete ISO text is not included in these extracts.
+
+## P-011 — broad community venue discovery
+- **Tool/run:** Parallel web_search, search_45ea9b89a0205bfe468d68a5f829c802; 10 results returned/screened.
+- **Objective:** Identify practitioner discussion venues and evidence, prioritizing primary community sources and regional/non-English coverage.
+- **Exact queries:** repository quality communities forums; software maintainer discussions; regional code hosting platforms.
+- **Filters:** Three related queries in one search; ranked 10-result window.
+- **Outcome:** Leads included a GitHub Discussions adoption study, platform discussion docs, a Forgejo/Codeberg issue, and forum examples. One suspicious generic OpenCode result was not opened or trusted. Broad query was insufficient for platform-specific coverage.
+
+## P-012 — cross-domain standards search
+- **Tool/run:** Parallel web_search, search_95c63ddfda0783cbcc2d1cb49e0898fa; 10 results returned/screened.
+- **Objective:** Find authoritative standards/guidance across software, data, research, and ML; distinguish standards from adoption guidance and empirical work.
+- **Exact queries:** ISO software product quality standards; research software reproducibility guidelines; data quality machine learning standards.
+- **Filters:** Three related queries; ranked 10-result window.
+- **Results:** ISO/IEC 25010:2023, 25040:2024, 5259 parts, and ACM SIGSOFT Empirical Standards.
+- **Outcome:** Official metadata and selected excerpts opened in F-003/F-006. Distinguish product-quality, evaluation-process, data-quality, secure-development, and research-evidence standards.
+
+## P-013 — signal validity, failures, and gaming
+- **Tool/run:** Parallel web_search, search_4cb03d73cf5c16b2187d52079462bda5; 10 results returned/screened.
+- **Objective:** Find empirical/operational critiques or counterexamples about badges, stars, repo scores, and quality measures.
+- **Exact queries:** software quality metrics Goodhart effect; open source badge false assurance; repository score metric validity.
+- **Filters:** Three related queries; ranked result window.
+- **Results:** 2018 ICSE badge study; 2024 QA badge study; 2024 NDSS GitHub-stars study; tertiary review of code metrics; 2026 supply-chain trust-signal preprint.
+- **Outcome:** Mixed evidence. The badge study is positive counter-evidence within npm; the stars study is about importance/use and finds language-specific proxy variation; preprint requires follow-up.
+
+## X-004 — repository health, standards, and gate discussion
+- **Tool/route:** Connected X search; account route main; product Latest; limit 20.
+- **Exact query:** ("repo quality" OR "repository health" OR "project health") (standards OR checklist OR score OR gates)
+- **Returned/screened:** 20/20; one adjacent AI-repository-cleanup lead retained; no validated general-framework evidence.
+- **Outcome:** High noise and irrelevant content. This query does not characterize X as a whole.
+
+## X-005 — badge and metric gaming
+- **Tool/route:** Connected X search; account route main; product Latest; limit 20.
+- **Exact query:** (badge OR score OR checklist) (Goodhart OR gaming OR "false assurance") software
+- **Returned/screened:** 20/20; 0 reliable leads retained.
+- **Outcome:** Mostly unrelated results. Search vocabulary or X indexing may be a poor route; do not interpret as no discussion.
+
+## P-014 — direct venue queries (Reddit, Hacker News, Stack Exchange, Lobsters)
+- **Tool/run:** Parallel web_search, search_c4e3a4df30d1d314f511b334e1632392; 10 result rows across 4 queries.
+- **Objective:** Search named practitioner communities for repository standards and quality experience; treat posts as anecdotal.
+- **Exact queries:** site:news.ycombinator.com repository quality standards; site:reddit.com repository quality checklist; site:stackoverflow.com repository best practices; site:lobste.rs software project quality.
+- **Outcome:** Results included Reddit checklist/git-practice threads, a software-quality opinion thread, and an individual Rust repo checklist. No strong HN, Stack Exchange, or Lobsters item appeared in the top window. No original thread was opened in this cell. Separate venue queries are needed because combined ranking hides recall.
+
+## P-015 — regional and alternative forge features
+- **Tool/run:** Parallel web_search, search_a0092e50bd00650a34b208319a6ddee9; 10 results across 4 queries.
+- **Objective:** Verify alternatives and regional hosting using official docs on collaboration features/current service descriptions.
+- **Exact queries:** site:help.gitee.com repository management docs; site:atomgit.com code hosting docs; site:docs.codeberg.org collaboration forge; site:docs.gitea.com compared other hosting.
+- **Outcome:** Surfaced Gitee help center, Codeberg docs, Forgejo, Gitea comparison. Gitee/Gitea pages opened in F-003; Codeberg docs opened in F-005. AtomGit did not appear in retained results; current state remains open.
+
+## P-016 — standards verification
+- **Tool/run:** Parallel web_search, search_b4caa7f369f20e48c5076e3623842a68; 10 results across 4 queries.
+- **Objective:** Find current primary standard editions and evidence standards.
+- **Exact queries:** ISO IEC software quality framework; NIST SSDF secure development official; data ML quality standards; research software reproducibility standards.
+- **Outcome:** ISO 25010:2023, 25040:2024, ISO 5259, ACM SIGSOFT, and NIST SSDF surfaced. Direct pages fetched in F-003/F-006.
+
+## E-006 — empirical validity search
+- **Tool:** Exa web_search_exa; 8 results requested/returned/screened; 0 direct page opens in search call; 8 leads retained.
+- **Exact natural-language query:** Empirical evidence on whether repository badges, stars, health scores, and code metrics predict software quality, maintenance, security, or sustainability; include null findings, limitations, and metric gaming critiques
+- **Outcome:** Included 2018 npm badge study, 2024 badge study, context-sensitive sustainability study, GitHub stars/importance study, tertiary code-metrics review, and 2026 preprint trust-signal review.
+
+## X-006 — exact repository-health phrase search
+- **Tool/route:** Connected X search; account route main; product Top; limit 20.
+- **Exact query:** "repository health" (score OR metrics OR checklist) lang:en
+- **Returned/screened:** 14/14; 0 substantive general quality-framework leads retained.
+- **Outcome:** Results unrelated or tool-specific. No claim about X coverage follows.
+
+## X-007 — named standards discussion search
+- **Tool/route:** Connected X search; account route main; product Top; limit 20.
+- **Exact query:** (Scorecard OR CHAOSS OR OSPS) repository standards lang:en
+- **Returned/screened:** 9/9; 0 substantive repository-quality leads retained.
+- **Outcome:** Results unrelated. The connected route works, but this query is low-yield.
+
+## F-003 — primary standards, forum, and forge pages
+- **Tool/extract:** Parallel web_fetch, extract_5b5efaab708f8286b822bfa98f826fdf.
+- **Requested/opened:** 8 URLs; 8 extracts; no errors.
+- **URLs:** NIST SSDF; ISO/IEC 25040:2024; ISO/IEC 5259-4:2024; ACM SIGSOFT Empirical Standards; Gitee repository docs; Gitea hosting comparison; Open edX repo-requirements discussion; SustainOSS template discussion.
+- **Use:** Captured official page metadata/excerpts and direct discussion text. ISO full standard texts not retrieved.
+
+## F-004 — practitioner practice and release process
+- **Tool:** Exa web_fetch_exa; 4 URLs returned in combined response; connector did not expose fetch ID or error list.
+- **URLs:** Geomys Standard of Care; Zalando open-source release process; Open edX forum thread; SustainOSS forum thread.
+- **Use:** Read four first-party pages. Open edX thread shows tension between undocumented requirements, autonomy, tool choice, and capacity. Zalando page defers monitoring/graduation details.
+
+## F-005 — badge, stars, metric, and Codeberg sources
+- **Tool/extract:** Parallel web_fetch, extract_fabe2f66eaeaddbe7a52a15c2e4e352b; 6/6 returned; no errors.
+- **URLs:** ICSE 2018 badge study PDF; NDSS 2024 GitHub-stars paper PDF; ACM tertiary code-metric review; Codeberg FAQ; Codeberg overview.
+- **Use:** Read primary excerpts for sample/mechanism/scope. The badge abstract reports many badges as reasonably reliable signals in its npm sample, a counterpoint to broad claims that all badges are empty; Codeberg describes its community-driven, non-profit Forgejo-based host.
+
+## F-006 — focused empirical and standards extraction
+- **Tool/extract:** Parallel web_fetch, extract_9e9a89d6e134cc1ccce81b6aba89968b; 4/4 returned; no errors.
+- **URLs:** ICSE 2018 badge study; NDSS 2024 stars; ACM tertiary code metrics; ISO/IEC 25010:2023.
+- **Use:** Confirmed abstract-level methods/results and ISO product-quality scope/version.
+
+## F-007 — full text extraction of stars study
+- **Tool/extract:** Parallel web_fetch, extract_95a485e38fa8f641efdfd3660e6737db; 1/1 returned; 42,617 characters extracted; no errors.
+- **URL:** NDSS 2024, The Fault in Our Stars.
+- **Outcome:** Abstract reports 925,978 observations across PHP, Ruby, and JavaScript; stars/download correlations vary by language (0.47 PHP to 0.14 JavaScript); stars and downloads correlate 0.61 and 0.63 with detected deployment for JavaScript libraries. The paper is about importance/use proxies, not overall software quality.
+
+## Tool/access status
+- **Agent Reach:** agent-reach doctor --json and agent-reach check-update each returned command-not-found.
+- **Parallel:** ordinary search and fetch functioned; dedicated web_research had previously returned HTTP 402 and was not retried.
+- **X:** connected account route main available; the four searches in this round were noisy or weakly relevant.

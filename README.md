@@ -33,6 +33,11 @@ The intended reach is broad: repositories made by people or AI, across different
 - [`research/source-register.csv`](research/source-register.csv): platform and source candidates, their roles, and verification state.
 - [`research/rater-inventory.csv`](research/rater-inventory.csv): early evaluator candidates, kept separate by scope and mechanism.
 
+- [docs/matrix-model.md](docs/matrix-model.md): theoretical cross-product, applicability filter, sparse coverage strategy, and compound-cell rules.
+- [docs/research-start-plan.md](docs/research-start-plan.md): staged work plan and decision point before synthesis.
+- [research/coverage-round-2.md](research/coverage-round-2.md): second discovery round across standards, communities, forges, and signal-validity evidence.
+- [research/mechanism-audit.md](research/mechanism-audit.md): first mechanism and empirical-evidence audit.
+
 ## Status language
 
 Use `unplanned`, `queued`, `searched`, `thin`, `inaccessible`, `conflicting`, or `saturated` for matrix cells. `Saturated` means additional targeted searches are producing little new evidence **for the recorded cell and search method**; it does not mean the whole platform or topic is exhausted. Reserve `complete` for a defined deliverable whose acceptance criteria have been checked and recorded.
