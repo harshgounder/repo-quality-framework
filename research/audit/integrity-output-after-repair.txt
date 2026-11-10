@@ -1,0 +1,21 @@
+campaigns: 27 rows; duplicate campaign_id: {}
+queries: 344 rows; duplicate query_id: {}
+cells: 133 rows; duplicate cell_id: {}
+ledger: 176 rows; duplicate entry_id: {}
+index rows: 612 rows; duplicate inventory_row_id: {}
+query campaign: 0 distinct missing values: []
+cell campaign: 0 distinct missing values: []
+cell primary query: 0 distinct missing values: []
+cell-query cell: 0 distinct missing values: []
+cell-query query: 0 distinct missing values: []
+cell-run cell: 0 distinct missing values: []
+cell-run ledger: 0 distinct missing values: []
+cell-query pair duplicates: {}
+cell-run triple duplicates: {}
+normalized cell status: {'searched': 1, 'thin': 109, 'queued': 21, 'no evidence found': 2}
+query languages: {'English': 334, 'Chinese simplified': 3, 'Japanese': 2, 'Korean': 2, 'Russian': 1, 'Portuguese': 1, 'Spanish': 1}
+benchmark origin: {'Awesome-Code-Benchmark': 233, 'HOW2BENCH Appendix F (v5)': 379}
+legacy primary cell/run pairs absent from join table:
+Nonqueued thin/searched cells without any run-link row: 0: []
+Nonqueued thin/searched cells without any cell-query row: 1: ['PC77']
+NOTE: join-table absence does not by itself establish a missing search; investigate provenance and compatibility fields.

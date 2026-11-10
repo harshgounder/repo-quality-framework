@@ -36,3 +36,16 @@ At the Luna scan snapshot, the original had 2,152 JSONL lines and 16 user / 55 a
 The original assistant message at line 137 said the pre.dev script had been inspected; line 1652 later stated the estimator was still only a lead and should have been inspected; line 1688 again says its source was inspected. The later static analysis is documented in `research/v2/first-findings.md`. The earlier pair of messages is inconsistent about the state of inspection; resolving exactly what happened requires the earlier original tool events, not an assumption that the inspection did or did not occur.
 
 The original assistant line 2126 reports an authorization error opening the Atlas share. The long continuation later claimed successful access. Targeted raw-event inspection resolves the basic timing: continuation event 91 returned a ChatGPT thread titled Computer System Atlas, browser event 125 returned an accessibility tree titled Computer System Atlas at the shared URL, and event 131 reported a body length of 112,707 characters with a tail excerpt. Thus later access to content is evidenced even though the original attempt failed; those events alone do not prove the whole text was read line by line.
+
+## Original pre.dev call recovered
+
+Original session raw event 68 is the failed Exa content-type fetch, but it was not the last attempt. Raw call 76 ran `curl -fsSL https://api.pre.dev/api/code-licensing/estimate.mjs | sed -n '1,260p'` and output 78/79 contained the script. Raw call 83 requested lines 261–420 and event 85 returned continuation source. These calls preceded the initial user-facing inspection claim at line 137. The later blanket assertion that no basic inspection had taken place was therefore too strong. The first displayed-source pass had no hash established here; the later static snapshot hash belongs to the separate recorded V2-F02 inspection.
+
+A subsequent metadata-only streaming pass indexed all JSONL records in the original, short fork and long continuation into `session-structure-output.txt`, recording consumed bytes, SHA-256 of the read stream, parse counts and tool-event types. This is an inventory, not a reading of every tool-output body; the continuation was live and grew during the pass. Reproduce with `index_session_structure.py` and local session file paths.
+
+**Role-label qualification:** the 31 historical user-role message records include environment or UI context injections (three in the original and two in the continuation), and the Atlas request is repeated across the files. They are not 31 distinct human instructions. The present request to finish the audit arrived after that historical snapshot and is tracked separately.
+
+
+## Full attachment read, 2026-11-10
+
+A Luna reviewer subsequently read all 6,262 lines / 116,036 bytes of the supplied Atlas attachment in 13 consecutive sections and compared its contents with the system model. The parent checked its size and selected passages. See [Atlas intake audit](atlas-intake-audit.md) for findings and limits. This does not establish that the external shared conversation was read in full or that Atlas claims were independently verified. The separate role list is still pending.

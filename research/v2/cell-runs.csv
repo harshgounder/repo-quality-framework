@@ -250,3 +250,23 @@ PC129,C27-AGENT-001,parallel candidate generation,"Three Codex research-agent re
 PC130,C27-AGENT-001,parallel candidate generation,"Three Codex research-agent reports supplied candidate benchmark methods, systems and code-quality families; exact agent prompt payloads are unavailable after context transition; candidates are not primary-verified."
 PC133,C27-AGENT-001,parallel candidate generation,"Three Codex research-agent reports supplied candidate benchmark methods, systems and code-quality families; exact agent prompt payloads are unavailable after context transition; candidates are not primary-verified."
 PC123,C27-WEB-001,count reconciliation,Two exact web searches resolved a source-version/count discrepancy; primary USENIX paper already fetched in C27-FETCH-001 governs the reported build/run counts.
+PC01,V2-F02,legacy primary source inspection,Explicit legacy cell run; ledger records the estimator snapshot; static inspection only.
+PC02,V2-F01,legacy primary source inspection,Explicit legacy cell run; QSOS owner page among the returned sources.
+PC19,PERF-F01,legacy primary source inspection,Cargo-machete README returned in the recorded batch.
+PC20,PERF-F01,legacy primary source inspection,Java debloating preprint abstract returned in the recorded batch.
+PC21,PERF-F01,legacy primary source inspection,Go PGO documentation returned in the recorded batch.
+PC22,PERF-F01,legacy primary source inspection,Nsight Compute profiling guide returned in the recorded batch.
+PC23,PERF-F01,legacy primary source inspection,Ground-truth debloating preprint abstract returned in the recorded batch.
+PC73,EV-S04,recovered original session operation,Search result window only; no full-source appraisal inferred.
+PC74,METHOD-S02,recovered original session operation,Search results only; does not prove the entire method corpus was read.
+PC75,REC-UI-TEST-S01,recovered original session operation,Raw label TEST-S01 collided with existing unrelated ledger ID; renamed only this recovered operation.
+PC76,TEST-S02,recovered original session operation,Search window only; later source reads must be separately linked.
+PC77,X-THREAD-02,recovered original session operation,Anecdotal thread; not a validated incident.
+PC78,AX-PROBE-01,recovered original session operation,"Selected paper answer, not full paper or benchmark run."
+PC79,GITHUB-VULN,recovered original session operation,Selected root listing/content; README-level claims may require other sources.
+PC80,GITHUB-SWECC,recovered original session operation,Selected root listing/content; does not validate all datasheet claims.
+PC81,AX-SESSION-01,recovered original session operation,"Selected paper answer, not full paper or model execution."
+PC82,LAB-S01,recovered original session operation,Only the lab-search portion of the cell is traced by this run.
+PC83,AX-LOOPSBENCH,recovered original session operation,Only LoopsBench portion of broader multi-paper cell is traced here.
+PC84,AX-RECENT-CODING,recovered original session operation,Partial discovery output; no complete portal or regional coverage.
+PC85,REC-GH-LABS-S01,recovered original session operation,Recovered grouped searches GH-LAB-OPENAI/ANTHROPIC/GOOGLE; zero results are query-local. Does not account for other README reads.

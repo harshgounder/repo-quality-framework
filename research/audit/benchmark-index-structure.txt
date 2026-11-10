@@ -1,0 +1,6 @@
+rows: 612
+benchmark_name_group: present=612 missing=0 distinct_exact=533 repeated_values=78 rows_in_repeats=157
+primary_paper_or_reference_url: present=588 missing=24 distinct_exact=549 repeated_values=37 rows_in_repeats=76
+code_repository_url: present=144 missing=468 distinct_exact=140 repeated_values=4 rows_in_repeats=8
+dataset_url: present=117 missing=495 distinct_exact=112 repeated_values=4 rows_in_repeats=9
+Exact strings are not canonical identities; missing fields do not prove missing artifacts.

@@ -1,0 +1,2 @@
+Markdown files: 46 relative targets checked: 110 missing: 0
+Anchor fragments, external URLs, reference-style links, fenced code and images were not checked.

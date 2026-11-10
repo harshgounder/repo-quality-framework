@@ -15,3 +15,11 @@ These checks verify structure, not whether cells are well-scoped, a source suppo
 The reproducible `legacy-run-crosswalk.csv` lists each affected cell, its primary value, exact ledger match, text-search indicator, and any other run links. A substring match in the log is only a lead: e.g. `LAB-S01` occurs inside longer IDs and is not an exact ledger match.
 
 A second Luna history reviewer found original raw calls and returned outputs bearing labels EV-S04, METHOD-S02, TEST-S02, X-THREAD-02, AX-RECENT-CODING, AX-PROBE-01, AX-SESSION-01 and LAB-S01. Their exact IDs are missing from the ledger, but the calls occurred in retained raw session events. Exact alias-to-cell and source matches remain to be established before migration. PC75 `TEST-S01` does not appear to be a self-evident match to the modal cell merely because the ID exists; review content and scope.
+
+## Follow-up repair and reviewer correction
+
+The 20-pair list above is the prior snapshot. After source-level reconciliation, `integrity-output-after-repair.txt` shows zero missing primary cell/run pairs and zero thin/searched cells without a run link. A separate Luna reviewer found the pre-existing PC77/Q166 reference and the parent’s first attempted AI-code-search/PC77 link were semantically mismatched. Both were removed; PC77 has its checkout-thread run but no cell/query link, which the checker now flags. An unlinked record does not disappear or become disproved: `REC-X-AICODE-S01` remains a standalone logged operation. See `2026-11-10-followup.md` for the repair history and limitations.
+
+## Checker fault-injection check
+
+The integrity checker was run against a temporary copy of its input CSVs with a duplicated C01 campaign, a nonexistent cell `PC999`, and a nonexistent run `NONEXISTENT-RUN`. It reported all three planted faults; the actual repository was not modified for the exercise. The checker currently **reports** problems in text and does not exit nonzero automatically for detected issues, so it is not an enforceable CI gate without additional design. It does not detect semantic mismatches such as the original PC77/Q166 pairing. The independent Luna reviewer caught that mismatch by comparing actual query content to cell scope.

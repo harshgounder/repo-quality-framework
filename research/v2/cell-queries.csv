@@ -335,3 +335,15 @@ PC133,Q330,cross-cutting follow-up / benchmark-method interaction
 PC116,Q306,retrospective cross-domain source follow-up; exact query unavailable
 PC123,Q343,targeted correction/fact reconciliation
 PC123,Q344,targeted primary-source count check
+PC73,Q153,reconciled legacy primary query; query-to-run execution must be checked separately
+PC74,Q156,reconciled legacy primary query; query-to-run execution must be checked separately
+PC75,Q159,reconciled legacy primary query; query-to-run execution must be checked separately
+PC76,Q162,reconciled legacy primary query; query-to-run execution must be checked separately
+PC78,Q167,reconciled legacy primary query; query-to-run execution must be checked separately
+PC79,Q167,reconciled legacy primary query; query-to-run execution must be checked separately
+PC80,Q167,reconciled legacy primary query; query-to-run execution must be checked separately
+PC81,Q167,reconciled legacy primary query; query-to-run execution must be checked separately
+PC82,Q168,reconciled legacy primary query; query-to-run execution must be checked separately
+PC83,Q167,reconciled legacy primary query; query-to-run execution must be checked separately
+PC84,Q169,reconciled legacy primary query; query-to-run execution must be checked separately
+PC85,Q176,reconciled legacy primary query; query-to-run execution must be checked separately

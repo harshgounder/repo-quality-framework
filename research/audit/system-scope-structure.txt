@@ -1,0 +1,6 @@
+research/v2/systems/capability-catalog.csv rows= 62 status= {'candidate; not exhaustive': 62}
+  distinct recorded purpose text: 1
+research/v2/systems/stress-cases.csv rows= 18 status= {'unresearched illustrative decomposition; not exhaustive': 18}
+research/v2/systems/compound-research-cells.csv rows= 14 status= {'thin: policy discovery': 1, 'thin: guide discovery': 1, 'queued': 11, 'thin: FIX overview search': 1}
+research/v2/specialization/ecosystem-profiles.csv rows= 24 status= {'planned research; not audited': 24}
+These are recorded statuses and seed descriptions; they do not measure all research or the space of possible systems.

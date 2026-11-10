@@ -1,0 +1,12 @@
+# Source inventory audit — 2026-11-10
+
+A Luna reviewer inspected both CSVs and the parent independently reproduced the structural counts using `python research/audit/check_source_inventory.py`; its captured output is `source-inventory-structure.txt`. This is a record audit, not a source-access census.
+
+- The source register contains 173 rows with 173 exact labels; 49 have status first phrase `seed-unverified`, 21 `search-lead`, and nine `prior-lead`: 79 records explicitly labelled as seeds/leads by that narrow classification. Other status values are free prose and can also indicate incomplete review.
+- The v2 route table contains 177 rows with 172 exact venue labels; 90 status strings begin with `candidate`. These are string classifications, not independently verified source-access outcomes.
+- One normalized URL appears twice in the source register: `https://lists.apache.org/` represents both public mailing-list archives and project-specific lists. Both entries are leads with different proposed scopes; the URL alone does not prove two separate sources or require blind merging.
+- One normalized URL appears twice in the route inventory: the Web Platform Tests repository is listed with and without a trailing slash, under `Web Platform Tests (WPT)` and `Web Platform Tests`. One row records selected dialog tests and the other is a broad candidate. Their relationship requires explicit modeling; deleting either would lose scope/status history.
+- Some repeated venue labels correspond to genuinely different sources: RepoNorm's paper versus repository; Infrathon's paper, GitHub route and gated dataset; SWE-CC's paper and repository. Venue label is not a unique source key. The two registries have different record types and no shared foreign-key model, so their totals should not be summed as independent venues.
+- Status prose mixes `candidate`, search lead, source excerpt, full owner page, access failure, paper and artifact state. Machine counting these strings cannot establish that a source was opened or a claim appraised. Native-language and regional campaign coverage remains open despite the presence of translated or regional candidates.
+
+No source rows were automatically merged or deleted. Future work should distinguish host, community, collection, access route, specific source and version with stable IDs and explicit relationships, preserving duplicate-looking rows when their scopes genuinely differ.

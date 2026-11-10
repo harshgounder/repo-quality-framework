@@ -1,0 +1,7 @@
+research/source-register.csv rows 173 unique_exact_labels 173 duplicate_normalized_url_groups 1
+  https://lists.apache.org ['Public technical mailing-list archives', 'Project-specific technical lists']
+ status first-phrase exact: {'seed-unverified': 49, 'search-lead': 21, 'prior-lead': 9}
+research/v2/source-routes.csv rows 177 unique_exact_labels 172 duplicate_normalized_url_groups 1
+  https://github.com/web-platform-tests/wpt ['Web Platform Tests (WPT)', 'Web Platform Tests']
+ candidate-prefix statuses: 90
+Counts describe rows and free-text labels, not actual access, distinct sources, or evidence coverage.

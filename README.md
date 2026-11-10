@@ -13,9 +13,9 @@ The aim is to get beyond “the code compiles” and the generic repo-health che
 | Planned research cells | 133 |
 | Research dimensions (axes) | 30 |
 | Seeded axis-value rows | 509 |
-| Cell ↔ query links | 336 |
-| Cell ↔ search-run links | 251 |
-| Search-ledger records | 161 |
+| Cell ↔ query links | 348 |
+| Cell ↔ search-run links | 271 |
+| Search-ledger records | 176 |
 | Candidate source routes | 177 |
 | Source-register records | 173 |
 | Candidate benchmark-index rows | 612, not canonicalized |
@@ -72,7 +72,7 @@ WORK / SYSTEM
 └── evidence and oracles for each claim
 ```
 
-The current working model and examples live in [the open-ended systems model](docs/open-ended-systems-model.md), [stress cases](research/v2/systems/stress-cases.csv), [capability catalogue](research/v2/systems/capability-catalog.csv), [compound cells](research/v2/systems/compound-research-cells.csv), and [worked browser decomposition](research/v2/systems/worked-decomposition.md). This model is still provisional. The user’s pending technology-role list and a fuller Computer System Atlas audit must be integrated when available.
+The current working model and examples live in [the open-ended systems model](docs/open-ended-systems-model.md), [stress cases](research/v2/systems/stress-cases.csv), [capability catalogue](research/v2/systems/capability-catalog.csv), [compound cells](research/v2/systems/compound-research-cells.csv), and [worked browser decomposition](research/v2/systems/worked-decomposition.md). This model is still provisional. The full pasted Computer System Atlas has now been read; its detailed integration and the user’s separate, pending technology-role list remain open. See the [Atlas intake audit](research/audit/atlas-intake-audit.md).
 
 ## The research matrix
 
@@ -190,6 +190,7 @@ See [evidence-research methods](research/v2/methods/evidence-research-methods.md
 | [`docs/decisions.md`](docs/decisions.md) | Decisions made and open questions |
 | [`docs/audit-and-recovery-plan.md`](docs/audit-and-recovery-plan.md) | Bounded audit findings and execution checkpoints with review criteria |
 | [`research/audit/2026-11-10-audit-findings.md`](research/audit/2026-11-10-audit-findings.md) | Partial session, source-claim and data integrity audit with corrections |
+| [`research/audit/2026-11-10-followup.md`](research/audit/2026-11-10-followup.md) | Failure-card source census, recovered runs, corrections and remaining gaps |
 | [`docs/failure-pattern-research-handoff.md`](docs/failure-pattern-research-handoff.md) | How to continue collecting failures and designing behavioral checks |
 | [`docs/atlas-context-recovery.md`](docs/atlas-context-recovery.md) | What was reviewed from the Computer System Atlas and what remains |
 | [`research/search-log.md`](research/search-log.md) | Detailed query/run/fetch/access log, including retrospective boundaries |

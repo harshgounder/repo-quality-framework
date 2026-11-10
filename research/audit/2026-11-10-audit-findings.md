@@ -24,7 +24,7 @@ The requirement trace is an initial consolidated mapping, not a line-by-line inv
 
 1. Continue the bounded pass of raw tool outputs and associated fork/child transcripts, with explicit access gaps, and map every user obligation to an artifact or unresolved status.
 2. Trace each of the 20 legacy cell/run pairs through raw events and ledger aliases. Reconcile C01's `queued` status with the estimator snapshot without declaring the full evaluator campaign done.
-3. Independently inspect the code/test history behind the highest-impact sampled claims, adjudicate the FP-18 CI contradiction, and reopen/verify the RepoPulse rule or mark it inaccessible.
+3. Independently inspect code/test history behind the highest-impact sampled claims. **Follow-up:** the FP-18 parent-workflow question and RepoPulse pinned-source behavior were subsequently examined; see `2026-11-10-followup.md` for their remaining limits.
 4. Expand source appraisal beyond the 27 targeted/random records; all numerical claims, cross-domain mechanisms and claimed negative/access outcomes affecting framework decisions need their own audit. Resolve the remaining sampling and reviewer requirements in the recovery plan.
 5. Continue the research program—Atlas integration, broad specialist and regional sources, worked system pilots, rater methods and demonstrated checkers—using the checkpoint plan rather than replacing it with endless auditing.
 

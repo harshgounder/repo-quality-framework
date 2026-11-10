@@ -1,0 +1,15 @@
+record_id,cell_id,observed_utc,tool,operation,result_count_reported,retained_output,scope_limit
+EV-S04,PC73,09:25:13,Parallel web_search,repository health outcomes; Q153–Q155,10,5 result excerpts; screening unknown,Search result window only; no full-source appraisal inferred.
+METHOD-S02,PC74,09:25:13,Parallel web_search,evidence mapping; Q156–Q158,10,5 result excerpts; screening unknown,Search results only; does not prove the entire method corpus was read.
+REC-UI-TEST-S01,PC75,09:25:13,Parallel web_search,GUI stateful interaction; Q159–Q161,10,5 result excerpts; screening unknown,Raw label TEST-S01 collided with existing unrelated ledger ID; renamed only this recovered operation.
+TEST-S02,PC76,09:25:13,Parallel web_search,clone/change coupling; Q162–Q164,10,5 result excerpts; screening unknown,Search window only; later source reads must be separately linked.
+X-THREAD-02,PC77,09:26:59,connected X thread,"read public checkout/retry thread, requested limit 20",reported 20,20 tweets visible in retained output; screening unknown,Anecdotal thread; not a validated incident.
+AX-PROBE-01,PC78,09:28:54,AlphaXiv answer_pdf_queries,"paper 2610.35987; task, results, artifacts",1 paper,response clipped to 5200 characters,"Selected paper answer, not full paper or benchmark run."
+GITHUB-VULN,PC79,09:29:42,AlphaXiv read GitHub repository,eth-sri/vulnerability-propagation root,1 repository,output clipped to 6000 characters,Selected root listing/content; README-level claims may require other sources.
+GITHUB-SWECC,PC80,09:29:42,AlphaXiv read GitHub repository,dangtruong01/swe-cc-arxiv root,1 repository,output clipped to 6000 characters,Selected root listing/content; does not validate all datasheet claims.
+AX-SESSION-01,PC81,09:28:54,AlphaXiv answer_pdf_queries,"paper 2605.29442; dataset, results, artifacts",1 paper,response clipped to 5200 characters,"Selected paper answer, not full paper or model execution."
+LAB-S01,PC82,09:31:14,Parallel web_search,first-party lab papers and evaluation,10,5 result excerpts; screening unknown,Only the lab-search portion of the cell is traced by this run.
+AX-LOOPSBENCH,PC83,09:31:45,AlphaXiv answer_pdf_queries,"paper 2608.00267v2; tasks, metrics, artifacts",1 paper,response clipped to 5200 characters,Only LoopsBench portion of broader multi-paper cell is traced here.
+AX-RECENT-CODING,PC84,09:28:20,AlphaXiv discover_papers,coding-agent research; prioritize recency,unknown,response clipped to 6000 characters,Partial discovery output; no complete portal or regional coverage.
+REC-GH-LABS-S01,PC85,09:31:14,GitHub search_repositories,"three OpenAI, Anthropic and Google DeepMind queries",0 in each of 3,all three connector output objects retained,Recovered grouped searches GH-LAB-OPENAI/ANTHROPIC/GOOGLE; zero results are query-local. Does not account for other README reads.
+REC-X-AICODE-S01,,09:25:13,connected X search,Q166 AI-generated-code and duplicate/smell query,reported 20,output clipped at 9000 characters; complete visible count unknown,"Standalone AI-duplication search, not the PC77 checkout thread; output clipped and topical mapping remains open."

@@ -1,5 +1,7 @@
 # Handoff: discover subtle failures and derive effective checks
 
+**Scope guard:** the settings-panel transcript is one motivating example. The research campaign must cover arbitrary systems and components, specialist engines, data and physical effects, professional responsibilities, user and operational workflows, and failures across the full lifecycle. Do not let UI event paths, code duplication, or AI-generated code define the campaign's boundaries.
+
 Status: active research stream, 2026-11-10. One focused evidence pass has followed the supplied transcript into browser standards/tests, a maintainability benchmark, MSR studies, and an agent-first public repository. The broad failure survey, tool evaluation, and any faithful reproduction remain open. The user supplied a transcript, not a verified video URL or runnable example. This stream extends the integrated research roadmap; it does not replace its wider source, system, role or quality research.
 
 ## User intent

@@ -1,0 +1,5 @@
+claim_id,historical_claim,access_route,current_observation_2026_11_10,limits
+A1,Infrathon Github returned 404,https://github.com/InfrathonX/Infrathon,Web open returned HTTP 404,Current route-specific observation; no claim of global nonexistence or independent proof of earlier event.
+A2,Infrathon dataset requires approval / no card,https://huggingface.co/api/datasets/Infrathon/Infrathon,"Public metadata HTTP 200: gated=manual, private=false, cardData=null, siblings count 1",No access terms accepted; metadata is not a complete file-content or dataset-card audit.
+A3,DeepResearch RewardBench code and data coming soon,https://github.com/zyt2312/DeepResearch-RewardBench-Evaluating-Reward-Models-for-Deep-Research-Report,Current owner README marks code and data coming soon,Snapshot of owner statement; does not independently establish absence elsewhere.
+A4,LogicStar/probe Github returned 404,https://github.com/LogicStar/probe,Web open returned HTTP 404,"Current route-specific observation; private, renamed or elsewhere remains possible."

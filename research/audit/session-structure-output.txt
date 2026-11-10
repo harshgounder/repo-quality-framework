@@ -1,0 +1,88 @@
+file=rollout-2026-11-10T10-27-41-01a1c3d1-af12-7ae1-a01a-c1caac9ae6cd.jsonl bytes_read=12522585 lines=2152 sha256_of_read_stream=4adca1b0a1da982019bd4b09d31aa54b77d08795dcfbc7f06d28aade042b4c18 invalid_json_lines=[]
+record compacted 2
+record event_msg/item_completed 712
+record event_msg/task_complete 11
+record event_msg/task_started 11
+record event_msg/thread_settings_applied 16
+record event_msg/token_count 239
+record response_item/additional_tools/developer 1
+record response_item/configuration_update 1
+record response_item/custom_tool_call 212
+record response_item/custom_tool_call_output 212
+record response_item/function_call 11
+record response_item/function_call_output 11
+record response_item/message/assistant 55
+record response_item/message/developer 13
+record response_item/message/user 16
+record response_item/reasoning 370
+record session_meta 1
+record token_usage_record 237
+record turn_context 13
+record world_state 8
+tool_event codex_apps exa.web_search_exa 50
+tool_event parallel web_search 27
+tool_event cua_repl js 11
+tool_event parallel web_fetch 10
+tool_event x x_search 7
+tool_event codex_apps alphaxiv.get_paper_content 6
+tool_event codex_apps exa.web_fetch_exa 3
+tool_event parallel web_research 2
+tool_event codex_apps alphaxiv.discover_papers 1
+tool_event codex_apps consensus.search 1
+Counts are record counts, not verified distinct research operations or content reviews; live files can grow.
+file=rollout-2026-11-10T12-45-30-01a1c3d1-af12-7ae1-a01a-c1caac9ae6cd_01a1c44f-ddc6-7a50-92d2-4b42cb1bd2dc.jsonl bytes_read=67417 lines=14 sha256_of_read_stream=50e299d91a72cc315531be747a979c8de6c30c1fde0be3e49720ee4d1f506a6a invalid_json_lines=[]
+record event_msg/item_completed 1
+record event_msg/task_started 1
+record event_msg/thread_settings_applied 3
+record event_msg/token_count 1
+record event_msg/turn_aborted 1
+record response_item/message/developer 3
+record response_item/message/user 1
+record session_meta 1
+record turn_context 1
+record world_state 1
+Counts are record counts, not verified distinct research operations or content reviews; live files can grow.
+file=rollout-2026-11-10T12-46-00-01a1c3d1-af12-7ae1-a01a-c1caac9ae6cd_01a1c450-50d0-7713-b723-147f93b857ff.jsonl bytes_read=50814031 lines=7699 sha256_of_read_stream=1f5417468f6c19f8adf3560ce9b8da92c045618df56479c08e8dff611f5055ea invalid_json_lines=[]
+record compacted 12
+record event_msg/item_completed 2740
+record event_msg/task_complete 10
+record event_msg/task_started 11
+record event_msg/thread_settings_applied 29
+record event_msg/token_count 830
+record inter_agent_communication_metadata 40
+record response_item/agent_message 40
+record response_item/configuration_update 2
+record response_item/custom_tool_call 701
+record response_item/custom_tool_call_output 700
+record response_item/function_call 80
+record response_item/function_call_output 80
+record response_item/message/assistant 101
+record response_item/message/developer 11
+record response_item/message/user 16
+record response_item/reasoning 1420
+record session_meta 1
+record token_usage_record 826
+record turn_context 23
+record world_state 26
+tool_event codex_apps github.fetch_file 101
+tool_event parallel web_search 98
+tool_event parallel web_fetch 68
+tool_event codex_apps alphaxiv.answer_pdf_queries 61
+tool_event codex_apps github.search_repositories 53
+tool_event cua_repl js 43
+tool_event codex_apps github.fetch 33
+tool_event codex_apps exa.web_search_exa 26
+tool_event codex_apps github.get_repo 19
+tool_event codex_apps alphaxiv.read_files_from_github_repository 18
+tool_event codex_app read_thread 14
+tool_event codex_apps github.fetch_pr 10
+tool_event codex_apps alphaxiv.discover_papers 10
+tool_event x x_search 9
+tool_event x x_article 7
+tool_event codex_apps exa.web_fetch_exa 7
+tool_event codex_apps alphaxiv.get_paper_content 6
+tool_event codex_apps github.fetch_issue 4
+tool_event codex_app list_threads 2
+tool_event x x_thread 2
+tool_event codex_apps github.fetch_issue_comments 1
+Counts are record counts, not verified distinct research operations or content reviews; live files can grow.

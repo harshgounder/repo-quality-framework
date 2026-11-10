@@ -40,4 +40,8 @@ for x in p:
     v=x['run_id']
     if v and (x['cell_id'], v) not in join_pairs:
         print(f"  {x['cell_id']}: {v}; exact ledger ID: {v in ledger_ids}")
+unlinked_active = [x['cell_id'] for x in p if x['status'].startswith(('thin', 'searched')) and x['cell_id'] not in ids(cr, 'cell_id')]
+print(f'Nonqueued thin/searched cells without any run-link row: {len(unlinked_active)}: {unlinked_active}')
+unlinked_queries = [x['cell_id'] for x in p if x['status'].startswith(('thin', 'searched')) and x['cell_id'] not in ids(cq, 'cell_id')]
+print(f'Nonqueued thin/searched cells without any cell-query row: {len(unlinked_queries)}: {unlinked_queries}')
 print('NOTE: join-table absence does not by itself establish a missing search; investigate provenance and compatibility fields.')
