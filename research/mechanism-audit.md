@@ -39,6 +39,60 @@ The [check catalog](https://clomonitor.io/docs/topics/checks/) groups checks acr
 
 The next audit should inspect the implementation and output model, including check-level unknowns, applicability, configuration, history, and any composite aggregation.
 
+## Additional current owner mechanism audit — batch RAT (2026-11-10)
+
+**Scope:** seven candidates from the inventory were selected for primary-source mechanism inspection. This adds implementation detail; it does not validate the ratings against real-world outcomes.
+
+### OpenSSF Scorecard — evidence probes, check scores and consumer policy
+
+The [architecture](https://github.com/ossf/scorecard/blob/main/ARCHITECTURE.md) describes a pipeline from repository/API data and local files to raw facts, probes, findings with locations/remediation, per-check scores and a risk-weighted aggregate. The current architecture page says the scanner does not build or run the target repository. Checks can report -1 when inconclusive; the README warns that included/excluded checks, importance weights and aggregation are opinionated, and recommends reading individual behaviors rather than relying only on the aggregate. The [policy spec](https://github.com/ossf/scorecard/blob/main/openspec/specs/policy/spec.md) lets a consumer enforce or disable selected checks at thresholds without changing the emitted scores.
+
+The [maintainer annotation model](https://github.com/ossf/scorecard/blob/main/config/README.md) distinguishes test-data, remediated, not-applicable, not-supported and not-detected. That is useful because a false negative, unsupported practice, non-applicable condition and actual mitigation are different states. These annotations add maintainer-supplied context; they are not independent verification of the explanation. The project's check-writing guidance asks for objective, automatable, actionable checks and a maintainer correction/dispute path. This is a narrow security and supply-chain evaluator, not a general repo-quality definition.
+
+### OpenSSF Best Practices Badge — normative strength plus self-attestation
+
+The [criteria discussion](https://www.bestpractices.dev/en/criteria_discussion) says the badge uses self-certification to scale across a very large FLOSS population and practices that cannot all be automated. Badge levels distinguish MUST/MUST NOT, SHOULD and SUGGESTED requirements. A SHOULD may be unmet with justification; SUGGESTED items must be considered; N/A counts as met only where allowed; unknown required information blocks a badge. The owner says automation can fill or check some conventional signals, while spot-checks and public disputes provide limited vetting.
+
+This is a structured claim-and-evidence rubric, not an independent audit of every code path or deployed artifact. Spot checks and disputes are meaningful correction mechanisms, but no prevalence, false-claim rate or outcome-prediction evidence was measured in this batch. Keep unknown, justified unmet, N/A and verified met separate in any future comparison.
+
+### CLOMonitor — selected checks, different denominators and external-tool status
+
+The [check docs](https://clomonitor.io/docs/topics/checks/) define code, code-lite, community and docs sets. The project says registered repositories are checked periodically and supports explicit exemptions with a displayed reason. The selected [score implementation](https://github.com/cncf/clomonitor/blob/main/clomonitor-core/src/score/mod.rs) and [report model](https://github.com/cncf/clomonitor/blob/main/clomonitor-core/src/linter/report.rs) show a weighted score per report section and a global weighted score. In the code, only checks present in a report enter the denominator; checks marked passed or exempt enter the numerator; exemptions therefore count as passing after the reason is attached. Check-set selection can change which checks are present, so projects with different sets can have different scoring denominators. Agent-readiness has a separate score and is excluded from the global score.
+
+The [linter input/tool-mode source](https://github.com/cncf/clomonitor/blob/main/clomonitor-core/src/linter/mod.rs) describes an unavailable/disabled external tool as causing dependent checks to be reported as failed. This is an observed code-path contract, not proof that the hosted service is currently misconfigured. It does mean an evaluator deployment must distinguish “could not run the detector” from “the project failed the practice.” The docs also say CLOMonitor does not follow symlinks for file checks. These are useful, concrete edge cases for assessor design.
+
+### inspect.software — versioned public-signal index with explicit missingness
+
+The owner [methodology](https://inspect.software/methodology), [health-index rules](https://inspect.software/wiki/health-index), [rating bands](https://inspect.software/wiki/scoring-bands), and public [scanner repository](https://github.com/inspect-software/scanner) describe raw observed data, metrics, categories and an overall 1–100 index. Formulas, weights, thresholds and bands are versioned; reports are intended to identify the methodology version and expose component inputs. The missing-data rule excludes unavailable components, renormalizes remaining weights, and reports the reason rather than treating missing as zero. The rating curve is described as a fixed methodology constant between version changes, not a live peer percentile.
+
+The publisher explicitly calls the result a signal rather than a warranty and says it performs no line-by-line code audit. The methodology includes policy choices beyond code quality, including bounded organization-stewardship effects and a jurisdiction-risk policy; these choices warrant independent fairness, applicability and stakeholder review. The FAQ also documents a reproduction limit: public reports omit some contributor profile details used by one policy, so an independent recomputation can differ when those details changed the score. These are owner disclosures, not independently reproduced findings. The scanner and method are public, but this research batch did not run the scanner or independently recompute any report.
+
+### RepoPulse — percentile score relative to selected GitHub cohorts
+
+Current live [scoring documentation](https://repopulse-arun-gupta.vercel.app/baseline) and the [42-signal method](https://github.com/arun-gupta/repo-pulse/blob/main/docs/oss-health-42-signals/README.md) describe five buckets weighted Activity 25%, Responsiveness 25%, Contributors 23%, Security 15% and Documentation 12%. Each dimension is compared by percentile within selected GitHub star brackets. The product documentation says insufficient verified inputs should remain explicitly unavailable; no score should be assigned without sufficient verified data. Solo profiles are routed to a different scoring profile. These choices can improve comparability for selected cohorts, while the star brackets and GitHub-only corpus define who is comparable.
+
+The owner [calibration documentation](https://github.com/arun-gupta/repo-pulse/blob/main/docs/scoring-and-calibration.md) and public calibration artifact describe data sourcing and fallbacks. It also says some age-stratified bins have sampleSize 0 and intentionally fall back to a less-specific bracket pending sampling. The owner site says calibration fixtures refresh weekly, while a completed repository issue describes a quarterly calibration-generation process; the actual shipped refresh/version needs a timestamped artifact check. Older product-definition text describes a different phase/formula than the current live five-bucket page, so future comparison must pin a release or commit and reconcile methodology docs with deployed output. No independent reproduction or outcome validation was done.
+
+### OpenSSF Criticality Score — influence proxy with a stopped population pipeline
+
+The [algorithm](https://github.com/ossf/criticality_score/blob/main/README.md) combines capped, weighted GitHub signals such as project age, last-update recency, contributor and organization counts, commit activity, releases, issue activity, comments and dependent mentions into a 0–1 estimate of influence/importance. The score does not directly establish software correctness, safety, or repository quality. A maintainer discussion [raised dependency-tree blind spots](https://github.com/ossf/criticality_score/issues/8): a widely depended-on but low-visibility component may not rank like a popular direct project. This is a practitioner critique, not an evaluated false-negative rate.
+
+Freshness is now material. The project's [August 2026 shutdown notice](https://github.com/ossf/criticality_score/issues/833) says the production pipeline had not run since May 2026 and the last successful run was July 2025, with Google Cloud storage and BigQuery turned down in August 2026; repository data remains available as infrequently updated files. The scorer can still be run locally, but that does not make an archived population dataset current.
+
+### OSS Compass — explicit metrics with local and lifecycle caveats
+
+The selected official [artifact robustness scorecard model](https://compass.gitee.com/docs/metrics-models/software_artifact/robustness/scorecard) describes individual security checks with 0–10 values, assigned weights and a weighted-sum score. The selected [activity model](https://compass.gitee.com/docs/metrics-models/collaboration/robustness/activity) defines GitHub activity signals and weights, including a negative weight for time since update; its own text cautions that higher iteration frequency is not always better and says cadence should be interpreted by industry/project type and relative peers. That caveat directly counters treating commit frequency as a universal “more is better” quality proxy.
+
+This is a valuable regional and metric-model source, but the selected pages do not establish the completeness of platform coverage, the exact production data pipeline, the current model version, or independent validity. It should be researched as a family of ecosystem/community/artifact models, not collapsed into one undifferentiated “Gitee score.”
+
+### Cross-evaluator observations and unresolved comparison rules
+
+- The same number may represent conformance, evidence confidence, hygiene, public practice, peer percentile, adoption or systemic importance. These constructs cannot be ranked against one another without an explicit target decision and validation outcome.
+- Missingness differs: explicit unknown/inconclusive, badge-blocking unknown, check omission and weight renormalization, justified exemption treated as pass, unavailable field, and stale population data. Store the state and denominator alongside every score.
+- A visible file/badge or a maintainer declaration is evidence of presence or assertion, not necessarily of execution, correctness, current release behavior or deployed parity. Conversely, static repository scans may miss host settings, runtime configuration, generated artifacts and physical/hardware context.
+- Profile, check-set, population, language/forge, time window and methodology version alter what the result means. Comparisons need those fields and evidence timestamps.
+- The observations above suggest candidate requirements for future evaluator research—provenance, applicability, evidence age, denominator visibility, detector-failure states, correction routes and context-specific outcomes. They are research questions, not settled universal gates or an endorsed composite score.
+
 ## Empirical evidence about indicator limits
 
 ### Context-free community-health indicators and sustainability (2023)

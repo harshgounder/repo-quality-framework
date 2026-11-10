@@ -1,0 +1,337 @@
+cell_id,query_id,relationship
+PC01,Q01,primary query
+PC02,Q03,primary query
+PC03,Q04,primary query
+PC04,Q05,primary query
+PC05,Q06,primary query
+PC06,Q09,primary query
+PC07,Q11,primary query
+PC08,Q12,primary query
+PC09,Q13,primary query
+PC10,Q14,primary query
+PC11,Q17,primary query
+PC12,Q18,primary query
+PC13,Q19,primary query
+PC14,Q20,primary query
+PC15,Q21,primary query
+PC16,Q28,primary query
+PC17,Q27,primary query
+PC18,Q26,primary query
+PC19,Q31,primary query
+PC20,Q29,primary query
+PC21,Q34,primary query
+PC22,Q36,primary query
+PC23,Q40,primary query
+PC24,Q38,primary query
+PC25,Q37,primary query
+PC26,Q43,primary query
+PC27,Q45,primary query
+PC28,Q46,primary query
+PC29,Q48,primary query
+PC29,Q49,additional query
+PC29,Q50,additional query
+PC30,Q51,primary query
+PC30,Q52,additional query
+PC31,Q53,primary query
+PC32,Q66,primary query
+PC32,Q67,additional query
+PC32,Q68,additional query
+PC33,Q55,primary query
+PC33,Q56,additional query
+PC34,Q54,primary query
+PC34,Q63,additional query
+PC34,Q65,additional query
+PC35,Q64,primary query
+PC35,Q65,additional query
+PC36,Q78,primary query
+PC37,Q77,primary query
+PC38,Q72,primary query
+PC38,Q73,additional query
+PC38,Q74,additional query
+PC39,Q69,primary query
+PC39,Q70,additional query
+PC39,Q71,additional query
+PC40,Q57,primary query
+PC40,Q58,additional query
+PC40,Q59,additional query
+PC41,Q75,primary query
+PC41,Q76,additional query
+PC42,Q61,primary query
+PC42,Q62,additional query
+PC43,Q79,primary query
+PC43,Q81,additional query
+PC44,Q82,primary query
+PC45,Q85,primary query
+PC46,Q85,primary query
+PC46,Q87,additional query
+PC47,Q88,primary query
+PC47,Q90,additional query
+PC48,Q82,primary query
+PC48,Q83,additional query
+PC48,Q84,additional query
+PC49,Q91,primary query
+PC50,Q92,primary query
+PC51,Q93,primary query
+PC55,Q100,additional discovery query
+PC54,Q107,additional discovery query
+PC58,Q103,broad comment search; no matching modal-path thread retained
+PC58,Q104,broad comment search; noisy window
+PC59,Q105,broad comment search; sampled discussion was general counterargument
+PC54,Q105,broad duplication counterargument discovery
+PC52,Q101,primary query
+PC53,Q102,primary query
+PC54,Q96,primary query
+PC55,Q96,primary query
+PC56,Q99,primary query
+PC57,Q96,primary query
+PC58,Q94,primary query
+PC59,Q95,primary query
+PC60,Q108,primary query
+PC60,Q109,additional discovery query
+PC60,Q110,additional discovery query
+PC61,Q111,primary query
+PC61,Q112,additional discovery query
+PC61,Q113,additional discovery query
+PC62,Q114,primary query
+PC62,Q126,additional discovery query
+PC62,Q127,additional discovery query
+PC62,Q128,additional discovery query
+PC63,Q116,primary query
+PC63,Q117,additional discovery query
+PC63,Q118,additional discovery query
+PC63,Q119,additional discovery query
+PC64,Q120,primary query
+PC64,Q121,additional discovery query
+PC64,Q122,additional discovery query
+PC64,Q132,additional discovery query
+PC64,Q133,additional discovery query
+PC64,Q134,additional discovery query
+PC65,Q115,primary query
+PC65,Q129,additional discovery query
+PC65,Q130,additional discovery query
+PC65,Q131,additional discovery query
+PC66,Q123,primary query
+PC66,Q124,additional discovery query
+PC66,Q125,additional discovery query
+PC67,Q135,primary query
+PC67,Q136,additional discovery query
+PC67,Q137,additional discovery query
+PC68,Q138,primary query
+PC68,Q139,additional discovery query
+PC68,Q140,additional discovery query
+PC69,Q141,primary query
+PC69,Q142,additional discovery query
+PC69,Q143,additional discovery query
+PC70,Q144,primary query
+PC70,Q145,additional discovery query
+PC70,Q146,additional discovery query
+PC71,Q144,primary query
+PC71,Q146,additional discovery query
+PC72,Q147,primary query
+PC72,Q148,additional discovery query
+PC72,Q149,additional discovery query
+PC68,Q150,primary query
+PC68,Q151,additional discovery query
+PC68,Q152,additional discovery query
+PC86,Q191,portal query
+PC86,Q192,portal query
+PC86,Q193,portal query
+PC86,Q200,cross-index discovery query
+PC87,Q185,domain research discovery query
+PC87,Q186,domain research discovery query
+PC87,Q187,domain research discovery query
+PC87,Q188,domain research discovery query
+PC87,Q189,domain research discovery query
+PC87,Q190,domain research discovery query
+PC88,Q185,lab/domain safety discovery query
+PC88,Q186,lab/domain safety discovery query
+PC88,Q187,lab/domain safety discovery query
+PC88,Q188,lab/domain safety discovery query
+PC88,Q189,lab/domain safety discovery query
+PC88,Q190,lab/domain safety discovery query
+PC89,Q194,official research/evaluation query
+PC89,Q195,official research/evaluation query
+PC89,Q196,official research/evaluation query
+PC89,Q197,official research/evaluation query
+PC89,Q198,official research/evaluation query
+PC89,Q199,official research/evaluation query
+PC90,Q201,artifact repository discovery query
+PC90,Q202,artifact repository discovery query
+PC90,Q203,artifact repository discovery query
+PC90,Q204,artifact repository discovery query
+PC90,Q205,artifact repository discovery query
+PC91,Q185,agent reliability/cross-domain discovery query
+PC91,Q186,agent reliability/cross-domain discovery query
+PC91,Q187,agent reliability/cross-domain discovery query
+PC91,Q188,agent reliability/cross-domain discovery query
+PC91,Q189,agent reliability/cross-domain discovery query
+PC91,Q190,agent reliability/cross-domain discovery query
+PC92,Q218,reliability/stats query
+PC92,Q219,reliability/stats query
+PC92,Q220,reliability/stats query
+PC92,Q247,reliability/stats query
+PC93,Q221,maintainability/structural quality query
+PC93,Q223,maintainability/structural quality query
+PC93,Q239,maintainability/structural quality query
+PC93,Q240,maintainability/structural quality query
+PC93,Q248,maintainability/structural quality query
+PC93,Q257,maintainability/structural quality query
+PC94,Q249,AI PR/post-merge field study query
+PC94,Q250,AI PR/post-merge field study query
+PC94,Q254,AI PR/post-merge field study query
+PC94,Q255,AI PR/post-merge field study query
+PC94,Q256,AI PR/post-merge field study query
+PC95,Q211,AI training/research benchmark query
+PC95,Q251,AI training/research benchmark query
+PC95,Q252,AI training/research benchmark query
+PC95,Q253,AI training/research benchmark query
+PC96,Q245,agent-first repository or practitioner query
+PC96,Q246,agent-first repository or practitioner query
+PC96,Q258,agent-first repository or practitioner query
+PC97,Q227,research portal or freshness query
+PC97,Q228,research portal or freshness query
+PC97,Q229,research portal or freshness query
+PC97,Q242,research portal or freshness query
+PC97,Q243,research portal or freshness query
+PC97,Q244,research portal or freshness query
+PC98,Q212,lab repository and artifact discovery query
+PC98,Q213,lab repository and artifact discovery query
+PC98,Q214,lab repository and artifact discovery query
+PC98,Q215,lab repository and artifact discovery query
+PC98,Q216,lab repository and artifact discovery query
+PC98,Q217,lab repository and artifact discovery query
+PC98,Q224,lab repository and artifact discovery query
+PC98,Q225,lab repository and artifact discovery query
+PC98,Q226,lab repository and artifact discovery query
+PC98,Q230,lab repository and artifact discovery query
+PC98,Q231,lab repository and artifact discovery query
+PC98,Q232,lab repository and artifact discovery query
+PC98,Q233,lab repository and artifact discovery query
+PC98,Q234,lab repository and artifact discovery query
+PC98,Q235,lab repository and artifact discovery query
+PC99,Q259,repo norm/policy discovery
+PC99,Q268,repo norm/policy discovery
+PC99,Q272,repo norm/policy discovery
+PC99,Q287,repo norm/policy discovery
+PC99,Q290,repo norm/policy discovery
+PC100,Q259,oracle strength/maintenance research
+PC100,Q268,oracle strength/maintenance research
+PC100,Q270,oracle strength/maintenance research
+PC100,Q271,oracle strength/maintenance research
+PC100,Q272,oracle strength/maintenance research
+PC100,Q288,oracle strength/maintenance research
+PC100,Q289,oracle strength/maintenance research
+PC101,Q260,cross-repository benchmark and artifact
+PC101,Q269,cross-repository benchmark and artifact
+PC101,Q282,cross-repository benchmark and artifact
+PC101,Q293,cross-repository benchmark and artifact
+PC102,Q260,AI infrastructure benchmark research
+PC102,Q264,AI infrastructure benchmark research
+PC102,Q269,AI infrastructure benchmark research
+PC102,Q283,AI infrastructure benchmark research
+PC102,Q292,AI infrastructure benchmark research
+PC103,Q259,long-horizon AI infrastructure/research optimization
+PC103,Q261,long-horizon AI infrastructure/research optimization
+PC103,Q269,long-horizon AI infrastructure/research optimization
+PC103,Q278,long-horizon AI infrastructure/research optimization
+PC103,Q279,long-horizon AI infrastructure/research optimization
+PC103,Q284,long-horizon AI infrastructure/research optimization
+PC103,Q291,long-horizon AI infrastructure/research optimization
+PC104,Q259,security and repository-context study
+PC104,Q268,security and repository-context study
+PC104,Q270,security and repository-context study
+PC104,Q272,security and repository-context study
+PC104,Q285,security and repository-context study
+PC105,Q261,research-report scoring and artifact
+PC105,Q269,research-report scoring and artifact
+PC105,Q286,research-report scoring and artifact
+PC105,Q294,research-report scoring and artifact
+PC106,Q262,scientific discovery or evaluation independence
+PC106,Q269,scientific discovery or evaluation independence
+PC106,Q296,scientific discovery or evaluation independence
+PC106,Q297,scientific discovery or evaluation independence
+PC107,Q260,lab methods/repository artifact
+PC107,Q265,lab methods/repository artifact
+PC107,Q273,lab methods/repository artifact
+PC107,Q274,lab methods/repository artifact
+PC107,Q275,lab methods/repository artifact
+PC107,Q276,lab methods/repository artifact
+PC107,Q277,lab methods/repository artifact
+PC108,Q265,research portal and source freshness
+PC108,Q266,research portal and source freshness
+PC108,Q267,research portal and source freshness
+PC108,Q242,research portal and source freshness
+PC108,Q243,research portal and source freshness
+PC108,Q244,research portal and source freshness
+PC109,Q298,retrospective primary source follow-up; exact query unavailable
+PC110,Q299,retrospective primary source follow-up; exact query unavailable
+PC111,Q300,retrospective primary source follow-up; exact query unavailable
+PC112,Q301,retrospective primary source follow-up; exact query unavailable
+PC113,Q302,retrospective primary source follow-up; exact query unavailable
+PC114,Q303,retrospective primary source follow-up; exact query unavailable
+PC115,Q304,retrospective primary source follow-up; exact query unavailable
+PC116,Q305,retrospective primary source follow-up; exact query unavailable
+PC117,Q307,primary discovery query; search coverage is local and thin
+PC118,Q325,primary discovery query; search coverage is local and thin
+PC119,Q319,primary discovery query; search coverage is local and thin
+PC120,Q310,primary discovery query; search coverage is local and thin
+PC121,Q311,primary discovery query; search coverage is local and thin
+PC122,Q325,primary discovery query; search coverage is local and thin
+PC123,Q313,primary discovery query; search coverage is local and thin
+PC124,Q312,primary discovery query; search coverage is local and thin
+PC125,Q316,primary discovery query; search coverage is local and thin
+PC126,Q316,primary discovery query; search coverage is local and thin
+PC127,Q318,primary discovery query; search coverage is local and thin
+PC128,Q316,primary discovery query; search coverage is local and thin
+PC129,Q316,primary discovery query; search coverage is local and thin
+PC130,Q316,primary discovery query; search coverage is local and thin
+PC131,Q319,primary discovery query; search coverage is local and thin
+PC132,Q328,primary discovery query; search coverage is local and thin
+PC133,Q342,primary discovery query; search coverage is local and thin
+PC117,Q308,cross-cutting follow-up / benchmark-method interaction
+PC117,Q309,cross-cutting follow-up / benchmark-method interaction
+PC117,Q321,cross-cutting follow-up / benchmark-method interaction
+PC117,Q333,cross-cutting follow-up / benchmark-method interaction
+PC117,Q334,cross-cutting follow-up / benchmark-method interaction
+PC117,Q335,cross-cutting follow-up / benchmark-method interaction
+PC118,Q322,cross-cutting follow-up / benchmark-method interaction
+PC118,Q326,cross-cutting follow-up / benchmark-method interaction
+PC118,Q327,cross-cutting follow-up / benchmark-method interaction
+PC119,Q320,cross-cutting follow-up / benchmark-method interaction
+PC119,Q321,cross-cutting follow-up / benchmark-method interaction
+PC119,Q336,cross-cutting follow-up / benchmark-method interaction
+PC119,Q337,cross-cutting follow-up / benchmark-method interaction
+PC119,Q338,cross-cutting follow-up / benchmark-method interaction
+PC120,Q328,cross-cutting follow-up / benchmark-method interaction
+PC120,Q329,cross-cutting follow-up / benchmark-method interaction
+PC120,Q337,cross-cutting follow-up / benchmark-method interaction
+PC120,Q338,cross-cutting follow-up / benchmark-method interaction
+PC121,Q312,cross-cutting follow-up / benchmark-method interaction
+PC121,Q328,cross-cutting follow-up / benchmark-method interaction
+PC122,Q313,cross-cutting follow-up / benchmark-method interaction
+PC122,Q324,cross-cutting follow-up / benchmark-method interaction
+PC123,Q314,cross-cutting follow-up / benchmark-method interaction
+PC123,Q315,cross-cutting follow-up / benchmark-method interaction
+PC123,Q339,cross-cutting follow-up / benchmark-method interaction
+PC124,Q328,cross-cutting follow-up / benchmark-method interaction
+PC125,Q317,cross-cutting follow-up / benchmark-method interaction
+PC125,Q318,cross-cutting follow-up / benchmark-method interaction
+PC125,Q340,cross-cutting follow-up / benchmark-method interaction
+PC126,Q317,cross-cutting follow-up / benchmark-method interaction
+PC126,Q340,cross-cutting follow-up / benchmark-method interaction
+PC127,Q331,cross-cutting follow-up / benchmark-method interaction
+PC127,Q332,cross-cutting follow-up / benchmark-method interaction
+PC127,Q341,cross-cutting follow-up / benchmark-method interaction
+PC128,Q317,cross-cutting follow-up / benchmark-method interaction
+PC128,Q340,cross-cutting follow-up / benchmark-method interaction
+PC129,Q313,cross-cutting follow-up / benchmark-method interaction
+PC129,Q340,cross-cutting follow-up / benchmark-method interaction
+PC130,Q318,cross-cutting follow-up / benchmark-method interaction
+PC130,Q340,cross-cutting follow-up / benchmark-method interaction
+PC131,Q321,cross-cutting follow-up / benchmark-method interaction
+PC131,Q338,cross-cutting follow-up / benchmark-method interaction
+PC132,Q329,cross-cutting follow-up / benchmark-method interaction
+PC133,Q330,cross-cutting follow-up / benchmark-method interaction
+PC116,Q306,retrospective cross-domain source follow-up; exact query unavailable
+PC123,Q343,targeted correction/fact reconciliation
+PC123,Q344,targeted primary-source count check

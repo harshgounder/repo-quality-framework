@@ -19,11 +19,15 @@ A platform, a search, a document, a claim, a project, and a quality requirement 
 9. **Mechanism**: target property, input, detection, computation/weights, unknown/N/A/exception behavior, output, evidence provenance, access/safety, cost, governance and independent validation.
 10. **Candidate practice or gate**: desired outcome, applicability, evidence and decision rights, affected stakeholders, harms, alternatives, enforcement, appeals and validation. These are future synthesis objects, not settled requirements.
 
-Relations: venue contains community; route accesses venue; campaign selects planned cells; run executes a query against a route and covers scoped cells; result links run to source; source supports or disputes claim; claim informs a mechanism or candidate practice; practice applies conditionally to an assessment object and context.
+Relations: venue contains community; route accesses venue; campaign selects planned cells; a cell links to one or more exact queries and one or more runs; a run executes a query against a route and covers scoped cells; result links run to source; source supports or disputes claim; claim informs a mechanism or candidate practice; practice applies conditionally to an assessment object and context.
+
+### Run-to-cell linkage and coverage accounting
+
+The first execution pass exposed two many-to-many relationships: a scoped cell can use several exact queries, and one search/fetch sequence can inform several cells. One cell may also need several runs (discovery, primary issue history, linked fix and domain-specific validation). [`research/v2/cell-queries.csv`](../research/v2/cell-queries.csv) and [`research/v2/cell-runs.csv`](../research/v2/cell-runs.csv) are join tables. Store one row per `(cell_id, query_id)` or `(cell_id, run_id, relationship)`; do not pack multiple IDs into a delimited cell. In `planned-cells.csv`, `query_id` is the primary query for compatibility; `cell-queries.csv` holds the full relation. `planned-cells.csv` remains the unit of intended coverage and carries its current local status. Counts remain attached only to the logged run. These are implementation conventions for this research project, not external standards.
 
 ## Dimension catalog
 
-The structured value inventory is research/v2/axis-values.csv. Values are seeds rather than exhaustive enumerations. It separates: source identity and role; geography/language; query intent and terminology; discovery and access; artifact and assessment unit; stakeholders and responsibilities; lifecycle; context and risk; evaluation mechanism; outcomes and harms; time/version; and research method. Add values and narrower children with definitions as discoveries justify them.
+The structured value inventory is research/v2/axis-values.csv. Values are seeds rather than exhaustive enumerations. It separates: source identity and role; geography/language; query intent and terminology; discovery and access; artifact and assessment unit; stakeholders and responsibilities; lifecycle; context and risk; evaluation mechanism; outcomes and harms; time/version; and research method. Add values and narrower children with definitions as discoveries justify them. The C27 benchmark pass adds provisional axes for benchmark identity/unit, oracle validation, sampling/leakage, run contract, result reporting, and benchmark lifecycle; their values are candidate descriptors, not a universal rubric.
 
 Important combinations include:
 - research dataset × publication × data steward × reproducibility × archived release × evidence accessible to third parties;
@@ -38,7 +42,7 @@ These examples are hypotheses to search, not predetermined requirements.
 
 The full conceptual space is the product of values and their relations. Applicability is a relation requiring justification, not a guess from missing rows. Preserve multi-valued identities and dependencies; for example, a paper may be found on X, archived on arXiv and published in a journal. A plan must expose unselected, planned, in-progress, searched, thin, inaccessible, conflicting and locally saturated scopes. Record no evidence found separately from inaccessible and not applicable.
 
-Campaigns in research/v2/campaigns.csv provide concrete proposed combinations, entry routes, queries and deliverables. They are queued unless an actual run is linked. Coverage reporting must measure planned/run cells and show exclusions, route failures and selection rationale; it cannot use source counts as coverage. Local saturation requires documented independent query variants and source types with no substantive novelty, bounded by date/language/access and reopened as sources evolve.
+Campaigns in research/v2/campaigns.csv organize questions, route families and deliverables; their status describes the workstream. Planned cells state the actual scope combination and its local evidence status. A search run is linked through `cell-runs.csv`, but one linked run does not by itself make a cell well-covered. Coverage reporting must measure planned/run cells and show exclusions, route failures and selection rationale; it cannot use source counts as coverage. Local saturation requires documented independent query variants and source types with no substantive novelty, bounded by date/language/access and reopened as sources evolve.
 
 ## Repair and migration
 

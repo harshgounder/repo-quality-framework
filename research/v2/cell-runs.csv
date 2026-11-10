@@ -1,0 +1,252 @@
+cell_id,run_id,relationship,scope_note
+PC29,METH-S01,discovery,Three methods-oriented searches; result-window count is not source coverage.
+PC29,METH-F01,primary-method extraction,Five method sources extracted; selected sections inform the evidence-map protocol.
+PC30,METH-S02,discovery,Stateful and model-based testing search.
+PC30,RETRO-METHOD-F02,primary documentation,Hypothesis stateful-testing documentation among five retrospectively recovered direct extracts.
+PC31,METH-S02,discovery,Modal Escape regression search.
+PC31,FAIL-F02,issue and patch verification,Nested modal issue and linked commit/test details.
+PC32,FAIL-S05,discovery,Stale response and async ordering search family.
+PC32,FAIL-F03,primary issue/PR extraction,VueUse issue #5571 and PR #5574.
+PC32,FAIL-F04,fix status,Merged fix and stale success/error path detail.
+PC33,FAIL-S01,discovery,Cancellation and lifecycle race searches.
+PC33,FAIL-F02,primary issue/PR extraction,go-redis and .NET runtime reports/fixes.
+PC34,FAIL-S01,discovery,Retry and external side-effect cases.
+PC34,FAIL-S04,focused discovery,Payment and webhook cases.
+PC34,FAIL-F03,primary issue/PR extraction,"Composio, Odoo, PRAHO and related issue records."
+PC34,FAIL-F04,status follow-up,Merged/unresolved states and reproduction limits.
+PC34,STRIPE-F01,provider contract,"Stripe-specific duplicate, ordering and idempotency semantics."
+PC35,STRIPE-F01,primary provider documentation,Stripe API version and key-lifetime boundaries; no universal inference.
+PC36,REDDIT-001,native social thread,Portuguese r/brdev question; comments only partially read.
+PC36,STRIPE-F01,provider behavior cross-check,Stripe docs only; does not validate the provider in the Reddit post.
+PC37,REDDIT-001,native social thread,English r/webdev symptom; cause/fix unresolved.
+PC38,TEST-S01,discovery,Deterministic scheduling and test-fixture searches.
+PC38,FAIL-F03,primary project PR,llxprt-code PR #3100.
+PC38,FAIL-F04,fix status and test follow-up,Merged fix details; no local rerun.
+PC39,SYS-S04,discovery,Compiler miscompilation and differential-test research.
+PC39,FAIL-F03,primary paper and project sources,PLDI 2025 paper excerpt plus issue/PR candidates.
+PC40,FAIL-S02,discovery and counterevidence,Clone detector limits and intentional duplication literature.
+PC41,X-008,native social search,First X window; two anecdotal leads retained.
+PC41,X-009,native social search,"Second X window; eight items inspected, none retained."
+PC42,FAIL-S03,indexed discovery,Stack Overflow/HN site search; not native platform coverage.
+PC42,FAIL-F02,direct Q&A follow-up,Selected Stack Overflow question opened.
+PC43,SYS-S05,discovery,Transaction/index corruption and stale-state query family.
+PC43,SYS-F05,primary issue/PR extracts,ArcadeDB issue #4935 and PR #4964.
+PC43,GH-F01,fix/test verification,"Merged status, patch and regression test description."
+PC44,SYS-S06,discovery,"Embedded reset, power-loss and recovery query family."
+PC44,SYS-F05,primary issue/PR extracts,Meshtastic issue #10851 and PR #10873.
+PC44,GH-F01,hardware/fix verification,Reported before/after bench run; note unexplained multi-target size delta.
+PC45,SYS-S07,discovery,Release artifact validity and CI gap.
+PC45,SYS-F05,primary issue/PR extracts,Pydantic AI issue #7397 and PR #7414.
+PC45,GH-F01,gate/fix verification,Merged metadata validation on each PR/push.
+PC46,SYS-S07,discovery,Generated/deployed target drift search.
+PC46,SYS-F05,primary issue/PR extracts,Microsoft APM issue #1716.
+PC46,GH-F01,resolution boundary,PR #1714 resynced files; durable drift gate not established in inspected evidence.
+PC47,PERF-S04,discovery,Runtime performance regression and workload search.
+PC47,SYS-F05,primary issue/PR extracts,Erlang/OTP issue #8322 and PR #8347.
+PC47,GH-F01,residual outcome verification,Merged PR explicitly says improvement without full performance restoration.
+PC48,SYS-S06,discovery,Embedded hardware recovery search.
+PC48,SYS-F05,primary issue extraction,OpenWrt mt76 #1148 report and logs.
+PC48,GH-F01,report status,"Open issue, no comments; diagnosis is attributed and unverified."
+PC49,AI-S01,discovery,Exa query for real-world agent-authored PR studies; exact aggregate hit count unavailable.
+PC49,AI-F01,primary-study extraction,Recent agent quality and post-merge maintenance papers.
+PC49,RETRO-AI-F01,prior source provenance,Earlier extracted study leads; original queries were not preserved.
+PC50,AI-S01,discovery,Exa test-oracle/regression research query; result counts not recovered.
+PC50,AI-F01,primary-study extraction,"Static post-merge quality, build code and debloating oracle limits."
+PC50,METH-S02,method connection,Stateful/model-based test search.
+PC50,RETRO-METHOD-F02,primary documentation,Stateful testing and dialog/animation source extracts.
+PC51,AI-S01,discovery,Exa bloat and workload validation query; result counts not recovered.
+PC51,AI-F01,primary-study extraction,"Debloating, Python dependency and LibCache papers."
+PC51,PERF-S04,discovery cross-check,Performance and bloat web-search window.
+PC51,RETRO-AI-F02,prior source provenance,Additional prior bloat/build/performance paper extracts; selected claims were rechecked in AI-F01.
+PC52,SO-NATIVE-001,native API search,Stack Exchange search/advanced returned a ranked 10-item page.
+PC52,SO-THREAD-001,question and answer extraction,One modal question and two answers; no comments.
+PC53,SO-NATIVE-001,native API search,One webhook question matched the exact Stack Overflow query.
+PC53,SO-THREAD-001,"question, answer and comment extraction",Two answers and one comment; no accepted answer.
+PC54,HN-NATIVE-001,date-ranked discovery,HN Algolia returned AI-code-quality story window.
+PC54,HN-THREAD-001,original thread and comment sample,Ask HN agent-code quality thread; five top-level comments sampled.
+PC55,HN-NATIVE-001,date-ranked discovery,Test/regression query surfaced app-testing-agent discussion.
+PC55,HN-THREAD-001,original thread and comment sample,Momentic thread; five top-level comments and one nested reply sampled.
+PC56,HN-NATIVE-001,date-ranked comment discovery,Webhook/idempotency query surfaced a comment on fuzzing-first review pitch.
+PC56,HN-THREAD-001,original thread/comment extraction,Fuzz pitch had one comment describing read-then-write concurrency concerns.
+PC57,HN-NATIVE-001,date-ranked discovery,AI-generated project sharing discussion found in AI-code-quality story query.
+PC57,HN-THREAD-001,original thread and comment sample,Six of sixteen HN descendants sampled.
+PC58,HN-NATIVE-001,exact query no-hit record,Story-only modal query returned zero for the recorded exact string; later comment searches remain distinct.
+PC59,HN-NATIVE-001,exact query no-hit record,Story-only duplicate-path query returned zero for the recorded exact string; later comment searches remain distinct.
+PC60,RAT-S01,mechanism discovery,Three Scorecard-focused query variants; primary owner docs in RAT-F01.
+PC60,RAT-F01,primary docs extraction,"Scorecard architecture, check catalog, policy spec and annotations included."
+PC61,RAT-S01,criteria discovery,Badge-focused exact query variants.
+PC61,RAT-F01,primary docs extraction,"Criteria, discussion and vetting policy included."
+PC62,RAT-S01,initial discovery,CLOMonitor appeared in the mixed evaluator search.
+PC62,RAT-S03,status and unknown search,CLOMonitor check-set and exception semantics.
+PC62,RAT-F01,primary docs extraction,Check catalog and architecture excerpts.
+PC62,RAT-F03,primary docs and failed paths,Docs and architecture fetched; two guessed source paths returned 404.
+PC62,GH-RAT-01,read-only implementation inspection,Six path-discovery API calls and three source-file reads; no writes.
+PC63,RAT-S01,initial discovery,inspect.software owner docs surfaced.
+PC63,RAT-S02,mechanism discovery,Three exact methodology/scanner/validity queries.
+PC63,RAT-F01,primary docs extraction,Initial methodology and FAQ excerpts.
+PC63,RAT-F02,primary docs and scanner extraction,"Methodology, health-index rules, rating bands, version history, FAQ and scanner repo."
+PC64,RAT-S02,mechanism discovery,Three exact RepoPulse method/calibration queries.
+PC64,RAT-S03,cohort and missing-data follow-up,Three further exact queries on cohorts and unavailable inputs.
+PC64,RAT-F02,primary docs extraction,"Scoring and calibration, product definition, issue #50, calibration artifact and signal inventory."
+PC64,RAT-F03,primary docs and source extraction,"Methodology, product and calibration docs; no implementation execution."
+PC65,RAT-S01,initial discovery,Criticality Score surfaced in mixed evaluator query.
+PC65,RAT-S03,formula and service-status search,"Exact formula, data shutdown and critique queries."
+PC65,RAT-F01,primary README extraction,"Algorithm, parameters and data source description."
+PC65,RAT-F03,primary lifecycle/issue extraction,"Turndown notice, README, and dependency-criticality issue."
+PC66,RAT-S02,mechanism discovery,Three exact metric-model and methodology queries.
+PC66,RAT-F02,primary docs extraction,OSS Compass Scorecard and activity metric models and service guide.
+PC67,UI-DIALOG-S01,venue/source discovery,Three queries for the PC67 cell; bounded ranked results.
+PC67,UI-DIALOG-F01,primary source extraction,Native HTML spec distinguishes cancellable requestClose from direct close; fetch set also includes MDN current API/animation guidance.
+PC68,UI-DIALOG-S01,venue/source discovery,Three queries for the PC68 cell; bounded ranked results.
+PC68,UI-DIALOG-F01,primary source extraction,W3C APG keyboard/focus behavior and W3C HTML dialog technique; do not treat technique as sole WCAG method.
+PC69,UI-DIALOG-S01,venue/source discovery,Three queries for the PC69 cell; bounded ranked results.
+PC69,UI-DIALOG-F01,primary source extraction,Historical Chrome/Edge 120 Escape event report plus Material Web workaround and current browser dialog guidance.
+PC70,UI-DIALOG-S02,conformance test discovery,WPT repository/search results identified close event-order and reentrancy tests.
+PC70,UI-DIALOG-F02,WPT source extraction,"WPT requestClose, closedby and CloseWatcher scheduling tests read."
+PC71,UI-DIALOG-S02,standards/history discovery,Search surfaced WHATWG requestClose/CloseWatcher issue and linked WPT PR.
+PC71,UI-DIALOG-F02,primary issue/PR extraction,Fetched current WPT crash-test PR and WHATWG issue page.
+PC71,GH-UI-01,read-only issue and PR verification,Fetched issue status/comments and merged spec/test PR records.
+PC72,UI-DIALOG-S02,methods discovery only,GUI sequence-testing papers were surfaced in search results but not full-text appraised.
+PC68,UI-DIALOG-S02,accessibility research discovery,Search surfaced W3C techniques and primary research leads; only existing APG/WCAG source fetch applies.
+PC86,AI-PORTAL-S01,portal discovery,See matching section in research/search-log.md; source claims and retrieval limits are recorded there.
+PC86,AI-EXA-S01,independent search route,See matching section in research/search-log.md; source claims and retrieval limits are recorded there.
+PC86,AI-TRACK-F01,tracker files and collection health,See matching section in research/search-log.md; source claims and retrieval limits are recorded there.
+PC87,AI-LAB-S02,cross-domain paper discovery,See matching section in research/search-log.md; source claims and retrieval limits are recorded there.
+PC87,AI-ALPHAXIV-F01,targeted primary paper pages,See matching section in research/search-log.md; source claims and retrieval limits are recorded there.
+PC87,AI-PAPER-F01,OpenAI paper/report pages,See matching section in research/search-log.md; source claims and retrieval limits are recorded there.
+PC88,AI-LAB-S02,computer-use/safety paper discovery,See matching section in research/search-log.md; source claims and retrieval limits are recorded there.
+PC88,AI-ALPHAXIV-F01,OSGuard and ATBench paper methods,See matching section in research/search-log.md; source claims and retrieval limits are recorded there.
+PC88,GH-AI-F01,Windows Agent Arena README,See matching section in research/search-log.md; source claims and retrieval limits are recorded there.
+PC89,AI-LAB-S01,official lab page discovery,See matching section in research/search-log.md; source claims and retrieval limits are recorded there.
+PC89,AI-PAPER-F01,first-party evaluation guidance and paper extracts,See matching section in research/search-log.md; source claims and retrieval limits are recorded there.
+PC89,AI-ALPHAXIV-F01,independent reliability methodology,See matching section in research/search-log.md; source claims and retrieval limits are recorded there.
+PC90,GH-AI-S01,bounded GitHub repository search,See matching section in research/search-log.md; source claims and retrieval limits are recorded there.
+PC90,GH-AI-F01,README-level repo inspection,See matching section in research/search-log.md; source claims and retrieval limits are recorded there.
+PC90,AI-TRACK-F01,artifact/collection workflow inspection,See matching section in research/search-log.md; source claims and retrieval limits are recorded there.
+PC91,AI-ALPHAXIV-F01,reliability and trajectory-safety papers,See matching section in research/search-log.md; source claims and retrieval limits are recorded there.
+PC91,AI-PAPER-F01,first-party and cross-domain paper extract,See matching section in research/search-log.md; source claims and retrieval limits are recorded there.
+PC92,AI-RELIABILITY-S01,reliability paper and repeated-run reanalysis,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC93,AI-MAINT-S01,"NITR, reuse and maintainability discovery",See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC94,AI-CODE-FIELD-S01,AI-authored PR and post-merge field evidence,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC95,AI4AI-S01,training-method research benchmark,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC96,GH-T3-F01,agent-first repo files and X leads,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC97,AI-PORTAL-S02,portal freshness and AlphaXiv discovery,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC97,AI-PORTAL-F02,current portal page snapshots,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC98,GH-AI-F02,selected lab repository documentation,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC98,GH-AI-S02,bounded lab-org GitHub repository searches,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC99,AI-PAPER-F02,RepoNorm and SWE-CC paper methods,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC99,GH-REPO-F02,RepoNorm implementation and benchmark docs,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC99,GH-ART-S02,paper-to-repository searches,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC100,AI-PAPER-F02,oracle and longitudinal maintenance paper extracts,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC100,AI-PAPER-F03,multi-condition and oracle-evidence extracts,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC101,AI-PAPER-F02,CrossSWE paper methods,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC101,AI-DATA-F01,CrossSWE dataset card and task-field inspection,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC101,GH-ART-S02,bounded repository search,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC102,AI-PAPER-F02,InfraDev paper methods,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC102,WEB-S02,paper-to-code route searches,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC102,GH-LAB-F03,gBench serving and measurement methods,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC103,AI-PAPER-F02,Infrathon paper methods,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC103,GH-ART-S01,benchmark repository searches,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC103,AI-DATA-F01,gated Infrathon dataset page,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC104,AI-PAPER-F02,vulnerability propagation paper,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC104,GH-REPO-F01,vulnerability propagation README,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC105,AI-PAPER-F02,DeepResearch RewardBench paper extract,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC105,WEB-S02,venue and repository source verification,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC105,GH-ART-S02,bounded repository search,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC106,AI-PAPER-F03,PAAI and additional cross-domain papers,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC106,AI-PAPER-F04,corrected Station paper ID and methods,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC107,GH-LAB-F03,gBench repo README and method documents,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC107,AI-EXA-F03,Meta evaluation methodology,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC107,GH-AI-F01,OpenAI Evals repo README,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC108,AI-EXA-F02,current The Latest in AI and AlphaXiv pages,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC108,AI-PORTAL-S02,earlier portal freshness search,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC108,AI-PORTAL-S03,current portal index search,See the matching exact-query/access section in research/search-log.md; source claims and retrieval limits are preserved there.
+PC109,C26-RETRO-001,retrospective report/source follow-up,"Retrospective source-backed report; original queries, exact timestamps and result counts unavailable."
+PC110,C26-RETRO-001,retrospective report/source follow-up,"Retrospective source-backed report; original queries, exact timestamps and result counts unavailable."
+PC111,C26-RETRO-001,retrospective report/source follow-up,"Retrospective source-backed report; original queries, exact timestamps and result counts unavailable."
+PC112,C26-RETRO-001,retrospective report/source follow-up,"Retrospective source-backed report; original queries, exact timestamps and result counts unavailable."
+PC113,C26-RETRO-001,retrospective report/source follow-up,"Retrospective source-backed report; original queries, exact timestamps and result counts unavailable."
+PC114,C26-RETRO-001,retrospective report/source follow-up,"Retrospective source-backed report; original queries, exact timestamps and result counts unavailable."
+PC115,C26-RETRO-001,retrospective report/source follow-up,"Retrospective source-backed report; original queries, exact timestamps and result counts unavailable."
+PC116,C26-RETRO-001,retrospective report/source follow-up,"Retrospective source-backed report; original queries, exact timestamps and result counts unavailable."
+PC117,C27-PAR-001,discovery,3 exact queries on benchmark catalogs and quality; at least 7 excerpts visible; total count not preserved.
+PC119,C27-PAR-001,discovery,3 exact queries on benchmark catalogs and quality; at least 7 excerpts visible; total count not preserved.
+PC120,C27-PAR-002,discovery,3 exact mutation/maintainability/reuse queries; at least 7 excerpts visible; total count not preserved.
+PC121,C27-PAR-002,discovery,3 exact mutation/maintainability/reuse queries; at least 7 excerpts visible; total count not preserved.
+PC124,C27-PAR-002,discovery,3 exact mutation/maintainability/reuse queries; at least 7 excerpts visible; total count not preserved.
+PC123,C27-PAR-003,discovery,3 exact performance/energy/bloat queries; at least 7 excerpts visible; total count not preserved.
+PC125,C27-PAR-004,discovery,3 exact compiler/OS/browser queries; at least 7 excerpts visible; total count not preserved.
+PC126,C27-PAR-004,discovery,3 exact compiler/OS/browser queries; at least 7 excerpts visible; total count not preserved.
+PC127,C27-PAR-004,discovery,3 exact compiler/OS/browser queries; at least 7 excerpts visible; total count not preserved.
+PC128,C27-PAR-004,discovery,3 exact compiler/OS/browser queries; at least 7 excerpts visible; total count not preserved.
+PC129,C27-PAR-004,discovery,3 exact compiler/OS/browser queries; at least 7 excerpts visible; total count not preserved.
+PC130,C27-PAR-004,discovery,3 exact compiler/OS/browser queries; at least 7 excerpts visible; total count not preserved.
+PC117,C27-PAR-005,discovery,3 exact benchmark survey/version queries; output truncated; exact count not preserved.
+PC119,C27-PAR-005,discovery,3 exact benchmark survey/version queries; output truncated; exact count not preserved.
+PC131,C27-PAR-005,discovery,3 exact benchmark survey/version queries; output truncated; exact count not preserved.
+PC118,C27-PAR-006,discovery,3 exact FrontierCode queries; output truncated; exact count not preserved.
+PC133,C27-PAR-006,discovery,3 exact FrontierCode queries; output truncated; exact count not preserved.
+PC118,C27-PAR-007,discovery,3 exact evolution benchmark queries; output truncated; exact count not preserved.
+PC122,C27-PAR-007,discovery,3 exact evolution benchmark queries; output truncated; exact count not preserved.
+PC120,C27-PAR-008,discovery,3 exact test reuse/mutation/flakiness queries; output truncated; exact count not preserved.
+PC132,C27-PAR-008,discovery,3 exact test reuse/mutation/flakiness queries; output truncated; exact count not preserved.
+PC127,C27-X-001,social lead discovery only,"Brave browser X Top search; 3 visible posts screened; 2 leads retained, 1 low-value."
+PC133,C27-X-001,social lead discovery only,"Brave browser X Top search; 3 visible posts screened; 2 leads retained, 1 low-value."
+PC127,C27-X-002,social lead discovery only,Brave browser X Top search; zero visible results in observed window; query-local no-hit only.
+PC133,C27-X-002,social lead discovery only,Brave browser X Top search; zero visible results in observed window; query-local no-hit only.
+PC117,C27-EXA-RETRO-001,discovery,Retrospective Exa discovery; original query payload and result counts unavailable.
+PC119,C27-EXA-RETRO-001,discovery,Retrospective Exa discovery; original query payload and result counts unavailable.
+PC120,C27-EXA-RETRO-001,discovery,Retrospective Exa discovery; original query payload and result counts unavailable.
+PC131,C27-EXA-RETRO-001,discovery,Retrospective Exa discovery; original query payload and result counts unavailable.
+PC133,C27-EXA-RETRO-001,discovery,Retrospective Exa discovery; original query payload and result counts unavailable.
+PC117,C27-PAR-009,discovery,Fresh Parallel search; 3 exact queries; 10 results returned and screened.
+PC119,C27-PAR-009,discovery,Fresh Parallel search; 3 exact queries; 10 results returned and screened.
+PC133,C27-PAR-009,discovery,Fresh Parallel search; 3 exact queries; 10 results returned and screened.
+PC119,C27-PAR-010,discovery,Fresh Parallel search; 3 exact queries; 10 results returned and screened.
+PC120,C27-PAR-010,discovery,Fresh Parallel search; 3 exact queries; 10 results returned and screened.
+PC131,C27-PAR-010,discovery,Fresh Parallel search; 3 exact queries; 10 results returned and screened.
+PC123,C27-PAR-011,discovery,Fresh Parallel search; 3 exact queries; 10 results returned and screened.
+PC124,C27-PAR-011,discovery,Fresh Parallel search; 3 exact queries; 10 results returned and screened.
+PC117,C27-EXA-002,discovery,Fresh Exa search; 8 requested; free-text response did not expose structured count.
+PC119,C27-EXA-002,discovery,Fresh Exa search; 8 requested; free-text response did not expose structured count.
+PC123,C27-EXA-002,discovery,Fresh Exa search; 8 requested; free-text response did not expose structured count.
+PC133,C27-EXA-002,discovery,Fresh Exa search; 8 requested; free-text response did not expose structured count.
+PC119,C27-FETCH-001,primary source follow-up,Three URLs requested and three extracts returned: USENIX debloating paper/presentation and TestExplora.
+PC120,C27-FETCH-001,primary source follow-up,Three URLs requested and three extracts returned: USENIX debloating paper/presentation and TestExplora.
+PC123,C27-FETCH-001,primary source follow-up,Three URLs requested and three extracts returned: USENIX debloating paper/presentation and TestExplora.
+PC131,C27-FETCH-001,primary source follow-up,Three URLs requested and three extracts returned: USENIX debloating paper/presentation and TestExplora.
+PC117,C27-FETCH-002,primary source follow-up,"Three URLs requested and three extracts returned: BenchChecker, TestJack and ABC."
+PC119,C27-FETCH-002,primary source follow-up,"Three URLs requested and three extracts returned: BenchChecker, TestJack and ABC."
+PC120,C27-FETCH-002,primary source follow-up,"Three URLs requested and three extracts returned: BenchChecker, TestJack and ABC."
+PC131,C27-FETCH-002,primary source follow-up,"Three URLs requested and three extracts returned: BenchChecker, TestJack and ABC."
+PC117,C27-INDEX-001,candidate-index extraction,Pinned Awesome-Code-Benchmark README and HOW2BENCH v5 Appendix F extraction: 233 + 379 source rows; 612 combined rows.
+PC118,C27-INDEX-001,candidate-index extraction,Pinned Awesome-Code-Benchmark README and HOW2BENCH v5 Appendix F extraction: 233 + 379 source rows; 612 combined rows.
+PC119,C27-INDEX-001,candidate-index extraction,Pinned Awesome-Code-Benchmark README and HOW2BENCH v5 Appendix F extraction: 233 + 379 source rows; 612 combined rows.
+PC120,C27-INDEX-001,candidate-index extraction,Pinned Awesome-Code-Benchmark README and HOW2BENCH v5 Appendix F extraction: 233 + 379 source rows; 612 combined rows.
+PC121,C27-INDEX-001,candidate-index extraction,Pinned Awesome-Code-Benchmark README and HOW2BENCH v5 Appendix F extraction: 233 + 379 source rows; 612 combined rows.
+PC122,C27-INDEX-001,candidate-index extraction,Pinned Awesome-Code-Benchmark README and HOW2BENCH v5 Appendix F extraction: 233 + 379 source rows; 612 combined rows.
+PC123,C27-INDEX-001,candidate-index extraction,Pinned Awesome-Code-Benchmark README and HOW2BENCH v5 Appendix F extraction: 233 + 379 source rows; 612 combined rows.
+PC124,C27-INDEX-001,candidate-index extraction,Pinned Awesome-Code-Benchmark README and HOW2BENCH v5 Appendix F extraction: 233 + 379 source rows; 612 combined rows.
+PC125,C27-INDEX-001,candidate-index extraction,Pinned Awesome-Code-Benchmark README and HOW2BENCH v5 Appendix F extraction: 233 + 379 source rows; 612 combined rows.
+PC126,C27-INDEX-001,candidate-index extraction,Pinned Awesome-Code-Benchmark README and HOW2BENCH v5 Appendix F extraction: 233 + 379 source rows; 612 combined rows.
+PC127,C27-INDEX-001,candidate-index extraction,Pinned Awesome-Code-Benchmark README and HOW2BENCH v5 Appendix F extraction: 233 + 379 source rows; 612 combined rows.
+PC128,C27-INDEX-001,candidate-index extraction,Pinned Awesome-Code-Benchmark README and HOW2BENCH v5 Appendix F extraction: 233 + 379 source rows; 612 combined rows.
+PC129,C27-INDEX-001,candidate-index extraction,Pinned Awesome-Code-Benchmark README and HOW2BENCH v5 Appendix F extraction: 233 + 379 source rows; 612 combined rows.
+PC130,C27-INDEX-001,candidate-index extraction,Pinned Awesome-Code-Benchmark README and HOW2BENCH v5 Appendix F extraction: 233 + 379 source rows; 612 combined rows.
+PC131,C27-INDEX-001,candidate-index extraction,Pinned Awesome-Code-Benchmark README and HOW2BENCH v5 Appendix F extraction: 233 + 379 source rows; 612 combined rows.
+PC132,C27-INDEX-001,candidate-index extraction,Pinned Awesome-Code-Benchmark README and HOW2BENCH v5 Appendix F extraction: 233 + 379 source rows; 612 combined rows.
+PC133,C27-INDEX-001,candidate-index extraction,Pinned Awesome-Code-Benchmark README and HOW2BENCH v5 Appendix F extraction: 233 + 379 source rows; 612 combined rows.
+PC117,C27-AGENT-001,parallel candidate generation,"Three Codex research-agent reports supplied candidate benchmark methods, systems and code-quality families; exact agent prompt payloads are unavailable after context transition; candidates are not primary-verified."
+PC118,C27-AGENT-001,parallel candidate generation,"Three Codex research-agent reports supplied candidate benchmark methods, systems and code-quality families; exact agent prompt payloads are unavailable after context transition; candidates are not primary-verified."
+PC119,C27-AGENT-001,parallel candidate generation,"Three Codex research-agent reports supplied candidate benchmark methods, systems and code-quality families; exact agent prompt payloads are unavailable after context transition; candidates are not primary-verified."
+PC120,C27-AGENT-001,parallel candidate generation,"Three Codex research-agent reports supplied candidate benchmark methods, systems and code-quality families; exact agent prompt payloads are unavailable after context transition; candidates are not primary-verified."
+PC121,C27-AGENT-001,parallel candidate generation,"Three Codex research-agent reports supplied candidate benchmark methods, systems and code-quality families; exact agent prompt payloads are unavailable after context transition; candidates are not primary-verified."
+PC123,C27-AGENT-001,parallel candidate generation,"Three Codex research-agent reports supplied candidate benchmark methods, systems and code-quality families; exact agent prompt payloads are unavailable after context transition; candidates are not primary-verified."
+PC125,C27-AGENT-001,parallel candidate generation,"Three Codex research-agent reports supplied candidate benchmark methods, systems and code-quality families; exact agent prompt payloads are unavailable after context transition; candidates are not primary-verified."
+PC126,C27-AGENT-001,parallel candidate generation,"Three Codex research-agent reports supplied candidate benchmark methods, systems and code-quality families; exact agent prompt payloads are unavailable after context transition; candidates are not primary-verified."
+PC127,C27-AGENT-001,parallel candidate generation,"Three Codex research-agent reports supplied candidate benchmark methods, systems and code-quality families; exact agent prompt payloads are unavailable after context transition; candidates are not primary-verified."
+PC128,C27-AGENT-001,parallel candidate generation,"Three Codex research-agent reports supplied candidate benchmark methods, systems and code-quality families; exact agent prompt payloads are unavailable after context transition; candidates are not primary-verified."
+PC129,C27-AGENT-001,parallel candidate generation,"Three Codex research-agent reports supplied candidate benchmark methods, systems and code-quality families; exact agent prompt payloads are unavailable after context transition; candidates are not primary-verified."
+PC130,C27-AGENT-001,parallel candidate generation,"Three Codex research-agent reports supplied candidate benchmark methods, systems and code-quality families; exact agent prompt payloads are unavailable after context transition; candidates are not primary-verified."
+PC133,C27-AGENT-001,parallel candidate generation,"Three Codex research-agent reports supplied candidate benchmark methods, systems and code-quality families; exact agent prompt payloads are unavailable after context transition; candidates are not primary-verified."
+PC123,C27-WEB-001,count reconciliation,Two exact web searches resolved a source-version/count discrepancy; primary USENIX paper already fetched in C27-FETCH-001 governs the reported build/run counts.
