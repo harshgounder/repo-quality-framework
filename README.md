@@ -2,7 +2,7 @@
 
 > **Research workspace — not a finished framework.** This repository is building the evidence base for a general-purpose way to improve software repositories and the systems they support. It does not yet define a universal score, checklist, template, or set of mandatory gates.
 
-The goal is to create a broadly usable framework that helps people and AI **build, assess and improve exceptionally high-quality repositories and the systems and work they support**, using relevant professional practices, standards, responsibilities, evidence, and eventually context-appropriate checks and gates. See the [mission and product direction](docs/project-mission-and-product-direction.md).
+The goal is to create a broadly usable framework that helps people and AI **build, assess and improve exceptionally high-quality repositories and the systems and work they support**, using relevant professional practices, standards, responsibilities, evidence, and eventually context-appropriate checks and gates. See the [mission and product direction](docs/project-mission-and-product-direction.md) and [operating contract](docs/operating-contract-and-continuity.md).
 
 Historical bugs and fixes are one source of evidence for that framework; collecting or solving them is not the main product. Other inputs include successful practices, design, expert roles, standards, tools, research, benchmarks and real user and operational needs.
 
@@ -10,7 +10,7 @@ The aim is to get beyond “the code compiles” and the generic repo-health che
 
 ## At a glance
 
-| | Current snapshot (2026-11-10) |
+| | Record snapshot (verified 2026-11-11) |
 |---|---:|
 | Research campaigns | 27 |
 | Saved query records | 344 |
@@ -204,7 +204,7 @@ See [evidence-research methods](research/v2/methods/evidence-research-methods.md
 
 ## Status and deliverable boundary
 
-**Current phase:** broaden, verify, and appraise research; repair provenance; integrate system roles and atlas context. The role list the user intends to provide is still pending.
+**Current phase:** follow the [active checkpoint](RESEARCH_STATE.md#active-checkpoint-and-continuation-order-2026-11-11) while advancing broad discovery, specialist research and product-facing quality work. The separate user role list is an outstanding input, not a blocker.
 
 **Not yet produced:** exhaustive source inventory, complete system/role taxonomy, validated and complete matrix, independent comparative audit of all raters, validated universal gates, framework specification, scoring/weighting model, implementation, benchmark execution, or repository template.
 
@@ -212,7 +212,7 @@ See [evidence-research methods](research/v2/methods/evidence-research-methods.md
 
 ## Local working state
 
-The research bundle had an existing published checkpoint at `063b34a`. This expanded README and the accompanying progress report are being published to the same GitHub repository at the user's request.
+The research bundle has been published to the project GitHub repository. For the actual current revision and any uncommitted changes, inspect Git rather than relying on a historical checkpoint.
 
 
 ### Scale-oriented discovery checkpoint

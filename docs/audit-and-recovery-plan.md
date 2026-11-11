@@ -1,6 +1,6 @@
 # Repository quality project: audit and recovery plan
 
-**Prepared:** 2026-11-10. **State:** plan ready; execution checkpoints below are open.
+**Prepared:** 2026-11-10. **State:** historical checkpoint plan; some tranches have since been performed, others remain open. Use the active checkpoint in `RESEARCH_STATE.md` and `research/audit/2026-11-10-followup.md` for current status rather than restarting completed steps.
 **Purpose:** establish what the previous execution actually did, expose unsupported or abandoned work, and direct a new execution model toward a broadly applicable, evidence-backed quality framework.
 
 ## 1. What this plan responds to
@@ -212,6 +212,6 @@ For every work batch report **question; selected dimensions and why; operations 
 
 ## 8. Order and handoff
 
-Begin CP0–CP3 immediately. CP4–CP9 can proceed in parallel only when workers have distinct files or coordinated changes and a named reviewer; keep the broad discovery track active while deep pilots run. CP10 waits for evidence from the pilots, mechanism audit, and demonstrated checks. The user's separate role list can be integrated whenever it arrives and does not block unrelated research.
+The original plan began with CP0–CP3; several tranches have since been performed. Check the active state and follow-up before choosing remaining work. CP4–CP9 can proceed in parallel only when workers have distinct files or coordinated changes and a named reviewer; keep the broad discovery track active while deep pilots run. CP10 waits for evidence from the pilots, mechanism audit, and demonstrated checks. The user's separate role list can be integrated whenever it arrives and does not block unrelated research.
 
 **Initial execution deliverable:** a requirements trace, session/source availability ledger, integrity report, 24-claim sample manifest and adjudications, plus a checkpoint review showing exactly what remains unknown. This is an audit tranche, not completion of the project or proof that all previous work is true or false.

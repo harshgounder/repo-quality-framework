@@ -4,7 +4,7 @@ Before doing work, read `RESEARCH_STATE.md`, then the relevant protocol/source/d
 
 ## Mission and scope discipline
 
-- The primary objective is the user's generalized, exceptionally capable repository and system-quality framework: help people and AI build, assess and improve work using context-appropriate practices, responsibilities, standards, evidence and eventually validated checks and gates. Read `docs/project-mission-and-product-direction.md` before deciding what to do next.
+- The primary objective is the user's generalized, exceptionally capable repository and system-quality framework: help people and AI build, assess and improve work using context-appropriate practices, responsibilities, standards, evidence and eventually validated checks and gates. Read `docs/operating-contract-and-continuity.md` and `docs/project-mission-and-product-direction.md` before deciding what to do next.
 - Historical bugs, fixes and an evidence corpus are research inputs to that objective, not the product or a replacement for positive practices, design quality, expert responsibilities, standards, user experience, lean/efficient work, and full-lifecycle improvement.
 
 ## Scope discipline

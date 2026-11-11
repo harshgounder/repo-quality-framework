@@ -1,6 +1,6 @@
 # Integrated research roadmap and execution contract
 
-Status: planning handoff, 2026-11-10. This document integrates the user's requests, the Computer System Atlas, existing research and a proposed execution sequence. It does not claim comprehensive coverage, independently verify the atlas, decide a scoring model, or authorize a blanket implementation of gates. The separate user-provided roles list is still pending.
+Status: historical planning handoff, 2026-11-10. Execution has begun; the current operating contract and active checkpoint in `RESEARCH_STATE.md` supersede historical sequencing. This document integrates the user's requests, the Computer System Atlas, existing research and a proposed execution sequence. It does not claim comprehensive coverage, independently verify the atlas, decide a scoring model, or authorize a blanket implementation of gates. The separate user-provided roles list is still pending.
 
 ## Mission and boundaries
 

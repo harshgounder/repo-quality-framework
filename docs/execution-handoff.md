@@ -1,10 +1,10 @@
 # Execution handoff: repository and system quality research
 
-**Status:** planning only; the user is preparing a role list. Existing research is a starting point, not a completed framework or source map.
+**Status:** historical planning handoff, originally prepared while the user was considering a model switch. Execution is now authorized and has begun. The current [operating contract](operating-contract-and-continuity.md) and active checkpoint at the top of `RESEARCH_STATE.md` take precedence over this document’s historical ordering. The separately promised role list has not been received; do not wait for it. Existing research remains a starting point, not a completed framework or source map.
 
 ## First actions
 
-Read AGENTS.md, RESEARCH_STATE.md, docs/integrated-research-roadmap.md, docs/failure-pattern-research-handoff.md, this handoff, docs/atlas-context-recovery.md, docs/open-ended-systems-model.md, docs/research-model-v2.md, docs/research-protocol.md and research/v2/integrity-and-migration.md. Check git status and inspect actual files. Preserve user changes. The user will provide a list of roles: do not invent it or treat the role intake as complete.
+Read AGENTS.md, RESEARCH_STATE.md, docs/integrated-research-roadmap.md, docs/failure-pattern-research-handoff.md, this handoff, docs/atlas-context-recovery.md, docs/open-ended-systems-model.md, docs/research-model-v2.md, docs/research-protocol.md and research/v2/integrity-and-migration.md. Check git status and inspect actual files. Preserve user changes. The user may provide a separate role list later; it has not been received. Do not invent the list or wait for it: proceed with independent role research now.
 
 The goal is a deeply researched, general framework for repositories and the systems they represent. It must handle arbitrary systems and parts, from new builds to ports, rewrites, compatible replacements, integrations and maintenance. Browsers, OSes, compilers, game engines, firmware, finance, mobility, maps, video, codecs, security tools and reverse engineering are examples, not boundaries. Decompose systems into capabilities, components, interfaces, technology, operational and physical context, users, risks, and specialist responsibilities. Explore global and regional platforms, communities, standards, research, practitioners, obscure specialist sources and current work. Cover lean design, bloat and resource efficiency.
 

@@ -1,9 +1,19 @@
 # Research state and continuity ledger
 
-**Last updated:** 2026-11-10 (documentation checkpoint; Asia/Kolkata)
+**Last updated:** 2026-11-11 (mission and continuity checkpoint; Asia/Kolkata)
 **Repository:** `repo-quality-framework` (public GitHub remote is recorded in the project handoff)
-**Current phase:** rebuild the source landscape and multidimensional research system; gather evidence and repair v1 provenance.
+**Current phase:** execute broad, multi-source research and specialist investigations in service of the general repository/system-quality framework; turn evidence into contextual assessment and improvement work while keeping the audit open.
 **Overall status:** active; v2 has 27 campaigns, 344 query records, 133 planned cells, 348 cell-to-query links and 271 run-to-cell links; the search ledger has 179 entries, the v2 source-route inventory has 177 routes, and the source register has 173 records. The evidence note has 33 failure-pattern/community/tool-evaluation cards. No cell is saturated; source, region, language and system-domain coverage remain sparse. No framework specification, scoring system or gates have been completed.
+
+## Active checkpoint and continuation order (2026-11-11)
+
+The authoritative operating direction is [`docs/operating-contract-and-continuity.md`](docs/operating-contract-and-continuity.md), together with the [mission](docs/project-mission-and-product-direction.md). The user wants a general quality framework and applicable practices/gates, not a bug database. Continue the broad source-and-system campaign, investigate mechanisms of raters and standards, expand roles and specialist system paths, and derive useful contextual quality guidance. Deep work and broad discovery are both required; any examples and pilots are expandable starting points. The planned, requested separately supplied role list has not arrived; research roles independently and do not wait.
+
+**Next concrete batch — initial tranche, not a scope limit:** (1) inspect the owner source and a pinned implementation or rubric for Repository Standards core, OpenSSF Scorecard and QSOS, and one independently selected domain-specific standard or conformance method; if a target is unavailable, record the error and select a different source with the same evidentiary role. (2) In parallel, run recorded searches in at least two distinct specialist/community or regional routes beyond those initial projects; select explicit responsibility × system × lifecycle combinations, not only product names. (3) Deliver a source/version-linked mechanism comparison with inputs, operation, outputs, unknown/N/A, applicability, limits and at least one counterexample per method, plus one trace from positive practice to a contextual assessment/improvement decision. (4) Independently check at least one source and one counterexample per method when possible; record unresolved access and status. Update search log, coverage and requirement trace. Continue subsequent batches across many more sources, systems, roles and candidate classes; this starting selection and its checks do not fulfill the user's scale or replace ongoing audit work.
+
+**Current limitations:** the 6,263-line Atlas attachment copy was read fully, but detailed source-span integration, Atlas claim verification, the full external share and most raw tool outputs remain open. The existing 1,577 issue URLs and 8,984 file paths are leads, not examined cases; the local graph is an experimental supporting tool. Rater comparisons, specialist profiles, applicable framework decisions and gates are incomplete. The source/cell/ledger counts above are exact record counts at this checkpoint, not global coverage.
+
+Everything following this active checkpoint is retained as chronological history. Earlier “next actions”, availability and pending instructions describe their own dates and do not supersede this checkpoint. Recheck local and GitHub status rather than assuming a previously recorded commit is current.
 
 ## User intent
 
@@ -13,14 +23,14 @@ The user explicitly corrected a too-shallow approach and asked for a much wider 
 
 The user authorized use of Parallel AI as an option and their signed-in Brave browser/X account. This authorization is for research access, not for posting or contacting people.
 
-## What is actually established
+## Historical initial establishment (2026-11-10)
 
 - A separate local Git repository has been initialized on branch `main`.
 - Scope, continuity rules, a candidate source universe, a research protocol, a matrix schema, seeded dimensions, a source register, a rater inventory, and evidence notes are recorded in this repository.
 - Prior reconnaissance surfaced several different kinds of approaches: security/supply-chain scoring, standards and baselines, platform community health checks, licensing estimation, AI-agent readiness, and narrow repository conformance tools. These are leads for comparative research, not a complete or validated taxonomy.
 - Available routes verified now: Exa web search/fetch, Parallel web search/fetch, connected GitHub read endpoints, connected X search, and read-only native Reddit search in Brave. `agent-reach doctor --json` still fails because `agent-reach` is not installed. Parallel `web_research` returned an insufficient-credit (HTTP 402) response during an earlier attempt; ordinary Parallel search/fetch worked in this pass. Recheck tool availability when resuming.
 
-## What is not done
+## Historical initial gaps (2026-11-10; see current limitations above)
 
 - No exhaustive inventory of platforms, communities, standards, research venues, tools, or practitioners.
 - No validated research matrix coverage, saturation assessment, or comparative evaluation of raters.
@@ -29,7 +39,7 @@ The user authorized use of Parallel AI as an option and their signed-in Brave br
 - No claim that any listed source or candidate platform is currently accessible, active, authoritative, or relevant until checked.
 - No comprehensive audit of the Computer System Atlas domains/components or the user's pending technology-role list.
 
-## Work completed in this session
+## Historical initial work (2026-11-10)
 
 1. Created the separate repository and initialized Git on `main`.
 2. Created durable scope, method, source-seed, decision, findings, and logging documents.
@@ -37,7 +47,7 @@ The user authorized use of Parallel AI as an option and their signed-in Brave br
 4. Ran exact-logged discovery searches across code forges, regional hosts, developer communities, standards, evaluator candidates, and X discussions.
 5. Retrieved primary/owner page excerpts for several new evaluator and metric systems. This is mechanism sampling, not a full comparative audit.
 
-## Next actions (ordered)
+## Historical initial next actions (2026-11-10; superseded ordering)
 
 1. Expand and verify the source register by region, language, hosting model, community type, standards body, and artifact domain; track active/inactive, primary/secondary, and access status.
 2. Refine the seeded dimensions and define selected, explicitly justified compound matrix cells. The matrix is currently a schema and candidate value catalog, not a coverage result.
@@ -46,7 +56,7 @@ The user authorized use of Parallel AI as an option and their signed-in Brave br
 5. Search communities and social sources for practitioner experience and counterexamples. Preserve exact post/thread links and dates; treat social posts as leads unless independently corroborated.
 6. Keep the ledger current and revisit the scope before any framework synthesis. Synthesis must show which matrix regions have thin, inaccessible, conflicting, or saturated evidence.
 
-## Current blockers and constraints
+## Historical initial blockers and constraints (2026-11-10)
 
 - Broad social platforms may have search/API or login limits. Record actual access; do not imply full coverage from public search snippets.
 - Parallel web research was credit-limited in the prior session; ordinary search worked. Use alternatives and record any plan/tier constraints.
@@ -357,3 +367,10 @@ At the user's request, began a usable foundation and investigated projects that 
 The user corrected a drift: the main deliverable is the most capable general-purpose framework we can build for people and AI to create, assess, and continuously improve high-quality repositories and their systems and work, including applicable practices, responsibilities, standards and eventually well-supported checks and gates. Researching bugs, loopholes and fixes is a useful evidence stream and may incidentally solve bugs, but it is not the main objective. Do not let the experimental evidence graph or the 1,577 issue leads become the project definition. Preserve broad research, thousands-per-relevant-class ambition, all system types, the Atlas as an expandable seed, and specialist and non-code concerns.
 
 See `docs/project-mission-and-product-direction.md` for proposed product-facing capabilities, priority tracks and explicit present limitations. `AGENTS.md`, README, foundation README and open-world research note have been updated so future agents encounter the mission before the defect corpus. No validated framework, quality score, complete rater comparison or universal gates exist yet. Next work should deepen actual rater/standards mechanisms and professional quality responsibilities, and derive contrasting positive-practice-to-assessment workflows across domains while using failure evidence as one input.
+
+
+## 2026-11-11: full pasted-segment and session-intent reconciliation
+
+Parent read the entire supplied 179-logical-line conversation segment and all retained user-role message bodies in the original and associated continuation/fork files; three Luna reviewers independently read the segment and audited guidance/continuity. See `research/audit/2026-11-11-user-attachment-and-session-reconciliation.md`. The text is a segment with both user and assistant content and a truncated attachment label, not the full Atlas. The earlier full Atlas attachment read stands; full external-share reading and most raw tool-output bodies remain unverified. The former planning-only instruction applied to an earlier model; execution is now authorized.
+
+Established `docs/operating-contract-and-continuity.md` as the active anti-drift and execution contract; added a canonical next checkpoint at the top of this file, updated `AGENTS.md`, labeled historical orderings, corrected stale README publication language and added R22–R27 to the partial requirement trace. This is continuity work, not completion of the requested research or framework. The role list remains unreceived and does not block independent work.

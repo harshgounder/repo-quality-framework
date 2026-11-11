@@ -4,8 +4,8 @@
 
 ## Sources actually reviewed
 
-- User-provided shared conversation titled **Computer System Atlas**. It was opened and reviewed in the browser during context recovery; its share URL is intentionally not copied into this public repository.
-- The user's pasted plain-text copy was read throughout in sections, including both user requests and both long responses. The file contains 6,262 lines; its personal local path and content hash are omitted here. It is a systems atlas, not the separately anticipated role list.
+- User-provided shared conversation titled **Computer System Atlas**. Raw browser/thread events show that it was opened and some content was accessed during context recovery; a full read of the external shared conversation has not been established. Its share URL is intentionally not copied into this public repository.
+- The user's pasted plain-text copy was read throughout in sections, including both user requests and both long responses. The original copy contains 6,262 newline-terminated lines; the later equivalent copy contains one extra leading blank line. Its personal local path and content hash are omitted here. It is a systems atlas, not the separately anticipated role list.
 - This Codex conversation Find repo quality raters, including its original request, subsequent corrections, repository creation and research, the audit of shortcomings, expanding scope to arbitrary systems, performance specialization, and the most recent planning-only handoff.
 - Existing repo planning and continuity files, including docs/execution-handoff.md, docs/open-ended-systems-model.md, docs/research-model-v2.md, research/v2/integrity-and-migration.md and RESEARCH_STATE.md.
 
