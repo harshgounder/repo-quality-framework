@@ -1,6 +1,6 @@
 # Evidence graph: initial prototype
 
-This is a small working extension to the research model—not a complete corpus, crawler, assessment engine, universal standard or replacement for existing CSVs and logs. Sources identify where a claim came from; entities can represent arbitrary observations, components, changes, incidents, documents or other things; each directed assertion connects two entities to a specific source, locator, evidence status and qualification. Types and predicates are open strings, so the model does not privilege a fixed system family. Source-reported, independently checked, reproduced, disputed, inaccessible and unknown are distinct; their meaning is scoped to the assertion, not the whole case.
+This is a small experimental evidence tool supporting the [repository-quality mission](../docs/project-mission-and-product-direction.md), not the main product. It is a working extension to the research model—not a complete corpus, crawler, assessment engine, universal standard or replacement for existing CSVs and logs. Sources identify where a claim came from; entities can represent arbitrary observations, components, changes, incidents, documents or other things; each directed assertion connects two entities to a specific source, locator, evidence status and qualification. Types and predicates are open strings, so the model does not privilege a fixed system family. Source-reported, independently checked, reproduced, disputed, inaccessible and unknown are distinct; their meaning is scoped to the assertion, not the whole case.
 
 ## Try it
 

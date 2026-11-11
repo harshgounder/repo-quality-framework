@@ -2,6 +2,11 @@
 
 Before doing work, read `RESEARCH_STATE.md`, then the relevant protocol/source/decision files. This file is here to preserve scope when work resumes in a later session or is performed by an AI agent.
 
+## Mission and scope discipline
+
+- The primary objective is the user's generalized, exceptionally capable repository and system-quality framework: help people and AI build, assess and improve work using context-appropriate practices, responsibilities, standards, evidence and eventually validated checks and gates. Read `docs/project-mission-and-product-direction.md` before deciding what to do next.
+- Historical bugs, fixes and an evidence corpus are research inputs to that objective, not the product or a replacement for positive practices, design quality, expert responsibilities, standards, user experience, lean/efficient work, and full-lifecycle improvement.
+
 ## Scope discipline
 
 - The goal is a generalized framework for repositories used across kinds of work. Do not silently narrow it to GitHub, public open source, application code, one language, AI-generated repositories, or security alone.

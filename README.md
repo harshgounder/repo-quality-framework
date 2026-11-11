@@ -2,6 +2,10 @@
 
 > **Research workspace — not a finished framework.** This repository is building the evidence base for a general-purpose way to improve software repositories and the systems they support. It does not yet define a universal score, checklist, template, or set of mandatory gates.
 
+The goal is to create a broadly usable framework that helps people and AI **build, assess and improve exceptionally high-quality repositories and the systems and work they support**, using relevant professional practices, standards, responsibilities, evidence, and eventually context-appropriate checks and gates. See the [mission and product direction](docs/project-mission-and-product-direction.md).
+
+Historical bugs and fixes are one source of evidence for that framework; collecting or solving them is not the main product. Other inputs include successful practices, design, expert roles, standards, tools, research, benchmarks and real user and operational needs.
+
 The aim is to get beyond “the code compiles” and the generic repo-health checklist. A browser, compiler, operating system, game engine, firmware image, data pipeline, payment service, security tool, research artifact, or small library has different failure modes and obligations. The eventual framework must discover those differences, state when a check applies, and show what evidence supports it.
 
 ## At a glance
@@ -15,7 +19,7 @@ The aim is to get beyond “the code compiles” and the generic repo-health che
 | Seeded axis-value rows | 509 |
 | Cell ↔ query links | 348 |
 | Cell ↔ search-run links | 271 |
-| Search-ledger records | 176 |
+| Search-ledger records | 179 |
 | Candidate source routes | 177 |
 | Source-register records | 173 |
 | Candidate benchmark-index rows | 612, not canonicalized |

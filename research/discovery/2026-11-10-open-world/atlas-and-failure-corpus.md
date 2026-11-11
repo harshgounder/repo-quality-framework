@@ -1,5 +1,9 @@
 # Open-world systems atlas and historical failures: research direction
 
+## Mission clarification, 2026-11-11
+
+The primary goal is the user’s generalized repository and system-quality framework, practices and eventually context-sensitive gates. The historical bugs, fixes and discussions below are **one source of evidence** for that goal, not an instruction to make a universal bug-solving database the main product. Positive practices, expert roles, standards, design, efficiency, user experience and the complete lifecycle are equally part of the research. See the [mission and product direction](../../../docs/project-mission-and-product-direction.md).
+
 ## User correction and full attachment read
 
 The user wants every relevant part of every kind of system explored recursively, with deep continuing research—not a fixed selection of example products. They also want the project to learn from historical bugs, loopholes, mistakes, incidents, discussions and fixes across open-source projects and technical communities, including Stack Overflow, and scale the candidate pools into thousands per relevant class and beyond. This is an open-ended coverage goal, not a claim that all public, private, deleted or future data can be accessed or audited. Existing video and system examples are illustrations, not scope.
